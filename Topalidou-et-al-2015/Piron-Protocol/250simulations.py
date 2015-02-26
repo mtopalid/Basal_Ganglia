@@ -68,7 +68,7 @@ def register(t):
 			P.append(1)
 		else:
 			P.append(0)
-		if learn and np.array(P[-20:]).mean() < 0.95:
+		if learn:# and np.array(P[-20:]).mean() < 0.95:
 			reward = learning(cues_reward, cues_value, Cortex_cog, Striatum_cog, W_str, W_cx_cog, cgchoice, mot_choice, W_cx_mot, Cortex_mot)
 			R.append(reward)
 			#debug(cgchoice, c1, c2, P = P, R = R, time = decision_time, reward = reward)

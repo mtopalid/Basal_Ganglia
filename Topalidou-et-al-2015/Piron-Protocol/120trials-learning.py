@@ -77,7 +77,7 @@ def check_4_decision(t):
 		else:
 			P.append(0)
 
-		if  np.array(P[-15:]).mean() < 0.95:
+		if  1:#np.array(P[-15:]).mean() < 0.95:
 			reward = learning(cues_reward, cues_value, Cortex_cog, Striatum_cog, W_str, W_cx_cog, cgchoice, mot_choice, W_cx_mot, Cortex_mot)
 			R.append(reward)
 			debug(cgchoice, c1, c2, P = P, R = R, time = decision_time, reward = reward)
