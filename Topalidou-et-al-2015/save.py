@@ -30,7 +30,7 @@ def save_Guthrie(path,LearningOptimumTrials):
 	if not os.path.exists(path):
 		os.makedirs(path)
 
-	file = folder + path + '/LearningOptimumTrials.npy'
+	file = path + '/LearningOptimumTrials.npy'
 	np.save(file,LearningOptimumTrials)
 
 def save_in_files(path, RTmean_Fam_GPi,RTmean_UnFam_GPi,RTmean_Fam,RTmean_UnFam,Pmean_Fam_GPi,Pmean_UnFam_GPi,Pmean_Fam,Pmean_UnFam,P_Fam_GPi,P_UnFam_GPi,P_Fam,P_UnFam,LearningOptimumTrials):

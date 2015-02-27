@@ -32,7 +32,8 @@ start = 500*millisecond
 @clock.at(start)
 def trials(t):
 	global c1, c2, m1, m2, trial
-	c1, c2, m1, m2 = set_trial(Cortex_mot, Cortex_cog, Cortex_ass, Guthrie = True, trial = trial)
+	c1, c2, m1, m2 = set_trial(Cortex_mot, Cortex_cog, Cortex_ass, trial = 1)
+
 
 @clock.at(2.5*second + start)
 def rt_trial(t):
@@ -56,24 +57,15 @@ def check_4_decision(t):
 
 		motch = 1
 		decision_time = t - 500 * millisecond
-		RT.append(decision_time)
 		if mot_choice == m1:
 			cgchoice = c1
 		elif mot_choice == m2:
 			cgchoice = c2
 
-		if cgchoice == min(c1,c2):
-			P.append(1)
-		else:
-			P.append(0)
-		if learn:
-			reward = learning(cues_reward, cues_value, Cortex_cog, Striatum_cog, W_str, W_cx_cog, cgchoice, mot_choice, W_cx_mot, Cortex_mot)
-			R.append(reward)
-			debug(cgchoice, c1, c2, P = P, R = R, time = decision_time, reward = reward)
-			debug_weights(W_cx_cog, W_cx_mot, W_str)
-		#else:
-			#debug(cgchoice, c1, c2, P = P, time = decision_time)
+		P = 1 if cgchoice == min(c1,c2) else 0
 
+		debug(cgchoice, c1, c2, time = decision_time)
+		print "Performance:		", P
 		#end()
 
 

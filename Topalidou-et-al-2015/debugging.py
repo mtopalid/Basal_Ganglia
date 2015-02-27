@@ -23,11 +23,10 @@ def debug(cgchoice, c1, c2, P = None, reward = None, R = None, time = None):
     	print "Mean reward		: %.3f" % np.array(R).mean()
     if P is not None:
     	print "Mean performance	: %.3f" % np.array(P).mean()
-    	print "15 trials performance	: %.3f" % np.array(P[-15:]).mean()
+    	#print "15 trials performance	: %.3f" % np.array(P[-15:]).mean()
     if time is not None:
-	    print "Response time		: %d ms" % (time*1000)
+	    print "Response time:		%d ms" % (time*1000)
     #print "CTX.cog->CTX.ass:", connections["CTX.cog -> CTX.ass"].weights
-    print
 
 def debug_weights(W_cx_cog, W_cx_mot, W_str):
 	print "Cortex Cognitive"

@@ -82,9 +82,9 @@ def register(t):
 # Run simulation
 save = True
 np.random.seed(123)
-learning_trials = 80
-testing_trials 	= 40
-simulations = 2
+learning_trials = 60
+testing_trials 	= 60
+simulations = 10
 
 LearningOptimumTrials = np.zeros((simulations,learning_trials))
 RTmean_Fam_GPi,RTmean_UnFam_GPi,RTmean_Fam,RTmean_UnFam,Pmean_Fam_GPi,Pmean_UnFam_GPi,Pmean_Fam,Pmean_UnFam,P_Fam_GPi,P_UnFam_GPi,P_Fam,P_UnFam = initial_arrays2save(simulations, testing_trials)
