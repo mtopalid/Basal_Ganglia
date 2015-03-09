@@ -2,13 +2,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia_Model/')
-import parameters_Nico as p
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015')
+from parameters import *
+
+protocol = input('Choose 1 for Guthrie-Protocol or 2 for Piron-Protocol')
+if protocol == 1:
+	folder = '../Guthrie-Protocol/Results'
+elif protocol == 2:
+	folder = '../Piron-Protocol/Results'
 
 def fitFunc(t, a, b, c):
     return a*np.exp(-b*t) + c
-print p.rt
-file = p.rt + '/LearningOptimumTrials.npy'
+print folder
+file = folder + '/LearningOptimumTrials.npy'
 load = np.load(file)
 
 Optimum_trials = np.zeros(load.shape[1])
@@ -16,7 +22,7 @@ for i in range(0,load.shape[0],1):
     Optimum_trials += load[i,:]
 
 Optimum_trials = Optimum_trials/float(load.shape[0])
-file = p.rt + '/OptimumTrials.npy'
+file = folder + '/OptimumTrials.npy'
 np.save(file, Optimum_trials)
 
 trials = np.linspace(1,load.shape[1]+1,load.shape[1])
@@ -34,6 +40,6 @@ axes.plot(trials, fitFunc(trials, fitParams[0], fitParams[1], fitParams[2]), "r"
 
 plt.ylabel("Proportion of optimum trials")
 plt.xlabel("Trial number")
-file = p.rt + "/LearningCurve.png"
+file = folder + "/LearningCurve.png"
 fig.savefig(file)
 plt.show()

@@ -1,0 +1,12 @@
+Motor:
+
+Number of trials with bad learning: 11 
+
+Familiar Cues with GPi:		300.038 +/- 18.122
+
+UnFamiliar Cues with GPi: 501.678 +/- 88.023
+
+Familiar Cues without GPi:	1155.623 +/- 156.960
+
+UnFamiliar Cues without GPi: 1447.686 +/- 246.610
+

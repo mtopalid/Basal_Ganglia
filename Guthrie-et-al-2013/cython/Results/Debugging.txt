@@ -1,0 +1,3013 @@
+
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           70.           30.76923077    0.        ]
+Number of Chosen		: [ 60.  30.  26.   4.]
+Cues Values			: [ 0.9769651   0.68706545  0.30526265  0.40725312]
+Weights				: [ 0.65704539  0.60201102  0.50097926  0.48864969]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           61.53846154   33.33333333    0.        ]
+Number of Chosen		: [ 60.  39.  15.   6.]
+Cues Values			: [ 0.9769651   0.61220152  0.4076218   0.36754595]
+Weights				: [ 0.6546867   0.61358241  0.49985178  0.48643173]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           73.33333333   20.            0.        ]
+Number of Chosen		: [ 38.  60.  15.   7.]
+Cues Values			: [ 0.92880213  0.71444744  0.31277073  0.34916865]
+Weights				: [ 0.63443921  0.65724725  0.48323493  0.48557548]
+-----------------Testing Phase----------------
+Mean performance	 	: 71.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 40.  60.   6.  14.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           75.67567568   26.66666667    0.        ]
+Number of Chosen		: [ 60.  37.  15.   8.]
+Cues Values			: [ 0.9769651   0.6835053   0.38826526  0.33171022]
+Weights				: [ 0.65050301  0.60139396  0.49878612  0.48289738]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           69.76744186   23.07692308    0.        ]
+Number of Chosen		: [ 56.  43.  13.   8.]
+Cues Values			: [ 0.97171919  0.65471868  0.38023605  0.33171022]
+Weights				: [ 0.65029516  0.62410124  0.48939201  0.47968546]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 19.167 %
+Number of Chosen		: [ 60.  40.  18.   2.]
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           78.04878049   40.            0.        ]
+Number of Chosen		: [ 58.  41.  20.   1.]
+Cues Values			: [ 0.97447657  0.68980485  0.42888757  0.475     ]
+Weights				: [ 0.65078166  0.61443715  0.52305677  0.49589902]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 81.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 5.833 %
+Reward Probabilities		: [ 100.           57.89473684   46.15384615    0.        ]
+Number of Chosen		: [ 59.  19.  39.   3.]
+Cues Values			: [ 0.97575274  0.5340017   0.3941194   0.4286875 ]
+Weights				: [ 0.65563312  0.54168445  0.55241508  0.49463423]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  20.  40.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           65.           41.17647059    0.        ]
+Number of Chosen		: [ 60.  40.  17.   3.]
+Cues Values			: [ 0.9769651   0.65476962  0.46816628  0.4286875 ]
+Weights				: [ 0.6511421   0.62125962  0.52947233  0.48768209]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           69.76744186   50.            0.        ]
+Number of Chosen		: [ 57.  43.  16.   4.]
+Cues Values			: [ 0.97313323  0.65217923  0.52342703  0.40725312]
+Weights				: [ 0.64678913  0.62846773  0.53824955  0.48733362]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           71.42857143   40.            0.        ]
+Number of Chosen		: [ 50.  49.  15.   6.]
+Cues Values			: [ 0.96152751  0.71085851  0.44989442  0.36754595]
+Weights				: [ 0.64590526  0.63459193  0.51603518  0.48803421]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 17.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           55.26315789   12.5           0.        ]
+Number of Chosen		: [ 60.  38.  16.   6.]
+Cues Values			: [ 0.9769651   0.51987719  0.27552134  0.36754595]
+Weights				: [ 0.65154477  0.58286696  0.48127351  0.48222314]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 60.  40.   9.  11.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           65.85365854   21.42857143    0.        ]
+Number of Chosen		: [ 58.  41.  14.   7.]
+Cues Values			: [ 0.97447657  0.62650523  0.33798455  0.34916865]
+Weights				: [ 0.65287508  0.60676375  0.48579028  0.48690889]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.   8.  12.]Mean No move trials		: 0.008 %
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 2.521 %
+Motor decision before Cognitive	: 6.723 %
+Reward Probabilities		: [ 100.           70.27027027   40.90909091    0.        ]
+Number of Chosen		: [ 56.  37.  22.   4.]
+Cues Values			: [ 0.97171919  0.67740031  0.40370231  0.40725312]
+Weights				: [ 0.65221915  0.61605924  0.5182578   0.49608928]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           76.92307692   21.42857143    0.        ]
+Number of Chosen		: [ 60.  39.  14.   7.]
+Cues Values			: [ 0.9769651   0.75746699  0.35852098  0.34916865]
+Weights				: [ 0.65375685  0.62943463  0.48990965  0.48229082]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 20.833 %
+Number of Chosen		: [ 60.  40.  12.   8.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           63.04347826   30.            0.        ]
+Number of Chosen		: [ 50.  46.  20.   4.]
+Cues Values			: [ 0.96152751  0.68664502  0.36765045  0.40725312]
+Weights				: [ 0.64758388  0.63664655  0.51003526  0.48830396]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 28.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.000 %
+Reward Probabilities		: [ 100.           64.58333333   36.84210526    0.        ]
+Number of Chosen		: [ 52.  48.  19.   1.]
+Cues Values			: [ 0.96527858  0.62446809  0.38602779  0.475     ]
+Weights				: [ 0.64979706  0.62663126  0.50450628  0.49209439]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 19.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           64.81481481   22.22222222    0.        ]
+Number of Chosen		: [ 41.  54.  18.   7.]
+Cues Values			: [ 0.93895673  0.66052754  0.30978657  0.34916865]
+Weights				: [ 0.6410979   0.64744762  0.49027538  0.48939604]
+-----------------Testing Phase----------------
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 29.167 %
+Number of Chosen		: [ 43.  57.  12.   8.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           62.16216216   55.            0.        ]
+Number of Chosen		: [ 60.  37.  20.   3.]
+Cues Values			: [ 0.9769651   0.57866841  0.55682205  0.4286875 ]
+Weights				: [ 0.65597561  0.59582073  0.54808541  0.49258144]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           59.45945946   21.42857143    0.        ]
+Number of Chosen		: [ 60.  37.  14.   9.]
+Cues Values			: [ 0.9769651   0.57975018  0.3667481   0.3151247 ]
+Weights				: [ 0.6521692   0.59784508  0.49422494  0.47865775]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 77.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           66.66666667   38.0952381     0.        ]
+Number of Chosen		: [ 36.  60.  21.   3.]
+Cues Values			: [ 0.92111039  0.57102463  0.43528504  0.4286875 ]
+Weights				: [ 0.64038435  0.63610419  0.52388174  0.49088088]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 52.  48.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           68.18181818   26.31578947    0.        ]
+Number of Chosen		: [ 55.  44.  19.   2.]
+Cues Values			: [ 0.97023072  0.66179336  0.32382257  0.45125   ]
+Weights				: [ 0.65093505  0.62479688  0.49432978  0.49341284]
+-----------------Testing Phase----------------
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  11.   9.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.           61.9047619    36.84210526    0.        ]
+Number of Chosen		: [ 56.  42.  19.   3.]
+Cues Values			: [ 0.97171919  0.55996988  0.36861048  0.4286875 ]
+Weights				: [ 0.65012773  0.59843694  0.50273047  0.49300415]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           71.79487179   35.29411765    0.        ]
+Number of Chosen		: [ 60.  39.  17.   4.]
+Cues Values			: [ 0.9769651   0.7135203   0.41297305  0.40725312]
+Weights				: [ 0.65417326  0.62699356  0.51263769  0.49010506]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           61.36363636   23.07692308    0.        ]
+Number of Chosen		: [ 56.  44.  13.   7.]
+Cues Values			: [ 0.97171919  0.60787455  0.37243811  0.34916865]
+Weights				: [ 0.64806181  0.61669069  0.48985158  0.48149064]
+-----------------Testing Phase----------------
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  17.   3.]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           77.77777778    8.33333333    0.        ]
+Number of Chosen		: [ 53.  45.  12.  10.]
+Cues Values			: [ 0.96701465  0.77785154  0.31090536  0.29936847]
+Weights				: [ 0.64153592  0.64983437  0.48447345  0.47929193]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 27.500 %
+Number of Chosen		: [ 42.  58.  18.   2.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 21.667 %
+Reward Probabilities		: [ 100.           65.            7.69230769    0.        ]
+Number of Chosen		: [ 58.  40.  13.   9.]
+Cues Values			: [ 0.97447657  0.60960462  0.28818351  0.3151247 ]
+Weights				: [ 0.65162565  0.60291468  0.4772337   0.4800252 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.   5.  15.]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           72.72727273   18.18181818    0.        ]
+Number of Chosen		: [ 45.  55.  11.   9.]
+Cues Values			: [ 0.95027987  0.6971207   0.36103752  0.3151247 ]
+Weights				: [ 0.64755874  0.64540482  0.48553208  0.48017617]
+-----------------Testing Phase----------------
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 33.333 %
+Number of Chosen		: [ 49.  51.  16.   4.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           67.64705882   25.            0.        ]
+Number of Chosen		: [ 60.  34.  20.   6.]
+Cues Values			: [ 0.9769651   0.67945162  0.31096601  0.36754595]
+Weights				: [ 0.65456467  0.60626258  0.4849326   0.48501426]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 60.  40.   9.  11.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           56.41025641   38.46153846    0.        ]
+Number of Chosen		: [ 60.  39.  13.   8.]
+Cues Values			: [ 0.9769651   0.55889045  0.44802027  0.33171022]
+Weights				: [ 0.65428761  0.59284716  0.50980976  0.48414168]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           65.           35.71428571    0.        ]
+Number of Chosen		: [ 60.  40.  14.   6.]
+Cues Values			: [ 0.9769651   0.6197659   0.43438766  0.36754595]
+Weights				: [ 0.65598529  0.61240311  0.51238489  0.48675654]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 24.167 %
+Reward Probabilities		: [ 100.           48.71794872    7.69230769    0.        ]
+Number of Chosen		: [ 59.  39.  13.   9.]
+Cues Values			: [ 0.97575274  0.48565521  0.29342564  0.3151247 ]
+Weights				: [ 0.64967009  0.57707977  0.47893436  0.47628915]
+-----------------Testing Phase----------------
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  17.   3.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           60.           15.38461538    0.        ]
+Number of Chosen		: [ 60.  40.  13.   7.]
+Cues Values			: [ 0.9769651   0.50994011  0.32237809  0.34916865]
+Weights				: [ 0.65742228  0.5862387   0.48124878  0.48138876]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           75.           15.38461538    0.        ]
+Number of Chosen		: [ 55.  44.  13.   8.]
+Cues Values			: [ 0.97023072  0.72189854  0.31504789  0.33171022]
+Weights				: [ 0.65207033  0.6366514   0.48480191  0.48358881]
+-----------------Testing Phase----------------
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 33.333 %
+Number of Chosen		: [ 60.  40.  11.   9.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           68.42105263   41.17647059    0.        ]
+Number of Chosen		: [ 59.  38.  17.   6.]
+Cues Values			: [ 0.97575274  0.60204458  0.48796434  0.36754595]
+Weights				: [ 0.6490414   0.59899725  0.5316906   0.48790302]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           77.5          35.71428571    0.        ]
+Number of Chosen		: [ 60.  40.  14.   6.]
+Cues Values			: [ 0.9769651   0.76276131  0.44133974  0.36754595]
+Weights				: [ 0.65471584  0.63392269  0.50709528  0.47918115]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           70.58823529   33.33333333    0.        ]
+Number of Chosen		: [ 60.  34.  21.   5.]
+Cues Values			: [ 0.9769651   0.71850786  0.39982363  0.38689047]
+Weights				: [ 0.65770986  0.61929977  0.51778692  0.48882394]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           67.5          29.41176471    0.        ]
+Number of Chosen		: [ 60.  40.  17.   3.]
+Cues Values			: [ 0.9769651   0.62581752  0.3700793   0.4286875 ]
+Weights				: [ 0.65494969  0.61322663  0.5007891   0.49252457]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 11.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           60.           36.84210526    0.        ]
+Number of Chosen		: [ 60.  35.  19.   6.]
+Cues Values			: [ 0.9769651   0.62403602  0.42396091  0.36754595]
+Weights				: [ 0.65839626  0.60451158  0.51435455  0.48801653]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.   70.    0.    0.]
+Number of Chosen		: [ 60.  40.   8.  12.]
+Cues Values			: [ 0.9769651   0.71282583  0.33171022  0.27018004]
+Weights				: [ 0.65693093  0.62780848  0.47911585  0.47564173]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.833 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           65.            7.69230769    0.        ]
+Number of Chosen		: [ 56.  40.  13.  11.]
+Cues Values			: [ 0.97171919  0.63878693  0.30667104  0.28440005]
+Weights				: [ 0.64859215  0.6152457   0.48119413  0.47465175]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  14.   6.]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Reward Probabilities		: [ 100.          67.9245283   38.0952381    0.       ]
+Number of Chosen		: [ 45.  53.  21.   1.]
+Cues Values			: [ 0.95027987  0.60776793  0.39710208  0.475     ]
+Weights				: [ 0.64258091  0.62942785  0.52058639  0.49870838]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 23.333 %
+Reward Probabilities		: [ 100.           56.66666667   38.46153846    0.        ]
+Number of Chosen		: [ 60.  30.  26.   4.]
+Cues Values			: [ 0.9769651   0.56626755  0.42586345  0.40725312]
+Weights				: [ 0.65000931  0.565128    0.51834202  0.48866193]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           62.5          27.27272727    0.        ]
+Number of Chosen		: [ 60.  40.  11.   9.]
+Cues Values			: [ 0.9769651   0.65270464  0.41004222  0.3151247 ]
+Weights				: [ 0.65507431  0.61998054  0.49723726  0.48313156]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           78.57142857   18.18181818    0.        ]
+Number of Chosen		: [ 57.  42.  11.  10.]
+Cues Values			: [ 0.97313323  0.76819227  0.35829638  0.29936847]
+Weights				: [ 0.65141856  0.63031324  0.48098561  0.47860223]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 28.333 %
+Number of Chosen		: [ 60.  40.  14.   6.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           65.71428571   29.16666667    0.        ]
+Number of Chosen		: [ 59.  35.  24.   2.]
+Cues Values			: [ 0.97575274  0.59032133  0.33453625  0.45125   ]
+Weights				: [ 0.65006423  0.58864005  0.50705767  0.49235278]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           72.97297297   42.85714286    0.        ]
+Number of Chosen		: [ 59.  37.  21.   3.]
+Cues Values			: [ 0.97575274  0.66029026  0.45114791  0.4286875 ]
+Weights				: [ 0.6555162   0.60281668  0.53774058  0.49461807]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           71.79487179    7.69230769    0.        ]
+Number of Chosen		: [ 60.  39.  13.   8.]
+Cues Values			: [ 0.9769651   0.73183911  0.29536009  0.33171022]
+Weights				: [ 0.65621813  0.62651437  0.48029328  0.47745078]
+-----------------Testing Phase----------------
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.000 %
+Number of Chosen		: [ 60.  40.  11.   9.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           70.73170732   25.            0.        ]
+Number of Chosen		: [ 59.  41.  16.   4.]
+Cues Values			: [ 0.97575274  0.63571405  0.35467976  0.40725312]
+Weights				: [ 0.65300587  0.60781642  0.49577855  0.48906016]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  14.   6.]Mean No move trials		: 0.008 %
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 2.521 %
+Motor decision before Cognitive	: 15.126 %
+Reward Probabilities		: [ 100.           51.28205128   11.11111111    0.        ]
+Number of Chosen		: [ 60.  39.   9.  11.]
+Cues Values			: [ 0.9769651   0.50762602  0.3602497   0.28440005]
+Weights				: [ 0.65546311  0.58664134  0.48581678  0.47767363]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.   60.   20.    0.]
+Number of Chosen		: [ 50.  45.  20.   5.]
+Cues Values			: [ 0.96152751  0.61583905  0.28132823  0.38689047]
+Weights				: [ 0.63976805  0.61549068  0.49015371  0.48916982]
+-----------------Testing Phase----------------
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 60.  40.  11.   9.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           71.05263158   33.33333333    0.        ]
+Number of Chosen		: [ 60.  38.  18.   4.]
+Cues Values			: [ 0.9769651   0.7194319   0.41134034  0.40725312]
+Weights				: [ 0.64781158  0.62733617  0.50952325  0.48775628]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           67.56756757   36.36363636    0.        ]
+Number of Chosen		: [ 60.  37.  22.   1.]
+Cues Values			: [ 0.9769651   0.63593741  0.39133237  0.475     ]
+Weights				: [ 0.65107613  0.60240774  0.51946934  0.4956669 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           69.04761905   20.            0.        ]
+Number of Chosen		: [ 58.  42.  15.   5.]
+Cues Values			: [ 0.97447657  0.71302668  0.34553803  0.38689047]
+Weights				: [ 0.64679904  0.63734339  0.49254342  0.48175618]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 24.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           63.41463415   33.33333333    0.        ]
+Number of Chosen		: [ 59.  41.  12.   8.]
+Cues Values			: [ 0.97575274  0.64051571  0.42235467  0.33171022]
+Weights				: [ 0.65566435  0.61779665  0.4936705   0.48430754]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 6.667 %
+Reward Probabilities		: [ 100.           76.92307692   45.45454545           nan]
+Number of Chosen		: [ 59.  39.  22.   0.]
+Cues Values			: [ 0.97575274  0.75180323  0.41843839  0.5       ]
+Weights				: [ 0.64550873  0.63287195  0.52465995  0.50027354]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           73.17073171   33.33333333    0.        ]
+Number of Chosen		: [ 58.  41.  15.   6.]
+Cues Values			: [ 0.97447657  0.72228894  0.41358037  0.36754595]
+Weights				: [ 0.65224742  0.63529963  0.50491147  0.48601876]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 19.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           78.72340426   42.10526316    0.        ]
+Number of Chosen		: [ 51.  47.  19.   3.]
+Cues Values			: [ 0.96345114  0.73666237  0.45422898  0.4286875 ]
+Weights				: [ 0.64576741  0.63916685  0.53071995  0.49209117]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 55.  45.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           79.06976744   45.            0.        ]
+Number of Chosen		: [ 55.  43.  20.   2.]
+Cues Values			: [ 0.97023072  0.77626481  0.47205136  0.45125   ]
+Weights				: [ 0.64732556  0.63779507  0.53523835  0.49537783]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           85.           33.33333333    0.        ]
+Number of Chosen		: [ 60.  40.  15.   5.]
+Cues Values			: [ 0.9769651   0.82836139  0.41117144  0.38689047]
+Weights				: [ 0.65522566  0.63801586  0.5015132   0.48513878]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 25.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           72.5          33.33333333    0.        ]
+Number of Chosen		: [ 60.  40.  18.   2.]
+Cues Values			: [ 0.9769651   0.70747427  0.37187988  0.45125   ]
+Weights				: [ 0.64649916  0.62866402  0.49987478  0.49743604]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  12.   8.]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           60.41666667   18.18181818    0.        ]
+Number of Chosen		: [ 52.  48.  11.   9.]
+Cues Values			: [ 0.96527858  0.54780409  0.36444191  0.3151247 ]
+Weights				: [ 0.64618184  0.60881368  0.48281849  0.48066113]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.   60.   40.    0.]
+Number of Chosen		: [ 58.  40.  15.   7.]
+Cues Values			: [ 0.97447657  0.61381325  0.44940813  0.34916865]
+Weights				: [ 0.65008883  0.60608171  0.51874951  0.4858036 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           59.25925926   33.33333333    0.        ]
+Number of Chosen		: [ 43.  54.  21.   2.]
+Cues Values			: [ 0.94490844  0.52229692  0.35965102  0.45125   ]
+Weights				: [ 0.63911516  0.62103182  0.50658245  0.49421278]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           60.97560976   25.            0.        ]
+Number of Chosen		: [ 59.  41.  12.   8.]
+Cues Values			: [ 0.97575274  0.57290157  0.39010566  0.33171022]
+Weights				: [ 0.65386374  0.59608468  0.49205344  0.48348528]
+-----------------Testing Phase----------------
+Mean performance	 	: 99.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  19.   1.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           60.52631579   35.29411765    0.        ]
+Number of Chosen		: [ 59.  38.  17.   6.]
+Cues Values			: [ 0.97575274  0.62595412  0.42457179  0.36754595]
+Weights				: [ 0.64703008  0.60556906  0.51124941  0.48508964]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           65.11627907   52.17391304    0.        ]
+Number of Chosen		: [ 52.  43.  23.   2.]
+Cues Values			: [ 0.96527858  0.64606338  0.52354765  0.45125   ]
+Weights				: [ 0.65002093  0.62323617  0.5358864   0.49430411]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 4.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           55.26315789   44.44444444    0.        ]
+Number of Chosen		: [ 60.  38.  18.   4.]
+Cues Values			: [ 0.9769651   0.58236094  0.46869587  0.40725312]
+Weights				: [ 0.65579202  0.59444934  0.53014365  0.49060265]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 22.500 %
+Reward Probabilities		: [ 100.           65.78947368    9.09090909    0.        ]
+Number of Chosen		: [ 58.  38.  11.  13.]
+Cues Values			: [ 0.97447657  0.62857349  0.33440005  0.25667104]
+Weights				: [ 0.65388568  0.60715318  0.48652855  0.47582101]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 11.667 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.    72.5   37.5    0. ]
+Number of Chosen		: [ 60.  40.  16.   4.]
+Cues Values			: [ 0.9769651   0.67082609  0.41568198  0.40725312]
+Weights				: [ 0.65063974  0.61728414  0.50365561  0.48949088]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           76.31578947   41.17647059    0.        ]
+Number of Chosen		: [ 59.  38.  17.   6.]
+Cues Values			: [ 0.97575274  0.70898333  0.45643588  0.36754595]
+Weights				: [ 0.65223525  0.61635239  0.52117629  0.49209388]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           69.23076923   18.75          0.        ]
+Number of Chosen		: [ 58.  39.  16.   7.]
+Cues Values			: [ 0.97447657  0.65938974  0.3334554   0.34916865]
+Weights				: [ 0.65226474  0.60832021  0.49281442  0.4842447 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 99.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  19.   1.]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           73.21428571   33.33333333    0.        ]
+Number of Chosen		: [ 44.  56.  18.   2.]
+Cues Values			: [ 0.94766302  0.6565033   0.37567078  0.45125   ]
+Weights				: [ 0.64985242  0.64105145  0.49867789  0.4952963 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 29.167 %
+Number of Chosen		: [ 60.  40.  14.   6.]
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           70.           38.88888889    0.        ]
+Number of Chosen		: [ 60.  40.  18.   2.]
+Cues Values			: [ 0.9769651   0.65884961  0.42116255  0.45125   ]
+Weights				: [ 0.65574056  0.6145659   0.52040318  0.49474932]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           76.92307692    0.            0.        ]
+Number of Chosen		: [ 59.  39.  11.  11.]
+Cues Values			: [ 0.97575274  0.68393458  0.28440005  0.28440005]
+Weights				: [ 0.65535213  0.61344176  0.47662873  0.47528667]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  12.   8.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           73.17073171   33.33333333    0.        ]
+Number of Chosen		: [ 59.  41.  15.   5.]
+Cues Values			: [ 0.97575274  0.76097237  0.40959237  0.38689047]
+Weights				: [ 0.6541543   0.64107037  0.49403427  0.48702552]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 30.833 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           61.36363636   20.            0.        ]
+Number of Chosen		: [ 56.  44.  10.  10.]
+Cues Values			: [ 0.97171919  0.53887677  0.38612306  0.29936847]
+Weights				: [ 0.655063    0.60174186  0.48641669  0.48112903]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           55.17241379   46.66666667    0.        ]
+Number of Chosen		: [ 60.  29.  30.   1.]
+Cues Values			: [ 0.9769651   0.5438616   0.44926348  0.475     ]
+Weights				: [ 0.65262377  0.57011114  0.55041771  0.49785154]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           69.76744186   29.41176471    0.        ]
+Number of Chosen		: [ 56.  43.  17.   4.]
+Cues Values			: [ 0.97171919  0.71011454  0.3857864   0.40725312]
+Weights				: [ 0.6479079   0.63231975  0.50462548  0.48641053]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 17.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           57.89473684   23.52941176    0.        ]
+Number of Chosen		: [ 60.  38.  17.   5.]
+Cues Values			: [ 0.9769651   0.55890655  0.34721652  0.38689047]
+Weights				: [ 0.65214657  0.58866903  0.48764202  0.48786222]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.   9.  11.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.   50.   25.    0.]
+Number of Chosen		: [ 59.  34.  20.   7.]
+Cues Values			: [ 0.97575274  0.48035619  0.33384414  0.34916865]
+Weights				: [ 0.6519392   0.55739262  0.49507823  0.48413774]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 99.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           67.5          42.10526316    0.        ]
+Number of Chosen		: [ 60.  40.  19.   1.]
+Cues Values			: [ 0.9769651   0.65965415  0.40654099  0.475     ]
+Weights				: [ 0.65559983  0.62259866  0.51620903  0.49717202]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           56.09756098   21.42857143    0.        ]
+Number of Chosen		: [ 59.  41.  14.   6.]
+Cues Values			: [ 0.97575274  0.52608974  0.34413756  0.36754595]
+Weights				: [ 0.65142925  0.58984357  0.48580164  0.4855107 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 60.  40.   8.  12.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           69.76744186   26.66666667    0.        ]
+Number of Chosen		: [ 57.  43.  15.   5.]
+Cues Values			: [ 0.97313323  0.70378212  0.37385822  0.38689047]
+Weights				: [ 0.65098134  0.63593787  0.49231822  0.48494788]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 29.167 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 21.667 %
+Reward Probabilities		: [ 100.           62.16216216   27.77777778    0.        ]
+Number of Chosen		: [ 60.  37.  18.   5.]
+Cues Values			: [ 0.9769651   0.66336611  0.38380953  0.38689047]
+Weights				: [ 0.65669662  0.60609164  0.50773062  0.48300778]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           52.94117647   28.57142857    0.        ]
+Number of Chosen		: [ 60.  34.  21.   5.]
+Cues Values			: [ 0.9769651   0.47932743  0.35988081  0.38689047]
+Weights				: [ 0.65483185  0.56006931  0.5074232   0.48719325]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           83.33333333   31.81818182    0.        ]
+Number of Chosen		: [ 60.  36.  22.   2.]
+Cues Values			: [ 0.9769651   0.78961116  0.36425263  0.45125   ]
+Weights				: [ 0.65268026  0.62414144  0.50770956  0.49209881]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           76.92307692   47.05882353    0.        ]
+Number of Chosen		: [ 59.  39.  17.   5.]
+Cues Values			: [ 0.97575274  0.72332328  0.50562521  0.38689047]
+Weights				: [ 0.65275638  0.62378152  0.53419817  0.4874291 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           77.08333333   42.10526316    0.        ]
+Number of Chosen		: [ 51.  48.  19.   2.]
+Cues Values			: [ 0.96345114  0.74588185  0.44936992  0.45125   ]
+Weights				: [ 0.65231732  0.64595224  0.53285144  0.49222858]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 58.  42.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           71.42857143   23.52941176    0.        ]
+Number of Chosen		: [ 56.  42.  17.   5.]
+Cues Values			: [ 0.97171919  0.72546279  0.33621654  0.38689047]
+Weights				: [ 0.64961745  0.63479472  0.49244792  0.48719955]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 27.500 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           75.           29.41176471    0.        ]
+Number of Chosen		: [ 60.  40.  17.   3.]
+Cues Values			: [ 0.9769651   0.72334703  0.33880384  0.4286875 ]
+Weights				: [ 0.65286096  0.62838612  0.49163893  0.49095481]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 25.000 %
+Number of Chosen		: [ 60.  40.   9.  11.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           60.97560976   36.84210526    0.        ]
+Number of Chosen		: [ 56.  41.  19.   4.]
+Cues Values			: [ 0.97171919  0.64006584  0.41534     0.40725312]
+Weights				: [ 0.65169897  0.61636326  0.5170208   0.49083899]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 80.833 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           73.91304348   44.44444444    0.        ]
+Number of Chosen		: [ 56.  23.  36.   5.]
+Cues Values			: [ 0.97171919  0.72294686  0.4706466   0.38689047]
+Weights				: [ 0.64687021  0.5950681   0.56239232  0.49095735]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           76.92307692   26.66666667    0.        ]
+Number of Chosen		: [ 60.  39.  15.   6.]
+Cues Values			: [ 0.9769651   0.76727947  0.35877508  0.36754595]
+Weights				: [ 0.65560623  0.63103691  0.49071202  0.48762471]
+-----------------Testing Phase----------------
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.833 %
+Number of Chosen		: [ 60.  40.  10.  10.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           66.66666667   21.42857143    0.        ]
+Number of Chosen		: [ 60.  39.  14.   7.]
+Cues Values			: [ 0.9769651   0.60480516  0.33759248  0.34916865]
+Weights				: [ 0.65918138  0.60532698  0.48632115  0.48447832]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           60.52631579   28.57142857    0.        ]
+Number of Chosen		: [ 59.  38.  14.   9.]
+Cues Values			: [ 0.97575274  0.58652748  0.40061442  0.3151247 ]
+Weights				: [ 0.65631399  0.59125471  0.49730664  0.48126739]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           67.5          46.66666667    0.        ]
+Number of Chosen		: [ 60.  40.  15.   5.]
+Cues Values			: [ 0.9769651   0.64737029  0.49732015  0.38689047]
+Weights				: [ 0.65166721  0.62056388  0.52863325  0.48798345]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.    57.5   37.5    0. ]
+Number of Chosen		: [ 60.  40.  16.   4.]
+Cues Values			: [ 0.9769651   0.57741215  0.41483117  0.40725312]
+Weights				: [ 0.65309734  0.60674903  0.4988373   0.48700031]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           75.           30.43478261    0.        ]
+Number of Chosen		: [ 60.  32.  23.   5.]
+Cues Values			: [ 0.9769651   0.76566604  0.35750823  0.38689047]
+Weights				: [ 0.65590915  0.62594255  0.50088448  0.48933231]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           67.5          16.66666667    0.        ]
+Number of Chosen		: [ 60.  40.  12.   8.]
+Cues Values			: [ 0.9769651   0.65873916  0.33328791  0.33171022]
+Weights				: [ 0.65001633  0.612099    0.48277501  0.48155561]
+-----------------Testing Phase----------------
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.   7.  13.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           58.69565217   23.80952381    0.        ]
+Number of Chosen		: [ 50.  46.  21.   3.]
+Cues Values			: [ 0.96152751  0.59156518  0.29702748  0.4286875 ]
+Weights				: [ 0.64230075  0.62012409  0.49188836  0.49118872]
+-----------------Testing Phase----------------Mean No move trials		: 0.008 %
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 22.689 %
+Number of Chosen		: [ 60.  40.  11.   8.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           59.375        33.33333333    0.        ]
+Number of Chosen		: [ 60.  32.  24.   4.]
+Cues Values			: [ 0.9769651   0.55148424  0.38597941  0.40725312]
+Weights				: [ 0.6539206   0.57953814  0.51616546  0.48988927]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           54.05405405   25.            0.        ]
+Number of Chosen		: [ 60.  37.  16.   7.]
+Cues Values			: [ 0.9769651   0.55965604  0.35011165  0.34916865]
+Weights				: [ 0.65496108  0.59093406  0.49334621  0.48521447]
+-----------------Testing Phase----------------
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 11.667 %
+Number of Chosen		: [ 60.  40.  17.   3.]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 25.000 %
+Reward Probabilities		: [ 100.           72.72727273   15.78947368    0.        ]
+Number of Chosen		: [ 58.  33.  19.  10.]
+Cues Values			: [ 0.97447657  0.73550548  0.26285811  0.29936847]
+Weights				: [ 0.65024968  0.6124082   0.48202827  0.48232463]
+-----------------Testing Phase----------------
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.   5.  15.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           83.33333333   20.            0.        ]
+Number of Chosen		: [ 57.  42.  10.  11.]
+Cues Values			: [ 0.97313323  0.80364696  0.39686847  0.28440005]
+Weights				: [ 0.64678215  0.64433994  0.49753187  0.47816392]
+-----------------Testing Phase----------------
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 24.167 %
+Number of Chosen		: [ 51.  49.  20.   0.]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 20.833 %
+Reward Probabilities		: [ 100.           51.61290323   12.5           0.        ]
+Number of Chosen		: [ 60.  31.  16.  13.]
+Cues Values			: [ 0.9769651   0.49383643  0.27724291  0.25667104]
+Weights				: [ 0.65567855  0.55949469  0.48002437  0.47704219]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           57.5           8.33333333    0.        ]
+Number of Chosen		: [ 60.  40.  12.   8.]
+Cues Values			: [ 0.9769651   0.5123102   0.30335107  0.33171022]
+Weights				: [ 0.6521788   0.58775393  0.47725855  0.47765537]
+-----------------Testing Phase----------------
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.   7.  13.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 22.500 %
+Reward Probabilities		: [ 100.           64.70588235   27.77777778    0.        ]
+Number of Chosen		: [ 60.  34.  18.   8.]
+Cues Values			: [ 0.9769651   0.62115823  0.38456609  0.33171022]
+Weights				: [ 0.65676433  0.59820712  0.49799953  0.47962803]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           60.71428571   33.33333333    0.        ]
+Number of Chosen		: [ 60.  28.  30.   2.]
+Cues Values			: [ 0.9769651   0.58439196  0.34264848  0.45125   ]
+Weights				: [ 0.65768119  0.56967224  0.52090929  0.49232146]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 4.167 %
+Reward Probabilities		: [ 100.           64.51612903   37.5           0.        ]
+Number of Chosen		: [ 48.  31.  40.   1.]
+Cues Values			: [ 0.9573712   0.6157443   0.31696218  0.475     ]
+Weights				: [ 0.64551391  0.58078333  0.53952299  0.49570684]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.          75.6097561   62.5          0.       ]
+Number of Chosen		: [ 59.  41.  16.   4.]
+Cues Values			: [ 0.97575274  0.76372379  0.58000338  0.40725312]
+Weights				: [ 0.65129683  0.64074795  0.54348451  0.48480695]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           62.5          21.42857143    0.        ]
+Number of Chosen		: [ 59.  40.  14.   7.]
+Cues Values			: [ 0.97575274  0.59711578  0.34665871  0.34916865]
+Weights				: [ 0.65167805  0.61009201  0.48742151  0.48486481]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           67.5          16.66666667    0.        ]
+Number of Chosen		: [ 60.  40.  12.   8.]
+Cues Values			: [ 0.9769651   0.62712769  0.36280504  0.33171022]
+Weights				: [ 0.65299178  0.61103109  0.48737707  0.48094453]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 9.167 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.   9.  11.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           73.33333333   31.57894737    0.        ]
+Number of Chosen		: [ 52.  45.  19.   4.]
+Cues Values			: [ 0.96527858  0.72004413  0.39048144  0.40725312]
+Weights				: [ 0.64690173  0.63719459  0.51445661  0.48865603]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           67.64705882   33.33333333    0.        ]
+Number of Chosen		: [ 60.  34.  21.   5.]
+Cues Values			: [ 0.9769651   0.62620138  0.37059678  0.38689047]
+Weights				: [ 0.65516719  0.59563436  0.50313394  0.48840388]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 11.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           66.66666667   26.66666667    0.        ]
+Number of Chosen		: [ 60.  36.  15.   9.]
+Cues Values			: [ 0.9769651   0.63930127  0.38126853  0.3151247 ]
+Weights				: [ 0.65754853  0.60526395  0.49926108  0.48157553]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           57.77777778   15.38461538    0.        ]
+Number of Chosen		: [ 55.  45.  13.   7.]
+Cues Values			: [ 0.97023072  0.54136657  0.34252135  0.34916865]
+Weights				: [ 0.65335985  0.60074567  0.48818488  0.47965384]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.  12.   8.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           63.15789474   25.            0.        ]
+Number of Chosen		: [ 60.  38.  16.   6.]
+Cues Values			: [ 0.9769651   0.64737575  0.36279455  0.36754595]
+Weights				: [ 0.64889273  0.61728678  0.49743705  0.48771715]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           73.17073171   41.17647059    0.        ]
+Number of Chosen		: [ 59.  41.  17.   3.]
+Cues Values			: [ 0.97575274  0.72249264  0.43920175  0.4286875 ]
+Weights				: [ 0.64310698  0.63041061  0.51759013  0.49172022]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           71.79487179   25.            0.        ]
+Number of Chosen		: [ 58.  39.  16.   7.]
+Cues Values			: [ 0.97447657  0.72152078  0.35408477  0.34916865]
+Weights				: [ 0.64961107  0.62981935  0.49368217  0.48609426]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 26.667 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           69.44444444   33.33333333    0.        ]
+Number of Chosen		: [ 59.  36.  21.   4.]
+Cues Values			: [ 0.97575274  0.68309104  0.38731809  0.40725312]
+Weights				: [ 0.6534977   0.61116058  0.51437558  0.49036279]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           61.53846154   29.41176471    0.        ]
+Number of Chosen		: [ 57.  39.  17.   7.]
+Cues Values			: [ 0.97313323  0.52629854  0.39342021  0.34916865]
+Weights				: [ 0.65039416  0.58580796  0.5099294   0.48680708]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.   65.   20.    0.]
+Number of Chosen		: [ 58.  40.  15.   7.]
+Cues Values			: [ 0.97447657  0.6816764   0.36320341  0.34916865]
+Weights				: [ 0.65238844  0.61808918  0.49989927  0.48274739]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           68.18181818   38.88888889    0.        ]
+Number of Chosen		: [ 56.  44.  18.   2.]
+Cues Values			: [ 0.97171919  0.65247678  0.45717266  0.45125   ]
+Weights				: [ 0.6509446   0.62620278  0.52780698  0.49466002]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           80.           23.07692308    0.        ]
+Number of Chosen		: [ 60.  40.  13.   7.]
+Cues Values			: [ 0.9769651   0.79142202  0.34679691  0.34916865]
+Weights				: [ 0.65412034  0.64134788  0.48660637  0.48381409]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 33.333 %
+Number of Chosen		: [ 60.  40.  18.   2.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           61.53846154   21.42857143    0.        ]
+Number of Chosen		: [ 59.  39.  14.   8.]
+Cues Values			: [ 0.97575274  0.56955786  0.34340093  0.33171022]
+Weights				: [ 0.65308686  0.59196612  0.4812167   0.48170756]
+-----------------Testing Phase----------------
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.   7.  13.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           75.           21.42857143    0.        ]
+Number of Chosen		: [ 59.  40.  14.   7.]
+Cues Values			: [ 0.97575274  0.76226728  0.34036538  0.34916865]
+Weights				: [ 0.6549566   0.63192675  0.48720035  0.4855049 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 22.500 %
+Number of Chosen		: [ 60.  40.  17.   3.]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.          69.3877551   30.           0.       ]
+Number of Chosen		: [ 45.  49.  20.   6.]
+Cues Values			: [ 0.95027987  0.63848345  0.36074047  0.36754595]
+Weights				: [ 0.64244057  0.62956885  0.49681741  0.49095275]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 24.167 %
+Number of Chosen		: [ 60.  40.  16.   4.]Mean No move trials		: 0.008 %
+Mean performance	 	: 81.667 %
+Mean Different choices 	 	: 0.840 %
+Motor decision before Cognitive	: 21.008 %
+Reward Probabilities		: [ 100.           65.625        35.48387097    0.        ]
+Number of Chosen		: [ 52.  32.  31.   4.]
+Cues Values			: [ 0.96527858  0.65125751  0.36896452  0.40725312]
+Weights				: [ 0.644514    0.59980123  0.52552785  0.49267521]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           79.48717949   31.25          0.        ]
+Number of Chosen		: [ 58.  39.  16.   7.]
+Cues Values			: [ 0.97447657  0.77240038  0.37935452  0.34916865]
+Weights				: [ 0.64745481  0.63214443  0.50576309  0.48688084]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 17.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 82.500 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           58.33333333   35.48387097    0.        ]
+Number of Chosen		: [ 58.  24.  31.   7.]
+Cues Values			: [ 0.97447657  0.596169    0.37212426  0.34916865]
+Weights				: [ 0.64685838  0.56330237  0.52987215  0.4878426 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           53.65853659   50.            0.        ]
+Number of Chosen		: [ 59.  41.  18.   2.]
+Cues Values			: [ 0.97575274  0.47777108  0.4995798   0.45125   ]
+Weights				: [ 0.65246978  0.57616669  0.53013757  0.49460938]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           63.41463415   20.            0.        ]
+Number of Chosen		: [ 59.  41.  15.   5.]
+Cues Values			: [ 0.97575274  0.59016895  0.3224587   0.38689047]
+Weights				: [ 0.64197094  0.60680676  0.4840533   0.48779239]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.000 %
+Number of Chosen		: [ 60.  40.   0.  20.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.833 %
+Reward Probabilities		: [ 100.           58.97435897   35.29411765    0.        ]
+Number of Chosen		: [ 60.  39.  17.   4.]
+Cues Values			: [ 0.9769651   0.59416184  0.43425596  0.40725312]
+Weights				: [ 0.6539769   0.59024119  0.51629604  0.48768602]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           72.4137931    38.46153846    0.        ]
+Number of Chosen		: [ 56.  29.  26.   9.]
+Cues Values			: [ 0.97171919  0.69987697  0.42445803  0.3151247 ]
+Weights				: [ 0.65037355  0.60463902  0.53391233  0.48477643]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           60.           29.41176471    0.        ]
+Number of Chosen		: [ 60.  40.  17.   3.]
+Cues Values			: [ 0.9769651   0.5985423   0.35753124  0.4286875 ]
+Weights				: [ 0.65708658  0.6102178   0.49495269  0.48949273]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 77.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.           52.94117647   50.            0.        ]
+Number of Chosen		: [ 56.  17.  44.   3.]
+Cues Values			: [ 0.97171919  0.51310672  0.4131432   0.4286875 ]
+Weights				: [ 0.65395706  0.53322425  0.56724004  0.49044318]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  20.  40.   0.]Mean No move trials		: 0.008 %
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 1.681 %
+Motor decision before Cognitive	: 18.487 %
+Reward Probabilities		: [ 100.           60.           23.52941176    0.        ]
+Number of Chosen		: [ 55.  40.  17.   7.]
+Cues Values			: [ 0.97023072  0.58460974  0.31719245  0.34916865]
+Weights				: [ 0.65092277  0.60108061  0.48718537  0.48692464]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.   8.  12.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           63.41463415   46.66666667    0.        ]
+Number of Chosen		: [ 59.  41.  15.   5.]
+Cues Values			: [ 0.97575274  0.64492888  0.48731623  0.38689047]
+Weights				: [ 0.6536266   0.62025687  0.51422805  0.48986845]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]Mean No move trials		: 0.017 %
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.847 %
+Motor decision before Cognitive	: 10.169 %
+Reward Probabilities		: [ 100.           72.72727273   45.45454545    0.        ]
+Number of Chosen		: [ 50.  44.  22.   2.]
+Cues Values			: [ 0.96152751  0.72171876  0.477114    0.45125   ]
+Weights				: [ 0.6384673   0.63429814  0.53865896  0.49213904]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 56.  44.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           56.41025641   35.29411765    0.        ]
+Number of Chosen		: [ 60.  39.  17.   4.]
+Cues Values			: [ 0.9769651   0.61085732  0.43490451  0.40725312]
+Weights				: [ 0.6520524   0.60977416  0.51898498  0.48923113]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           71.11111111   35.29411765    0.        ]
+Number of Chosen		: [ 52.  45.  17.   6.]
+Cues Values			: [ 0.96527858  0.65516054  0.41852752  0.36754595]
+Weights				: [ 0.65264257  0.63185421  0.51108401  0.48787187]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           71.42857143   43.75          0.        ]
+Number of Chosen		: [ 57.  42.  16.   5.]
+Cues Values			: [ 0.97313323  0.72418615  0.44604603  0.38689047]
+Weights				: [ 0.65481015  0.63449322  0.51121533  0.49525835]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Reward Probabilities		: [ 100.           77.77777778   45.83333333           nan]
+Number of Chosen		: [ 60.  36.  24.   0.]
+Cues Values			: [ 0.9769651   0.6958458   0.45091239  0.5       ]
+Weights				: [ 0.65940012  0.61612839  0.53781951  0.49686768]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           68.29268293   35.71428571    0.        ]
+Number of Chosen		: [ 59.  41.  14.   6.]
+Cues Values			: [ 0.97575274  0.60722158  0.43549038  0.36754595]
+Weights				: [ 0.65162308  0.60553691  0.49421395  0.48553317]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           66.66666667   38.88888889    0.        ]
+Number of Chosen		: [ 60.  39.  18.   3.]
+Cues Values			: [ 0.9769651   0.67406894  0.43100989  0.4286875 ]
+Weights				: [ 0.65411432  0.62236427  0.51789222  0.49485132]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 5.833 %
+Reward Probabilities		: [ 100.    72.5   45.     0. ]
+Number of Chosen		: [ 57.  40.  20.   3.]
+Cues Values			: [ 0.97313323  0.75799185  0.46706905  0.4286875 ]
+Weights				: [ 0.65327039  0.64076318  0.53702349  0.49523896]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 20.833 %
+Reward Probabilities		: [ 100.           56.75675676   27.27272727    0.        ]
+Number of Chosen		: [ 60.  37.  11.  12.]
+Cues Values			: [ 0.9769651   0.5715837   0.4247688   0.27018004]
+Weights				: [ 0.65317548  0.59364424  0.50304409  0.47935766]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           61.53846154   38.88888889    0.        ]
+Number of Chosen		: [ 60.  39.  18.   3.]
+Cues Values			: [ 0.9769651   0.59175371  0.43766802  0.4286875 ]
+Weights				: [ 0.65256263  0.60021668  0.51286945  0.49013797]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           53.65853659   31.25          0.        ]
+Number of Chosen		: [ 59.  41.  16.   4.]
+Cues Values			: [ 0.97575274  0.51272711  0.37734194  0.40725312]
+Weights				: [ 0.65303991  0.59069452  0.50119159  0.49070049]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           75.6097561    33.33333333    0.        ]
+Number of Chosen		: [ 56.  41.  15.   8.]
+Cues Values			: [ 0.97171919  0.72330031  0.40255359  0.33171022]
+Weights				: [ 0.65092216  0.62917871  0.49222248  0.48157828]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 82.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 21.667 %
+Reward Probabilities		: [ 100.           75.51020408   12.5           0.        ]
+Number of Chosen		: [ 51.  49.   8.  12.]
+Cues Values			: [ 0.96345114  0.67771144  0.38171022  0.27018004]
+Weights				: [ 0.65202406  0.63382865  0.48712379  0.47496256]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 17.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           66.66666667   40.74074074    0.        ]
+Number of Chosen		: [ 60.  30.  27.   3.]
+Cues Values			: [ 0.9769651   0.67224233  0.44008033  0.4286875 ]
+Weights				: [ 0.65148583  0.60700469  0.53240855  0.48824165]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           70.73170732   43.75          0.        ]
+Number of Chosen		: [ 58.  41.  16.   5.]
+Cues Values			: [ 0.97447657  0.70975172  0.46636008  0.38689047]
+Weights				: [ 0.6472344   0.63255354  0.5201602   0.48781172]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 20.833 %
+Reward Probabilities		: [ 100.           62.5          28.57142857    0.        ]
+Number of Chosen		: [ 60.  40.  14.   6.]
+Cues Values			: [ 0.9769651   0.63912698  0.39078111  0.36754595]
+Weights				: [ 0.65641256  0.61552195  0.49460732  0.4836451 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           62.16216216   42.85714286    0.        ]
+Number of Chosen		: [ 58.  37.  21.   4.]
+Cues Values			: [ 0.97447657  0.59221754  0.4773608   0.40725312]
+Weights				: [ 0.65177488  0.59842312  0.53444311  0.48905402]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           68.18181818   35.29411765    0.        ]
+Number of Chosen		: [ 53.  44.  17.   6.]
+Cues Values			: [ 0.96701465  0.69168088  0.42961141  0.36754595]
+Weights				: [ 0.65004061  0.62884998  0.515302    0.48491965]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           71.42857143   38.0952381     0.        ]
+Number of Chosen		: [ 49.  49.  21.   1.]
+Cues Values			: [ 0.95950264  0.62909198  0.38986458  0.475     ]
+Weights				: [ 0.64758865  0.62088921  0.51678788  0.49598788]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 84.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 5.833 %
+Reward Probabilities		: [ 100.           42.85714286   47.36842105    0.        ]
+Number of Chosen		: [ 60.  21.  38.   1.]
+Cues Values			: [ 0.9769651   0.43579316  0.48286847  0.475     ]
+Weights				: [ 0.65229875  0.53143512  0.57988353  0.49636015]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  20.  40.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           71.05263158   23.52941176    0.        ]
+Number of Chosen		: [ 59.  38.  17.   6.]
+Cues Values			: [ 0.97575274  0.74798988  0.35257339  0.36754595]
+Weights				: [ 0.65603978  0.63317101  0.49694747  0.48426007]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 18.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           67.5          33.33333333    0.        ]
+Number of Chosen		: [ 55.  40.  18.   7.]
+Cues Values			: [ 0.97023072  0.6948296   0.41969524  0.34916865]
+Weights				: [ 0.64825053  0.62697452  0.51510418  0.48711907]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.    67.5   10.     0. ]
+Number of Chosen		: [ 60.  40.  10.  10.]
+Cues Values			: [ 0.9769651   0.69688456  0.33805752  0.29936847]
+Weights				: [ 0.65165869  0.62350252  0.48015763  0.47884052]
+-----------------Testing Phase----------------
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 18.333 %
+Number of Chosen		: [ 60.  40.  10.  10.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           63.41463415    7.69230769    0.        ]
+Number of Chosen		: [ 59.  41.  13.   7.]
+Cues Values			: [ 0.97575274  0.57819976  0.28818351  0.34916865]
+Weights				: [ 0.65035293  0.59797153  0.47903751  0.48322843]
+-----------------Testing Phase----------------
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.   2.  18.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           67.5          30.76923077    0.        ]
+Number of Chosen		: [ 59.  40.  13.   8.]
+Cues Values			: [ 0.97575274  0.61258053  0.42210164  0.33171022]
+Weights				: [ 0.65402273  0.61076745  0.5062792   0.48362227]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           56.41025641   36.84210526    0.        ]
+Number of Chosen		: [ 60.  39.  19.   2.]
+Cues Values			: [ 0.9769651   0.58433209  0.39162209  0.45125   ]
+Weights				: [ 0.6582101   0.59893258  0.51016047  0.49288037]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           55.17241379   34.48275862    0.        ]
+Number of Chosen		: [ 60.  29.  29.   2.]
+Cues Values			: [ 0.9769651   0.48686907  0.35345784  0.45125   ]
+Weights				: [ 0.65754091  0.54436065  0.52042111  0.49583431]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]Mean No move trials		: 0.017 %
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 2.542 %
+Motor decision before Cognitive	: 15.254 %
+Reward Probabilities		: [ 100.    62.5   28.     0. ]
+Number of Chosen		: [ 58.  32.  25.   3.]
+Cues Values			: [ 0.97447657  0.59767372  0.3288168   0.4286875 ]
+Weights				: [ 0.65470818  0.57835588  0.50685504  0.48972663]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           70.73170732   44.44444444    0.        ]
+Number of Chosen		: [ 54.  41.  18.   7.]
+Cues Values			: [ 0.96866392  0.72433416  0.47875347  0.34916865]
+Weights				: [ 0.64308755  0.63276196  0.52124594  0.48581316]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           70.37037037   31.03448276    0.        ]
+Number of Chosen		: [ 59.  27.  29.   5.]
+Cues Values			: [ 0.97575274  0.63818506  0.30846669  0.38689047]
+Weights				: [ 0.65336941  0.58439406  0.49459088  0.48787111]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 11.667 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           62.5          27.77777778    0.        ]
+Number of Chosen		: [ 59.  40.  18.   3.]
+Cues Values			: [ 0.97575274  0.62989338  0.36648153  0.4286875 ]
+Weights				: [ 0.64609801  0.61490069  0.49694145  0.49019061]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           79.48717949   31.57894737    0.        ]
+Number of Chosen		: [ 60.  39.  19.   2.]
+Cues Values			: [ 0.9769651   0.7472658   0.36244034  0.45125   ]
+Weights				: [ 0.65614999  0.62882788  0.50309338  0.49611058]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 18.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           68.42105263   18.18181818    0.        ]
+Number of Chosen		: [ 59.  38.  11.  12.]
+Cues Values			: [ 0.97575274  0.67324083  0.3772688   0.27018004]
+Weights				: [ 0.6563631   0.61284166  0.48652042  0.47726116]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  18.   2.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.           70.58823529   32.            0.        ]
+Number of Chosen		: [ 59.  34.  25.   2.]
+Cues Values			: [ 0.97575274  0.68797523  0.33810597  0.45125   ]
+Weights				: [ 0.6567979   0.61079839  0.51109246  0.49650097]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 77.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           38.46153846   37.5           0.        ]
+Number of Chosen		: [ 60.  13.  40.   7.]
+Cues Values			: [ 0.9769651   0.43603153  0.3182214   0.34916865]
+Weights				: [ 0.65462847  0.49677987  0.53535447  0.48434822]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.833 %
+Number of Chosen		: [ 60.  20.  40.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           75.           35.29411765    0.        ]
+Number of Chosen		: [ 60.  36.  17.   7.]
+Cues Values			: [ 0.9769651   0.72404008  0.44742384  0.34916865]
+Weights				: [ 0.65372753  0.61541132  0.52056328  0.48256627]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           53.33333333   43.33333333    0.        ]
+Number of Chosen		: [ 59.  30.  30.   1.]
+Cues Values			: [ 0.97575274  0.5077135   0.42118229  0.475     ]
+Weights				: [ 0.65641113  0.55124517  0.53380943  0.49544678]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 6.667 %
+Reward Probabilities		: [ 100.           66.66666667   35.71428571    0.        ]
+Number of Chosen		: [ 60.  30.  28.   2.]
+Cues Values			: [ 0.9769651   0.59378081  0.34899038  0.45125   ]
+Weights				: [ 0.65790394  0.58118465  0.51838282  0.49251691]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 2.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 99.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           77.5          26.31578947    0.        ]
+Number of Chosen		: [ 60.  40.  19.   1.]
+Cues Values			: [ 0.9769651   0.74200428  0.32484588  0.475     ]
+Weights				: [ 0.65154242  0.63149656  0.49410807  0.49482904]
+-----------------Testing Phase----------------
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 19.167 %
+Number of Chosen		: [ 60.  40.   6.  14.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           70.           33.33333333    0.        ]
+Number of Chosen		: [ 60.  40.  12.   8.]
+Cues Values			: [ 0.9769651   0.68196484  0.43276542  0.33171022]
+Weights				: [ 0.64973774  0.62297934  0.50403207  0.48274312]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           65.           44.44444444    0.        ]
+Number of Chosen		: [ 59.  40.  18.   3.]
+Cues Values			: [ 0.97575274  0.60414708  0.48468416  0.4286875 ]
+Weights				: [ 0.65079959  0.60899022  0.53151831  0.49012919]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           68.18181818   22.22222222    0.        ]
+Number of Chosen		: [ 54.  44.  18.   4.]
+Cues Values			: [ 0.96866392  0.67650817  0.31454766  0.40725312]
+Weights				: [ 0.65028539  0.62957881  0.48838456  0.48811912]
+-----------------Testing Phase----------------
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 24.167 %
+Number of Chosen		: [ 60.  40.   6.  14.]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           62.           27.77777778    0.        ]
+Number of Chosen		: [ 47.  50.  18.   5.]
+Cues Values			: [ 0.95512758  0.50655087  0.34292126  0.38689047]
+Weights				: [ 0.64363381  0.60486628  0.4957953   0.48786282]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           58.53658537   28.57142857    0.        ]
+Number of Chosen		: [ 59.  41.  14.   6.]
+Cues Values			: [ 0.97575274  0.55959316  0.37677541  0.36754595]
+Weights				: [ 0.65363018  0.60188957  0.49277315  0.48507142]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           70.45454545   40.            0.        ]
+Number of Chosen		: [ 53.  44.  20.   3.]
+Cues Values			: [ 0.96701465  0.64168144  0.43903824  0.4286875 ]
+Weights				: [ 0.64623163  0.61872459  0.52781517  0.49043706]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.           67.79661017   39.28571429    0.        ]
+Number of Chosen		: [ 31.  59.  28.   2.]
+Cues Values			: [ 0.89804659  0.699241    0.36295656  0.45125   ]
+Weights				: [ 0.62083913  0.65981235  0.52313594  0.49464106]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 40.  60.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           57.14285714   37.5           0.        ]
+Number of Chosen		: [ 60.  35.  24.   1.]
+Cues Values			: [ 0.9769651   0.57125044  0.38927446  0.475     ]
+Weights				: [ 0.65422437  0.58628638  0.52062432  0.4989339 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 1.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           65.2173913    29.41176471    0.        ]
+Number of Chosen		: [ 53.  46.  17.   4.]
+Cues Values			: [ 0.96701465  0.62002444  0.35966625  0.40725312]
+Weights				: [ 0.65156988  0.61942905  0.4958433   0.49196599]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           57.5          35.71428571    0.        ]
+Number of Chosen		: [ 60.  40.  14.   6.]
+Cues Values			: [ 0.9769651   0.55992158  0.44671798  0.36754595]
+Weights				: [ 0.6544117   0.59887228  0.50786336  0.48644926]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           76.19047619   26.66666667    0.        ]
+Number of Chosen		: [ 58.  42.  15.   5.]
+Cues Values			: [ 0.97447657  0.69899629  0.34855294  0.38689047]
+Weights				: [ 0.65391039  0.62864371  0.49465187  0.48868804]
+-----------------Testing Phase----------------
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  11.   9.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           66.66666667   44.44444444    0.        ]
+Number of Chosen		: [ 60.  30.  27.   3.]
+Cues Values			: [ 0.9769651   0.62581801  0.44252114  0.4286875 ]
+Weights				: [ 0.65556509  0.59223767  0.53740459  0.49063377]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 99.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 4.167 %
+Reward Probabilities		: [ 100.           68.29268293   55.                   nan]
+Number of Chosen		: [ 59.  41.  20.   0.]
+Cues Values			: [ 0.97575274  0.64810206  0.51051555  0.5       ]
+Weights				: [ 0.65016891  0.62255146  0.54480878  0.49734915]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.    70.    12.5    0. ]
+Number of Chosen		: [ 59.  40.  16.   5.]
+Cues Values			: [ 0.97575274  0.70323394  0.28649267  0.38689047]
+Weights				: [ 0.65570541  0.62923477  0.48577253  0.48538305]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 27.500 %
+Number of Chosen		: [ 60.  40.   8.  12.]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           66.07142857   35.29411765    0.        ]
+Number of Chosen		: [ 40.  56.  17.   7.]
+Cues Values			: [ 0.93574392  0.58619955  0.44236045  0.34916865]
+Weights				: [ 0.63862041  0.63323798  0.52827394  0.48215218]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 58.  42.  20.   0.]Mean No move trials		: 0.008 %
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.840 %
+Motor decision before Cognitive	: 15.126 %
+Reward Probabilities		: [ 100.           78.94736842   35.29411765    0.        ]
+Number of Chosen		: [ 58.  38.  17.   6.]
+Cues Values			: [ 0.97447657  0.80099067  0.43443243  0.36754595]
+Weights				: [ 0.65011702  0.63285706  0.51537633  0.48413622]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           70.73170732   18.75          0.        ]
+Number of Chosen		: [ 57.  41.  16.   6.]
+Cues Values			: [ 0.97313323  0.67516562  0.32701945  0.36754595]
+Weights				: [ 0.65064047  0.62446131  0.48872626  0.48216197]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           61.9047619    26.66666667    0.        ]
+Number of Chosen		: [ 56.  42.  15.   7.]
+Cues Values			: [ 0.97171919  0.61660144  0.37697601  0.34916865]
+Weights				: [ 0.65160904  0.61445752  0.49471957  0.48404076]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           76.31578947   29.41176471    0.        ]
+Number of Chosen		: [ 59.  38.  17.   6.]
+Cues Values			: [ 0.97575274  0.74629621  0.3858091   0.36754595]
+Weights				: [ 0.65579223  0.63260403  0.50091368  0.48845689]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           73.17073171   21.42857143    0.        ]
+Number of Chosen		: [ 59.  41.  14.   6.]
+Cues Values			: [ 0.97575274  0.71136331  0.32945707  0.36754595]
+Weights				: [ 0.65667878  0.62831657  0.4896385   0.4866332 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.833 %
+Number of Chosen		: [ 60.  40.  12.   8.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           63.15789474   33.33333333    0.        ]
+Number of Chosen		: [ 60.  38.  18.   4.]
+Cues Values			: [ 0.9769651   0.65026661  0.40598765  0.40725312]
+Weights				: [ 0.65175234  0.60273635  0.50988652  0.49042851]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.000 %
+Reward Probabilities		: [ 100.           81.08108108   20.            0.        ]
+Number of Chosen		: [ 60.  37.  15.   8.]
+Cues Values			: [ 0.9769651   0.73790207  0.33962343  0.33171022]
+Weights				: [ 0.65364677  0.6154634   0.49220718  0.4831785 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  18.   2.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           73.68421053   23.52941176    0.        ]
+Number of Chosen		: [ 60.  38.  17.   5.]
+Cues Values			: [ 0.9769651   0.70995767  0.33702835  0.38689047]
+Weights				: [ 0.65754319  0.61388099  0.49181496  0.49011976]
+-----------------Testing Phase----------------
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 60.  40.  13.   7.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           70.           21.42857143    0.        ]
+Number of Chosen		: [ 60.  40.  14.   6.]
+Cues Values			: [ 0.9769651   0.72398898  0.35565393  0.36754595]
+Weights				: [ 0.64895939  0.63208104  0.4899357   0.48425667]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           65.30612245   30.            0.        ]
+Number of Chosen		: [ 47.  49.  20.   4.]
+Cues Values			: [ 0.95512758  0.53597651  0.34747275  0.40725312]
+Weights				: [ 0.64229263  0.6086201   0.5046035   0.49500865]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           61.11111111   18.75          0.        ]
+Number of Chosen		: [ 60.  36.  16.   8.]
+Cues Values			: [ 0.9769651   0.58373987  0.31933635  0.33171022]
+Weights				: [ 0.65327858  0.58399295  0.48768127  0.48397361]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           60.           38.88888889    0.        ]
+Number of Chosen		: [ 60.  40.  18.   2.]
+Cues Values			: [ 0.9769651   0.6390445   0.40993115  0.45125   ]
+Weights				: [ 0.65312894  0.61976971  0.50585414  0.49406808]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           82.05128205   33.33333333    0.        ]
+Number of Chosen		: [ 60.  39.  18.   3.]
+Cues Values			: [ 0.9769651   0.74012953  0.37906276  0.4286875 ]
+Weights				: [ 0.65811803  0.62063876  0.50477935  0.4909726 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           76.19047619   29.41176471    0.        ]
+Number of Chosen		: [ 58.  42.  17.   3.]
+Cues Values			: [ 0.97447657  0.78222298  0.36134563  0.4286875 ]
+Weights				: [ 0.65065516  0.64352199  0.49491028  0.48895802]
+-----------------Testing Phase----------------
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 30.000 %
+Number of Chosen		: [ 56.  44.  14.   6.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           76.92307692   22.22222222    0.        ]
+Number of Chosen		: [ 60.  39.   9.  12.]
+Cues Values			: [ 0.9769651   0.74609232  0.39579573  0.27018004]
+Weights				: [ 0.65026756  0.62959098  0.48909306  0.47754921]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 19.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 18.333 %
+Reward Probabilities		: [ 100.           50.           40.54054054    0.        ]
+Number of Chosen		: [ 56.  20.  37.   7.]
+Cues Values			: [ 0.97171919  0.55650495  0.37523532  0.34916865]
+Weights				: [ 0.65369387  0.55094036  0.54867659  0.48701172]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 5.833 %
+Reward Probabilities		: [ 100.           70.27027027   54.54545455    0.        ]
+Number of Chosen		: [ 60.  37.  22.   1.]
+Cues Values			: [ 0.9769651   0.63514321  0.55164113  0.475     ]
+Weights				: [ 0.65234434  0.59587704  0.56464629  0.49424862]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           59.09090909   28.57142857    0.        ]
+Number of Chosen		: [ 50.  44.  21.   5.]
+Cues Values			: [ 0.96152751  0.51396245  0.33635097  0.38689047]
+Weights				: [ 0.64811112  0.59350179  0.49320689  0.49019831]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           61.53846154   44.44444444    0.        ]
+Number of Chosen		: [ 60.  39.  18.   3.]
+Cues Values			: [ 0.9769651   0.70072574  0.46212759  0.4286875 ]
+Weights				: [ 0.65672748  0.62083629  0.51891297  0.49122909]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           63.15789474   28.57142857    0.        ]
+Number of Chosen		: [ 60.  38.  14.   8.]
+Cues Values			: [ 0.9769651   0.53166101  0.39264677  0.33171022]
+Weights				: [ 0.65465743  0.58324508  0.4902634   0.48379053]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 12.500 %
+Number of Chosen		: [ 60.  40.  14.   6.]
+Mean performance	 	: 73.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.           58.33333333   33.33333333    0.        ]
+Number of Chosen		: [ 28.  60.  30.   2.]
+Cues Values			: [ 0.88108656  0.55489032  0.34820649  0.45125   ]
+Weights				: [ 0.61336887  0.64197028  0.51389548  0.49418152]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 3.333 %
+Number of Chosen		: [ 40.  60.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.           54.05405405   43.47826087           nan]
+Number of Chosen		: [ 60.  37.  23.   0.]
+Cues Values			: [ 0.9769651   0.54107741  0.45611147  0.5       ]
+Weights				: [ 0.65713365  0.57553836  0.53818149  0.49625877]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 17.500 %
+Reward Probabilities		: [ 100.           72.72727273   30.76923077    0.        ]
+Number of Chosen		: [ 55.  44.  13.   8.]
+Cues Values			: [ 0.97023072  0.71986051  0.40361466  0.33171022]
+Weights				: [ 0.65217457  0.64101484  0.4987937   0.48472189]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 21.667 %
+Reward Probabilities		: [ 100.           52.5          23.07692308    0.        ]
+Number of Chosen		: [ 59.  40.  13.   8.]
+Cues Values			: [ 0.97575274  0.51219625  0.37855226  0.33171022]
+Weights				: [ 0.65127549  0.57408752  0.49391492  0.48119874]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           51.35135135   20.            0.        ]
+Number of Chosen		: [ 59.  37.  20.   4.]
+Cues Values			: [ 0.97575274  0.48038292  0.28208945  0.40725312]
+Weights				: [ 0.65556685  0.57419148  0.48789528  0.48557687]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.    67.5   50.     0. ]
+Number of Chosen		: [ 59.  40.  18.   3.]
+Cues Values			: [ 0.97575274  0.582275    0.49424315  0.4286875 ]
+Weights				: [ 0.65146497  0.60111869  0.54012292  0.49333072]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           62.5          18.18181818    0.        ]
+Number of Chosen		: [ 60.  40.  11.   9.]
+Cues Values			: [ 0.9769651   0.5258366   0.35720564  0.3151247 ]
+Weights				: [ 0.65554538  0.58451314  0.48915809  0.48510326]
+-----------------Testing Phase----------------
+Mean performance	 	: 98.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Number of Chosen		: [ 60.  40.  18.   2.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           65.95744681   40.            0.        ]
+Number of Chosen		: [ 51.  47.  20.   2.]
+Cues Values			: [ 0.96345114  0.61830153  0.4489105   0.45125   ]
+Weights				: [ 0.64746818  0.62752745  0.52643175  0.49373116]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           81.57894737   28.57142857    0.        ]
+Number of Chosen		: [ 60.  38.  14.   8.]
+Cues Values			: [ 0.9769651   0.76102383  0.4048684   0.33171022]
+Weights				: [ 0.65409889  0.62800966  0.50236133  0.48243714]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           50.           33.33333333    0.        ]
+Number of Chosen		: [ 59.  38.  15.   8.]
+Cues Values			: [ 0.97575274  0.54805791  0.41639768  0.33171022]
+Weights				: [ 0.65236569  0.58458413  0.50656619  0.48790544]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           69.23076923   31.57894737    0.        ]
+Number of Chosen		: [ 59.  39.  19.   3.]
+Cues Values			: [ 0.97575274  0.70393158  0.35683128  0.4286875 ]
+Weights				: [ 0.65264107  0.6247917   0.49585426  0.49404812]
+-----------------Testing Phase----------------
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  16.   4.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           67.5          21.42857143    0.        ]
+Number of Chosen		: [ 58.  40.  14.   8.]
+Cues Values			: [ 0.97447657  0.68035833  0.34601212  0.33171022]
+Weights				: [ 0.65341668  0.62518298  0.48415612  0.48407081]
+-----------------Testing Phase----------------
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 19.167 %
+Number of Chosen		: [ 60.  40.   5.  15.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.           51.28205128   43.75          0.        ]
+Number of Chosen		: [ 60.  39.  16.   5.]
+Cues Values			: [ 0.9769651   0.48178544  0.48275231  0.38689047]
+Weights				: [ 0.6555954   0.57358562  0.52657693  0.48699777]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 77.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Reward Probabilities		: [ 100.           77.96610169   37.03703704           nan]
+Number of Chosen		: [ 34.  59.  27.   0.]
+Cues Values			: [ 0.91258769  0.79594393  0.33544543  0.5       ]
+Weights				: [ 0.63058667  0.66592703  0.50883548  0.49462385]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 40.  60.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           70.27027027   12.5           0.        ]
+Number of Chosen		: [ 59.  37.  16.   8.]
+Cues Values			: [ 0.97575274  0.71549647  0.2776181   0.33171022]
+Weights				: [ 0.65125096  0.61994725  0.47961859  0.47961616]
+-----------------Testing Phase----------------
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.   6.  14.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           65.           27.77777778    0.        ]
+Number of Chosen		: [ 58.  40.  18.   4.]
+Cues Values			: [ 0.97447657  0.6138653   0.34977378  0.40725312]
+Weights				: [ 0.65101889  0.60815946  0.49603245  0.49000813]
+-----------------Testing Phase----------------
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.  12.   8.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           71.05263158   31.57894737    0.        ]
+Number of Chosen		: [ 60.  38.  19.   3.]
+Cues Values			: [ 0.9769651   0.716052    0.38386445  0.4286875 ]
+Weights				: [ 0.65592751  0.62548344  0.50480975  0.49097132]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 24.167 %
+Reward Probabilities		: [ 100.           61.36363636   14.28571429    0.        ]
+Number of Chosen		: [ 54.  44.  14.   8.]
+Cues Values			: [ 0.96866392  0.6531949   0.31210455  0.33171022]
+Weights				: [ 0.64377338  0.62545674  0.47982216  0.48178863]
+-----------------Testing Phase----------------
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 22.500 %
+Number of Chosen		: [ 60.  40.   8.  12.]
+Mean performance	 	: 96.667 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.     67.5    31.25    0.  ]
+Number of Chosen		: [ 60.  40.  16.   4.]
+Cues Values			: [ 0.9769651   0.57787001  0.40087272  0.40725312]
+Weights				: [ 0.65849106  0.59465968  0.50369986  0.4853271 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 5.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 84.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 28.333 %
+Reward Probabilities		: [ 100.           53.84615385   25.            0.        ]
+Number of Chosen		: [ 60.  26.  24.  10.]
+Cues Values			: [ 0.9769651   0.53533839  0.33078145  0.29936847]
+Weights				: [ 0.65776636  0.55135266  0.49483667  0.48036948]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           67.5          29.41176471    0.        ]
+Number of Chosen		: [ 60.  40.  17.   3.]
+Cues Values			: [ 0.9769651   0.67393832  0.34735456  0.4286875 ]
+Weights				: [ 0.65416488  0.62269774  0.49293714  0.49456726]
+-----------------Testing Phase----------------
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 11.667 %
+Number of Chosen		: [ 60.  40.   7.  13.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 11.667 %
+Reward Probabilities		: [ 100.    67.5   40.     0. ]
+Number of Chosen		: [ 60.  40.  15.   5.]
+Cues Values			: [ 0.9769651   0.65951184  0.44495995  0.38689047]
+Weights				: [ 0.65511249  0.62053314  0.50542976  0.48694569]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 28.333 %
+Reward Probabilities		: [ 100.           57.14285714   26.66666667    0.        ]
+Number of Chosen		: [ 60.  35.  15.  10.]
+Cues Values			: [ 0.9769651   0.66785964  0.39557495  0.29936847]
+Weights				: [ 0.65188624  0.60718989  0.49832125  0.47965138]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 9.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           62.5          46.66666667    0.        ]
+Number of Chosen		: [ 60.  40.  15.   5.]
+Cues Values			: [ 0.9769651   0.59969447  0.50517227  0.38689047]
+Weights				: [ 0.65551025  0.60239386  0.52339634  0.48500355]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 13.333 %
+Reward Probabilities		: [ 100.           69.23076923   16.66666667    0.        ]
+Number of Chosen		: [ 60.  39.  12.   9.]
+Cues Values			: [ 0.9769651   0.66090966  0.35399409  0.3151247 ]
+Weights				: [ 0.65290164  0.61746275  0.48713295  0.47756845]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 13.333 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 6.667 %
+Reward Probabilities		: [ 100.           63.63636364   45.71428571    0.        ]
+Number of Chosen		: [ 60.  22.  35.   3.]
+Cues Values			: [ 0.9769651   0.61081206  0.42095012  0.4286875 ]
+Weights				: [ 0.6583584   0.56689838  0.55098557  0.48691984]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 84.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 16.667 %
+Reward Probabilities		: [ 100.   56.   25.    0.]
+Number of Chosen		: [ 47.  50.  16.   7.]
+Cues Values			: [ 0.95512758  0.5169109   0.37478824  0.34916865]
+Weights				: [ 0.63906919  0.61502891  0.49650305  0.48240743]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 7.500 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 9.167 %
+Reward Probabilities		: [ 100.           58.33333333   41.17647059    0.        ]
+Number of Chosen		: [ 59.  24.  34.   3.]
+Cues Values			: [ 0.97575274  0.56335594  0.43479051  0.4286875 ]
+Weights				: [ 0.65105587  0.55608529  0.5585575   0.4930555 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  20.  40.   0.]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 19.167 %
+Reward Probabilities		: [ 100.           71.875        23.07692308    0.        ]
+Number of Chosen		: [ 59.  32.  26.   3.]
+Cues Values			: [ 0.97575274  0.68671643  0.28219173  0.4286875 ]
+Weights				: [ 0.65462941  0.59247851  0.49458657  0.4898138 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 15.000 %
+Number of Chosen		: [ 60.  40.  15.   5.]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 15.833 %
+Reward Probabilities		: [ 100.           78.37837838   35.29411765    0.        ]
+Number of Chosen		: [ 60.  37.  17.   6.]
+Cues Values			: [ 0.9769651   0.75164033  0.44595324  0.36754595]
+Weights				: [ 0.65580212  0.62910381  0.51814803  0.4849353 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           76.08695652   35.29411765    0.        ]
+Number of Chosen		: [ 53.  46.  17.   4.]
+Cues Values			: [ 0.96701465  0.68721289  0.44956728  0.40725312]
+Weights				: [ 0.64590888  0.63304035  0.51830439  0.48813271]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 10.000 %
+Reward Probabilities		: [ 100.           58.82352941   40.            0.        ]
+Number of Chosen		: [ 60.  34.  25.   1.]
+Cues Values			: [ 0.9769651   0.55143345  0.38793708  0.475     ]
+Weights				: [ 0.65328797  0.57935917  0.52193421  0.49462684]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.833 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 5.000 %
+Reward Probabilities		: [ 100.           56.41025641   36.            0.        ]
+Number of Chosen		: [ 54.  39.  25.   2.]
+Cues Values			: [ 0.96866392  0.54594384  0.38094111  0.45125   ]
+Weights				: [ 0.65392301  0.59351206  0.52526272  0.49400455]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 95.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 10.833 %
+Reward Probabilities		: [ 100.           69.23076923   43.75          0.        ]
+Number of Chosen		: [ 60.  39.  16.   5.]
+Cues Values			: [ 0.9769651   0.699229    0.49508683  0.38689047]
+Weights				: [ 0.65799037  0.62196167  0.5273098   0.48833872]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 0.000 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 80.833 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 14.167 %
+Reward Probabilities		: [ 100.           72.88135593   31.25          0.        ]
+Number of Chosen		: [ 41.  59.  16.   4.]
+Cues Values			: [ 0.93895673  0.63445898  0.3899576   0.40725312]
+Weights				: [ 0.64083356  0.6355893   0.50034535  0.4883009 ]
+-----------------Testing Phase----------------
+Mean performance	 	: 99.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 23.333 %
+Number of Chosen		: [ 59.  41.  20.   0.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 20.000 %
+Reward Probabilities		: [ 100.           64.1025641    15.38461538    0.        ]
+Number of Chosen		: [ 60.  39.  13.   8.]
+Cues Values			: [ 0.9769651   0.65851357  0.34739635  0.33171022]
+Weights				: [ 0.65661349  0.61251577  0.48920431  0.48024174]
+-----------------Testing Phase----------------
+Mean performance	 	: 97.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 14.167 %
+Number of Chosen		: [ 60.  40.  17.   3.]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 8.333 %
+Reward Probabilities		: [ 100.           59.09090909   58.82352941    0.        ]
+Number of Chosen		: [ 55.  44.  17.   4.]
+Cues Values			: [ 0.97023072  0.64139311  0.56453848  0.40725312]
+Weights				: [ 0.6534544   0.62616361  0.54961821  0.49060493]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 4.167 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+Mean performance	 	: 91.667 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 12.500 %
+Reward Probabilities		: [ 100.           68.29268293   27.27272727    0.        ]
+Number of Chosen		: [ 59.  41.  11.   9.]
+Cues Values			: [ 0.97575274  0.60756414  0.4198938   0.3151247 ]
+Weights				: [ 0.65718694  0.60694827  0.50179917  0.48043253]
+-----------------Testing Phase----------------
+Mean performance	 	: 100.000 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 8.333 %
+Number of Chosen		: [ 60.  40.  20.   0.]
+
+
+Mean Performance		: [ 49.2  63.2  68.4  69.2  67.2  78.8  72.4  79.2  78.4  84.   82.8  83.2
+  86.8  80.8  80.8  85.2  86.8  82.8  88.   84.4  91.6  91.2  85.2  89.6
+  86.4  86.8  90.4  90.4  90.8  89.2  90.4  92.   87.2  90.4  91.2  94.
+  92.4  92.4  90.4  93.6  92.4  95.2  92.   92.4  92.   94.   96.4  95.2
+  94.   94.4  96.4  92.   94.   95.2  96.4  96.   92.4  95.2  91.2  95.2
+  94.   94.8  94.8  94.8  94.8  94.8  93.6  96.   93.6  92.4  96.   96.8
+  92.4  94.   94.8  94.4  95.2  95.6  95.2  97.6  96.   95.6  95.2  97.6
+  96.4  97.2  98.   96.4  97.2  96.   97.6  96.4  96.4  97.2  96.4  95.6
+  96.8  98.   95.6  95.6  96.8  98.8  96.4  96.8  97.2  96.8  95.2  97.6
+  96.4  97.2  98.4  97.6  96.4  97.6  97.2  97.6  96.4  98.   98.4  96.4]%Trials with no move		: 1.28383943408%Mean trials with no move	: nan%Trials with no move		: 0.03%Mean Reward Probabilities	:[ 100.           66.33553784   30.97884499           nan]Mean Cues Values		:[ 0.9718182   0.64228732  0.38879369  0.38487861]Mean Weights			: [ 0.6514138   0.61061012  0.50703504  0.48749561]

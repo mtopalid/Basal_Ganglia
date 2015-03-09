@@ -2,19 +2,24 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia_Model/')
-import parameters_Nico as p
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015')
+from parameters import *
 
-file = p.rt + '/good_Fam_GPi.npy'
+protocol = input('Choose 1 for Guthrie-Protocol or 2 for Piron-Protocol')
+if protocol == 1:
+	folder = '../Guthrie-Protocol/Results'
+elif protocol == 2:
+	folder = '../Piron-Protocol/Results'
+file = folder + '/good_Fam_GPi.npy'
 loadFG = np.load(file)
 
-file = p.rt + '/good_UnFam_GPi.npy'
+file = folder + '/good_UnFam_GPi.npy'
 loadUFG = np.load(file)
 
-file = p.rt + '/good_Fam.npy'
+file = folder + '/good_Fam.npy'
 loadF = np.load(file)
 
-file = p.rt + '/good_UnFam.npy'
+file = folder + '/good_UnFam.npy'
 loadUF = np.load(file)
 
 if (loadFG==0).any():
@@ -46,12 +51,12 @@ plt.ylabel("Mean Rate Success")
 plt.xlabel("Number of Trials")
 plt.legend(frameon=False, loc='lower right')
 plt.ylim(0.0,1.01)
-file = p.rt + "/MeanRateSuccess.png"
+file = folder + "/MeanRateSuccess.png"
 fig.savefig(file)
 
 
 plt.show()
-# If the cortex learn more the BG the choice is faster without the BG
+# If the cofolderex learn more the BG the choice is faster without the BG
 # The random weights of unfamiliar cues are better for the bad answer
 # 	then the choice without BG is faster
 # In familiar cues, the cognitive choice is much faster than the motor (~200ms)

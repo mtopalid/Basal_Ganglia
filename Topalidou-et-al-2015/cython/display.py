@@ -1,22 +1,12 @@
 # -*- coding: utf-8 -*-
-# -----------------------------------------------------------------------------
-# Copyright (c) 2014, Nicolas P. Rougier
-# Distributed under the (new) BSD License.
-#
-# Contributors: Nicolas P. Rougier (Nicolas.Rougier@inria.fr)
-# -----------------------------------------------------------------------------
-# References:
-#
-# * Interaction between cognitive and motor cortico-basal ganglia loops during
-#   decision making: a computational study. M. Guthrie, A. Leblois, A. Garenne,
-#   and T. Boraud. Journal of Neurophysiology, 109:3025–3040, 2013.
-# -----------------------------------------------------------------------------
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Record type for display
 htype = [ ("CTX", [("mot", float, 4), ("cog", float, 4), ("ass", float, 16)]),
           ("STR", [("mot", float, 4), ("cog", float, 4), ("ass", float, 16)]),
+          ("GPE", [("mot", float, 4), ("cog", float, 4)]),
           ("GPI", [("mot", float, 4), ("cog", float, 4)]),
           ("THL", [("mot", float, 4), ("cog", float, 4)]),
           ("STN", [("mot", float, 4), ("cog", float, 4)])]
@@ -63,6 +53,8 @@ def display_all(history, duration=3.0, filename=None):
     fig = plt.figure(figsize=(18,12))
     fig.patch.set_facecolor('1.0')
 
+    fig.suptitle('Normal parameters from GPe to GPi (-0.25)', fontsize=24)
+
     timesteps = np.linspace(0,duration, len(history))
 
     def subplot(rows,cols,n, alpha=0.0):
@@ -77,79 +69,90 @@ def display_all(history, duration=3.0, filename=None):
         ax.yaxis.set_tick_params(direction="outward")
         return ax
 
-    ax = subplot(5,3,1)
+    ax = subplot(6,3,1)
     ax.set_title("Motor", fontsize=24)
     ax.set_ylabel("STN", fontsize=24)
     for i in range(4):
         plt.plot(timesteps, history["STN"]["mot"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,2)
+    ax = subplot(6,3,2)
     ax.set_title("Cognitive", fontsize=24)
     for i in range(4):
         plt.plot(timesteps, history["STN"]["cog"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,3,alpha=0)
+    ax = subplot(6,3,3,alpha=0)
     ax.set_title("Associative", fontsize=24)
     ax.set_xticks([])
     ax.set_yticks([])
     ax.spines['left'].set_color('none')
 
 
-    ax = subplot(5,3,4)
+    ax = subplot(6,3,4)
     ax.set_ylabel("Cortex", fontsize=24)
     for i in range(4):
         plt.plot(timesteps, history["CTX"]["mot"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,5)
+    ax = subplot(6,3,5)
     for i in range(4):
         plt.plot(timesteps, history["CTX"]["cog"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,6)
+    ax = subplot(6,3,6)
     for i in range(16):
         plt.plot(timesteps, history["CTX"]["ass"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,7)
+    ax = subplot(6,3,7)
     ax.set_ylabel("Striatum", fontsize=24)
     for i in range(4):
         plt.plot(timesteps, history["STR"]["mot"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,8)
+    ax = subplot(6,3,8)
     for i in range(4):
         plt.plot(timesteps, history["STR"]["cog"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,9)
+    ax = subplot(6,3,9)
     for i in range(16):
         plt.plot(timesteps, history["STR"]["ass"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,10)
+    ax = subplot(6,3,10)
+    ax.set_ylabel("GPe", fontsize=24)
+    for i in range(4):
+        plt.plot(timesteps, history["GPE"]["mot"][:,i], c='k', lw=.5)
+    ax.set_xticks([])
+
+    ax = subplot(6,3,11)
+    for i in range(4):
+        plt.plot(timesteps, history["GPE"]["cog"][:,i], c='k', lw=.5)
+    ax.set_xticks([])
+
+    ax = subplot(6,3,13)
     ax.set_ylabel("GPi", fontsize=24)
     for i in range(4):
         plt.plot(timesteps, history["GPI"]["mot"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,11)
+    ax = subplot(6,3,14)
     for i in range(4):
         plt.plot(timesteps, history["GPI"]["cog"][:,i], c='k', lw=.5)
     ax.set_xticks([])
-
-    ax = subplot(5,3,13)
+    ax = subplot(6,3,16)
     ax.set_ylabel("Thalamus", fontsize=24)
     for i in range(4):
         plt.plot(timesteps, history["THL"]["mot"][:,i], c='k', lw=.5)
     ax.set_xticks([])
 
-    ax = subplot(5,3,14)
+    ax = subplot(6,3,17)
     for i in range(4):
         plt.plot(timesteps, history["THL"]["cog"][:,i], c='k', lw=.5)
     ax.set_xticks([])
+
 
     if filename is not None:
         plt.savefig(filename)

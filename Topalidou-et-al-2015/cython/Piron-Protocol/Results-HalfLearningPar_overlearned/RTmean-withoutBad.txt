@@ -1,0 +1,10 @@
+Motor:
+
+Familiar Cues with GPi:	8.500 +/- 0.422
+
+UnFamiliar Cues with GPi:		1354.140 +/- 225.056
+
+Familiar Cues without GPi:		236.716 +/- 8.925
+
+UnFamiliar Cues without GPi:		464.900 +/- 89.891
+

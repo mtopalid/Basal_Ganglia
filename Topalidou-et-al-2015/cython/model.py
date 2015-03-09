@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# -----------------------------------------------------------------------------
-# Copyright (c) 2015, Nicolas P. Rougier
-# Distributed under the (new) BSD License.
-#
-# Contributors: Nicolas P. Rougier (Nicolas.Rougier@inria.fr)
-# -----------------------------------------------------------------------------
 from c_dana import *
 from parameters import *
 
@@ -12,14 +5,15 @@ clamp   = Clamp(min=0, max=1000)
 sigmoid = Sigmoid(Vmin=Vmin, Vmax=Vmax, Vh=Vh, Vc=Vc)
 
 CTX = AssociativeStructure(
-    tau=tau, rest=CTX_rest, noise=0.03, activation=clamp )
+                 tau=tau, rest=CTX_rest, noise=Cortex_N, activation=clamp )
 STR = AssociativeStructure(
-                 tau=tau, rest=STR_rest, noise=noise, activation=sigmoid )
-STN = Structure( tau=tau, rest=STN_rest, noise=noise, activation=clamp )
-GPE = Structure( tau=tau, rest=GPE_rest, noise=noise, activation=clamp )
-GPI = Structure( tau=tau, rest=GPI_rest, noise=noise, activation=clamp )
-THL = Structure( tau=tau, rest=THL_rest, noise=noise, activation=clamp )
-structures = (CTX, STR, STN, GPI, THL)
+                 tau=tau, rest=STR_rest, noise=Striatum_N, activation=sigmoid )
+STN = Structure( tau=tau, rest=STN_rest, noise=STN_N, activation=clamp )
+GPE = Structure( tau=tau, rest=GPE_rest, noise=GPe_N, activation=clamp )
+GPI = Structure( tau=tau, rest=GPI_rest, noise=GPi_N, activation=clamp )
+THL = Structure( tau=tau, rest=THL_rest, noise=Thalamus_N, activation=clamp )
+
+structures = (CTX, STR, STN, GPE, GPI, THL)
 
 CUE = np.zeros(4, dtype=[("mot", float),
                          ("cog", float),
@@ -27,16 +21,19 @@ CUE = np.zeros(4, dtype=[("mot", float),
                          ("reward", float)])
 
 choices  = np.array([[0,1],[0,2],[0,3],[1,2],[1,3],[2,3]])
-cues_cog = choices.repeat(30, axis = 0)
+cues_cog = choices.repeat(n_trials/6, axis = 0)
 np.random.shuffle(cues_cog)
+cues_mot = choices.repeat(n_trials/6, axis = 0)
+np.random.shuffle(cues_mot)
+
 
 CUE["mot"]    = 0,1,2,3
 CUE["cog"]    = 0,1,2,3
 CUE["value"]  = 0.5
-CUE["reward"] = rewards
+#CUE["reward"] = rewards
 
-def weights(shape):
-    N = np.random.normal(0.5, 0.005, shape)
+def weights(shape, s = 0.005):
+    N = np.random.normal(0.5, s, shape)
     N = np.minimum(np.maximum(N, 0.0),1.0)
     return (Wmin+(Wmax-Wmin)*N)
 
@@ -55,51 +52,58 @@ connections = {
     "STR.mot -> GPE.mot" : OneToOne( STR.mot.V, GPE.mot.Isyn, np.ones(4)  ),
     "STR.ass -> GPE.cog" : AssToCog( STR.ass.V, GPE.cog.Isyn, np.ones(4)  ),
     "STR.ass -> GPE.mot" : AssToMot( STR.ass.V, GPE.mot.Isyn, np.ones(4)  ),
+    "STN.cog -> GPI.cog" : OneToAll( STN.cog.V, GPI.cog.Isyn, np.ones(4)  ),
+    "STN.mot -> GPI.mot" : OneToAll( STN.mot.V, GPI.mot.Isyn, np.ones(4)  ),
     "STR.cog -> GPI.cog" : OneToOne( STR.cog.V, GPI.cog.Isyn, np.ones(4)  ),
     "STR.mot -> GPI.mot" : OneToOne( STR.mot.V, GPI.mot.Isyn, np.ones(4)  ),
     "STR.ass -> GPI.cog" : AssToCog( STR.ass.V, GPI.cog.Isyn, np.ones(4)  ),
     "STR.ass -> GPI.mot" : AssToMot( STR.ass.V, GPI.mot.Isyn, np.ones(4)  ),
     "STN.cog -> GPI.cog" : OneToAll( STN.cog.V, GPI.cog.Isyn, np.ones(4)  ),
     "STN.mot -> GPI.mot" : OneToAll( STN.mot.V, GPI.mot.Isyn, np.ones(4)  ),
-    "THL.cog -> CTX.cog" : OneToOne( THL.cog.V, CTX.cog.Isyn, np.ones(4)  ),  # changed
-    "THL.mot -> CTX.mot" : OneToOne( THL.mot.V, CTX.mot.Isyn, np.ones(4)  ),  # changed
-    "CTX.cog -> THL.cog" : OneToOne( CTX.cog.V, THL.cog.Isyn, np.ones(4)  ),  # changed
-    "CTX.mot -> THL.mot" : OneToOne( CTX.mot.V, THL.mot.Isyn, np.ones(4)  ),  # changed
-    "CTX.mot -> CTX.mot" : AllToAll( CTX.mot.V, CTX.mot.Isyn, W1,         ),  # new
-    "CTX.cog -> CTX.cog" : AllToAll( CTX.cog.V, CTX.cog.Isyn, W1,         ),  # new
-    "CTX.ass -> CTX.ass" : AllToAll( CTX.ass.V, CTX.ass.Isyn, W2,         ),  # new
-    "CTX.ass -> CTX.cog" : AssToCog( CTX.ass.V, CTX.cog.Isyn, np.ones(4), ), # new (null ?)
-    "CTX.ass -> CTX.mot" : AssToMot( CTX.ass.V, CTX.mot.Isyn, np.ones(4), ), # new
-    "CTX.cog -> CTX.ass" : CogToAss( CTX.cog.V, CTX.ass.Isyn, np.ones(4)  ), # plastic (Hebbian)
-    "CTX.mot -> CTX.ass" : MotToAss( CTX.mot.V, CTX.ass.Isyn, np.ones(4), ), # new (null ?)
-    "GPE.cog -> STN.cog" : OneToOne( GPE.cog.V, STN.cog.Isyn, np.ones(4), ), # changed
-    "GPE.mot -> STN.mot" : OneToOne( GPE.mot.V, STN.mot.Isyn, np.ones(4), ), # changed
-    "GPI.cog -> THL.cog" : OneToOne( GPI.cog.V, THL.cog.Isyn, np.ones(4), ), # changed
-    "GPI.mot -> THL.mot" : OneToOne( GPI.mot.V, THL.mot.Isyn, np.ones(4), ), # changed
+    "THL.cog -> CTX.cog" : OneToOne( THL.cog.V, CTX.cog.Isyn, np.ones(4)  ),
+    "THL.mot -> CTX.mot" : OneToOne( THL.mot.V, CTX.mot.Isyn, np.ones(4)  ),
+    "CTX.cog -> THL.cog" : OneToOne( CTX.cog.V, THL.cog.Isyn, np.ones(4)  ),
+    "CTX.mot -> THL.mot" : OneToOne( CTX.mot.V, THL.mot.Isyn, np.ones(4)  ),
+    "GPE.cog -> STN.cog" : OneToOne( GPE.cog.V, STN.cog.Isyn, np.ones(4) ),
+    "GPE.mot -> STN.mot" : OneToOne( GPE.mot.V, STN.mot.Isyn, np.ones(4) ),
+    "GPI.cog -> THL.cog" : OneToOne( GPI.cog.V, THL.cog.Isyn, np.ones(4) ),
+    "GPI.mot -> THL.mot" : OneToOne( GPI.mot.V, THL.mot.Isyn, np.ones(4) ),
+    "CTX.mot -> CTX.mot" : AllToAll( CTX.mot.V, CTX.mot.Isyn, W1         ),
+    "CTX.cog -> CTX.cog" : AllToAll( CTX.cog.V, CTX.cog.Isyn, W1         ),
+    "CTX.ass -> CTX.ass" : AllToAll( CTX.ass.V, CTX.ass.Isyn, W2         ),
+    "CTX.ass -> CTX.cog" : AssToCog( CTX.ass.V, CTX.cog.Isyn, np.ones(4) ),
+    "CTX.ass -> CTX.mot" : AssToMot( CTX.ass.V, CTX.mot.Isyn, np.ones(4) ),
+    "CTX.cog -> CTX.ass" : CogToAss( CTX.cog.V, CTX.ass.Isyn, weights(4, 0.0005)  ),
+    "CTX.mot -> CTX.ass" : MotToAss( CTX.mot.V, CTX.ass.Isyn, weights(4, 0.00005) ),
 }
 for name,gain in gains.items():
     connections[name].gain = gain
 
 # -----------------------------------------------------------------------------
-def set_trial(n=2, cog_shuffle=True, mot_shuffle=True, noise=noise, trial = None):
+def set_trial(n=2, cog_shuffle=True, mot_shuffle=True, noise=noise, trial = 0, protocol = 'Guthrie', familiar = 'True'):
 
-    if trial is not None:
-    	temp = np.array(cues_cog[trial,:])
-    	np.random.shuffle(temp)
-    	CUE["cog"][0], CUE["cog"][1] = temp
-    else:
+    if protocol == 'Guthrie':
+		temp = cues_cog[trial,:]
+		np.random.shuffle(temp)
+		CUE["cog"][0], CUE["cog"][1] = temp[0], temp[1]
 		if cog_shuffle:
-			np.random.shuffle(CUE["cog"])
+			np.random.shuffle(CUE["cog"][:n])
+    elif protocol == 'Piron':#if protocol == 'Piron':
+		if familiar:
+			CUE["cog"][0], CUE["cog"][1] = 0, 1
+		else:
+
+			CUE["cog"][0], CUE["cog"][1] = 2, 3
+		if cog_shuffle:
+			np.random.shuffle(CUE["cog"][:n])
     if mot_shuffle:
-        np.random.shuffle(CUE["mot"])
+		np.random.shuffle(CUE["mot"])
+
     CTX.mot.Iext = 0
     CTX.cog.Iext = 0
     CTX.ass.Iext = 0
     for i in range(n):
         c, m = CUE["cog"][i], CUE["mot"][i]
-        #CTX.mot.Iext[m]     = V_cue + np.random.normal(0,V_cue*noise)
-        #CTX.cog.Iext[c]     = V_cue + np.random.normal(0,V_cue*noise)
-        #CTX.ass.Iext[c*4+m] = V_cue + np.random.normal(0,V_cue*noise)
 
         CTX.mot.Iext[m]     = V_cue + np.random.uniform(-noise/2,noise/2)
         CTX.cog.Iext[c]     = V_cue + np.random.uniform(-noise/2,noise/2)
@@ -120,86 +124,248 @@ def iterate(dt):
         structure.evaluate(dt)
 
 
-def reset():
+def reset(protocol = 'Guthrie'):
     CUE["mot"]    = 0,1,2,3
     CUE["cog"]    = 0,1,2,3
     CUE["value"]  = 0.5
+    if protocol == 'Guthrie':
+    	CUE["reward"] = rewards_Guthrie
+    elif protocol == 'Piron':
+    	CUE["reward"] = rewards_Piron
+    np.random.shuffle(cues_cog)
+    np.random.shuffle(CUE["mot"][:n])
     # CUE["reward"] = rewards
+    connections["CTX.cog -> CTX.ass"].weights = weights(4, 0.00005)#0.5*np.ones(4)
+    connections["CTX.mot -> CTX.ass"].weights = weights(4, 0.00005)#0.5*np.ones(4)
     connections["CTX.cog -> STR.cog"].weights = weights(4)
-    connections["CTX.cog -> CTX.ass"].weights = np.ones(4)
-    connections["CTX.mot -> CTX.ass"].weights = np.ones(4)
     reset_activities()
 
 def reset_activities():
     for structure in structures:
         structure.reset()
+def history():
+	history = np.zeros(3000, dtype=dtype)
+	history["CTX"]["mot"] = CTX.mot.history[:3000]
+	history["CTX"]["cog"] = CTX.cog.history[:3000]
+	history["CTX"]["ass"] = CTX.ass.history[:3000]
+	history["STR"]["mot"] = STR.mot.history[:3000]
+	history["STR"]["cog"] = STR.cog.history[:3000]
+	history["STR"]["ass"] = STR.ass.history[:3000]
+	history["STN"]["mot"] = STN.mot.history[:3000]
+	history["STN"]["cog"] = STN.cog.history[:3000]
+	history["GPE"]["mot"] = GPE.mot.history[:3000]
+	history["GPE"]["cog"] = GPE.cog.history[:3000]
+	history["GPI"]["mot"] = GPI.mot.history[:3000]
+	history["GPI"]["cog"] = GPI.cog.history[:3000]
+	history["THL"]["mot"] = THL.mot.history[:3000]
+	history["THL"]["cog"] = THL.cog.history[:3000]
+	return history
+def reset_history():
+	CTX.mot.history[:3000] = 0
+	CTX.cog.history[:3000] = 0
+	CTX.ass.history[:3000] = 0
+	STR.mot.history[:3000] = 0
+	STR.cog.history[:3000] = 0
+	STR.ass.history[:3000] = 0
+	STN.mot.history[:3000] = 0
+	STN.cog.history[:3000] = 0
+	GPE.mot.history[:3000] = 0
+	GPE.cog.history[:3000] = 0
+	GPI.mot.history[:3000] = 0
+	GPI.cog.history[:3000] = 0
+	THL.mot.history[:3000] = 0
+	THL.cog.history[:3000] = 0
 
 
-def process(n=2, learning=True):
+def process(n=2, learning=True, P = [], D = [], AP = np.zeros(n), R = [], RP = np.zeros(n)):
     # A motor decision has been made
     # The actual cognitive choice may differ from the cognitive choice
     # Only the motor decision can designate the chosen cue
-    mot_choice = np.argmax(CTX.mot.V)
+    mot_choice = np.argmax(CTX.mot.U)
+    cog_choice = np.argmax(CTX.cog.U)
+
+    # The actual cognitive choice may differ from the cognitive choice
+    # Only the motor decision can designate the chosen cue
     for i in range(n):
         #print mot_choice, CUE["mot"][:n][i]
         if mot_choice == CUE["mot"][:n][i]:
-            cog_choice = CUE["cog"][:n][i]
-    choice = cog_choice
+            choice = int(CUE["cog"][:n][i])
 
-    # Compute reward
-    reward = int(np.random.uniform(0,1) < CUE["reward"][choice])
-
-    # Compute prediction error
-    error = reward - CUE["value"][choice]
-
-    # Update cues values
-    CUE["value"][choice] += error* alpha_CUE
-
-    if isinstance(learning,(bool,int)):
-        learning = learning,learning
-
-    if learning[0]:
-        # Reinforcement learning
-        lrate = alpha_LTP if error > 0 else alpha_LTD
-        dw = error * lrate * STR.cog.U[choice]
-        W = connections["CTX.cog -> STR.cog"].weights
-        W[choice] = min(max(W[choice]+dw,Wmin),Wmax)
-
-    if learning[1]:
-        # Hebbian learning
-        W = connections["CTX.cog -> CTX.ass"].weights
-        W += alpha_LTP * np.minimum(CTX.cog.V,0.5)
-        W = connections["CTX.mot -> CTX.ass"].weights
-        W += alpha_LTP * np.minimum(CTX.mot.V,0.1)
-
-    return CUE["cog"][:n], choice, reward
-
-def debug(time, cues, choice, reward):
-    n = len(cues)
-    cues = np.sort(cues)
-
-    R.append(reward)
-    if choice == cues[0]:
+    if choice == min(CUE["cog"][:n][0],CUE["cog"][:n][1]):
         P.append(1)
     else:
         P.append(0)
 
-    print "Choice:         ",
-    for i in range(n):
-        if choice == cues[i]:
-            print "[%d]" % cues[i],
-        else:
-            print "%d" % cues[i],
-        if i < (n-1):
-            print "/",
-    if choice == cues[0]:
-        print " (good)"
-    else:
-        print " (bad)"
+    D.append(0 if cog_choice == choice else 1)
+    AP[choice] += 1
+    if learning:
+		# Compute reward
+		reward = float(np.random.uniform(0,1) < CUE["reward"][choice])
+		R.append(reward)
+		RP[choice] += reward
 
-    print "Reward (%3d%%) :   %d" % (int(100*CUE["reward"][choice]),reward)
-    print "Mean performance: %.3f" % np.array(P).mean()
-    print "Mean reward:      %.3f" % np.array(R).mean()
-    print "Response time:    %d ms" % (time)
-    print "CTX.cog->CTX.ass:", connections["CTX.cog -> CTX.ass"].weights
-    print
+		# Compute prediction error
+		error = reward - CUE["value"][choice]
+
+		# Update cues values
+		CUE["value"][choice] += error* alpha_CUE
+
+        # Reinforcement learning
+		lrate = alpha_LTP if error > 0 else alpha_LTD
+		dw = error * lrate * STR.cog.V[choice]
+		W = connections["CTX.cog -> STR.cog"].weights
+		W[choice] = W[choice] + dw * (Wmax-W[choice]) * (W[choice]-Wmin)
+		connections["CTX.cog -> STR.cog"].weights = W
+
+		dw = alpha_LTP**2 * CTX.cog.V[choice]
+		W = connections["CTX.cog -> CTX.ass"].weights
+		W[choice] = W[choice] + dw * (Wmax-W[choice]) * (W[choice]-Wmin)
+		connections["CTX.cog -> CTX.ass"].weights = W
+
+
+		dw = alpha_LTP**2 * CTX.mot.V[choice]
+		W = connections["CTX.mot -> CTX.ass"].weights
+		W[choice] = W[choice] + dw * (Wmax-W[choice]) * (W[choice]-Wmin)
+		connections["CTX.mot -> CTX.ass"].weights = W
+
+    return choice
+
+
+def debug_learning(Wcog, Wmot, Wstr, cues_value, f = None):
+		print "Cues Values			: ", cues_value
+		print "\n\nCortical Weights Cognitive	: ", Wcog
+		print "Cortical Weights Motor		: ", Wmot
+		print "Striatal Weights		: ", Wstr
+		if f is not None:
+			f.write("\nCues Values			: "+ str(cues_value))
+			f.write("\nCortical Weights Cognitive	: " + str(Wcog))
+			f.write("\nCortical Weights Motor		: " + str(Wmot))
+			f.write("\nStriatal Weights		: "+ str(Wstr))
+
+def debug(f = None, cgchoice = None, c1 = None, c2 = None, P = [], reward = [], RT = [], R = [], D = [], RP = None, AP = None, mBc = [], ABC = [], NoMove = []):
+
+	if cgchoice is not None:
+		print "Choice:         ",
+		if cgchoice == c1:
+			print " 	[%d]" % c1,
+		else:
+			print " 	%d" % c1,
+		if cgchoice == c2:
+			print " [%d]" % c2,
+		else:
+			print " %d" % c2,
+		if cgchoice == np.minimum(c1,c2):
+			print " (good)"
+		else:
+			print " (bad)"
+	if NoMove:
+		print "Mean No move trials		: %.3f %%" % (len(NoMove)/float(n_trials))
+		if P:
+			p = np.array(P)
+			np.delete(p, NoMove)
+			print "Mean performance	 	: %.3f %%" % (np.array(p).mean()*100)
+		if D:
+			d = np.array(D)
+			np.delete(d, NoMove)
+			print "Mean Different choices 	 	: %.3f %%" % (np.array(d).mean()*100)
+		if mBc:
+			mbc = np.array(mBc)
+			np.delete(mbc, NoMove)
+			print "Motor decision before Cognitive	: %.3f %%" % (np.array(mbc).mean()*100)
+		if ABC:
+			abc = np.array(ABC)
+			np.delete(abc, NoMove)
+			print "Activity before Cues		: %.3f %%" % (np.array(abc).mean()*100)
+	else:
+		if P:
+			print "Mean performance	 	: %.3f %%" % (np.array(P).mean()*100)
+		if D:
+			print "Mean Different choices 	 	: %.3f %%" % (np.array(D).mean()*100)
+		if mBc:
+			print "Motor decision before Cognitive	: %.3f %%" % (np.array(mBc).mean()*100)
+		if ABC:
+			print "Activity before Cues		: %.3f %%" % (np.array(ABC).mean()*100)
+
+
+	if RT:
+		print "Mean Response time		: %.3f ms" % (np.array(RT).mean())
+	if reward:
+		print "Reward	  		 	: %d" % (reward)
+		print "Mean reward		 	: %.3f %%" % (np.array(R).mean()*100)
+	if RP is not None:
+		print "Reward Probabilities		: ", RP/AP*100
+	if AP is not None:
+		print "Number of Chosen		: ", AP # Number of chosen cues
+	if f:
+		if c1:
+			f.write("\nChoice:         ")
+			if cgchoice == c1:
+				f.write(" 	[%d]" % c1)
+
+			else:
+				f.write(" 	%d" % c1)
+
+			if cgchoice == c2:
+				f.write(" [%d]" % c2)
+			else:
+				f.write(" %d" % c2)
+
+			if cgchoice == np.minimum(c1,c2):
+				f.write(" (good)")
+			else:
+				f.write(" (bad)")
+
+		if NoMove:
+			f.write("\nMean No move trials		: %.3f %%" % (len(NoMove)/float(n_trials)))
+			if P:
+				p = np.array(P)
+				np.delete(p, NoMove)
+				f.write("\nMean performance	 	: %.3f %%" % (np.array(p).mean()*100))
+			if D:
+				d = np.array(D)
+				np.delete(d, NoMove)
+				f.write("\nMean Different choices 	 	: %.3f %%" % (np.array(D).mean()*100))
+			if mBc:
+				mbc = np.array(mBc)
+				np.delete(mbc, NoMove)
+				f.write("\nMotor decision before Cognitive	: %.3f %%" % (np.array(mBc).mean()*100))
+			if ABC:
+				abc = np.array(ABC)
+				np.delete(abc, NoMove)
+				f.write("\nActivity before Cues		: %.3f %%" % (np.array(ABC).mean()*100))
+		else:
+			if P:
+				f.write("\nMean performance	 	: %.3f %%" % (np.array(P).mean()*100))
+			if D:
+				f.write("\nMean Different choices 	 	: %.3f %%" % (np.array(D).mean()*100))
+			if mBc:
+				f.write("\nMotor decision before Cognitive	: %.3f %%" % (np.array(mBc).mean()*100))
+			if ABC:
+				f.write("\nActivity before Cues		: %.3f %%" % (np.array(ABC).mean()*100))
+
+		if RT:
+			f.write("\nMean Response time		: %.3f ms" % (np.array(RT).mean()))
+		if reward:
+			f.write("\nReward	  		 	: %d" % (reward))
+			f.write("\nMean reward		 	: %.3f %%" % (np.array(R).mean()*100))
+		if RP is not None:
+			f.write("\nReward Probabilities		: "+ str(RP/AP*100))
+		if AP is not None:
+			f.write("\nNumber of Chosen		: "+ str(AP))
+
+def debug_total(f, P, D, ABC, NoMove, RP, CV, W, AP):
+
+	print "Mean Performance		: " , (P.mean(axis=1)).mean(axis = 0)*100, '%'
+	f.write("\nMean Performance		: " + str((P.mean(axis=0)*100)) + '%')
+	print "Trials with no move		: " , (D.mean()*100), '%'
+	f.write("\nTrials with no move		: " + str((D.mean()*100)) + '%')
+	print "Mean trials with no move	: " , (ABC.mean()*100), '%'
+	f.write("\nMean trials with no move	: " + str((ABC.mean()*100)) + '%')
+	print "Trials with no move		: " , (NoMove.mean()*100), '%'
+	f.write("\nTrials with no move		: " + str((NoMove.mean()*100)) + '%')
+	print "Mean Reward Probabilities	:" + str((RP/AP*100).mean(axis = 0))
+	f.write("\nMean Reward Probabilities	:" + str((RP/AP*100).mean(axis = 0)))
+	print "Mean Cues Values		:" + str(CV.mean(axis = 0))
+	f.write("\nMean Cues Values		:" + str(CV.mean(axis = 0)))
+	print 'Mean Weights			: ' + str(W.mean(axis = 0))
+	f.write('\nMean Weights			: ' + str(W.mean(axis = 0)))
