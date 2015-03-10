@@ -1,9 +1,8 @@
 # Population size
 n = 4
 n_trials = 120
-n_learning_trials = 120
+n_learning_trials = 50
 n_testing_trials  = 120
-n_Performance	  = 30
 simulations = 250
 # --- Time ---
 ms           = 0.001
@@ -12,8 +11,8 @@ tau          = 10*ms
 
 # --- Learning ---
 alpha_CUE  = 0.050
-alpha_LTP  = 00.005#.01#
-alpha_LTD  = 0.0025#0.005#
+alpha_LTP  = 0.01#0.005#
+alpha_LTD  = 0.005#0.0025#
 
 # --- Sigmoid ---
 Vmin = 0
@@ -48,7 +47,7 @@ rewards_Piron  = 0.75, 0.25, 0.75, 0.25
 Wmin  = 0.25
 Wmax  = 0.75
 
-gains = {"CTX.cog -> STR.cog" : +1.0,
+gains = { "CTX.cog -> STR.cog" : +1.0,
           "CTX.mot -> STR.mot" : +1.0,
           "CTX.ass -> STR.ass" : +1.0,
           "CTX.cog -> STR.ass" : +0.2,

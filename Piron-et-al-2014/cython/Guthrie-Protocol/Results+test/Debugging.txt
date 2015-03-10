@@ -1,0 +1,1518 @@
+
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 10.000 %
+Motor decision before Cognitive	: 14.167 %
+Mean Response time		: 384.933 ms
+Reward Probabilities		: [ 100.           76.47058824   33.33333333    0.        ]
+Number of Chosen		: [ 59.  17.  36.   8.]
+Cues Values			: [ 0.97575274  0.63858993  0.3420872   0.33171022]
+Cortical Weights Cognitive	: [ 0.50479738  0.50105164  0.50262591  0.50013015]
+Cortical Weights Motor		: [ 0.5013127   0.50005198  0.50080043  0.4999784 ]
+Striatal Weights		: [ 0.55789601  0.51423826  0.51456179  0.49452912]
+Mean performance	 	: 69.167 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 85.000 %
+Mean Response time		: 1303.992 ms
+Number of Chosen		: [ 52.  18.  32.  18.]
+Cues Values			: [ 0.97575274  0.63858993  0.3420872   0.33171022]
+Cortical Weights Cognitive	: [ 0.50479738  0.50105164  0.50262591  0.50013015]
+Cortical Weights Motor		: [ 0.5013127   0.50005198  0.50080043  0.4999784 ]
+Striatal Weights		: [ 0.55789601  0.51423826  0.51456179  0.49452912]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 407.342 ms
+Reward Probabilities		: [ 100.           52.77777778   50.            0.        ]
+Number of Chosen		: [ 54.  36.  18.  12.]
+Cues Values			: [ 0.96866392  0.52407987  0.49296941  0.27018004]
+Cortical Weights Cognitive	: [ 0.50439912  0.50267697  0.50094205  0.50071122]
+Cortical Weights Motor		: [ 0.5012552   0.50059153  0.50049089  0.50002284]
+Striatal Weights		: [ 0.55451365  0.53060199  0.50494287  0.49419197]
+Mean performance	 	: 69.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1313.625 ms
+Number of Chosen		: [ 50.  31.  11.  28.]
+Cues Values			: [ 0.96866392  0.52407987  0.49296941  0.27018004]
+Cortical Weights Cognitive	: [ 0.50439912  0.50267697  0.50094205  0.50071122]
+Cortical Weights Motor		: [ 0.5012552   0.50059153  0.50049089  0.50002284]
+Striatal Weights		: [ 0.55451365  0.53060199  0.50494287  0.49419197]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 12.500 %
+Mean Response time		: 397.667 ms
+Reward Probabilities		: [ 100.           58.53658537   33.33333333    0.        ]
+Number of Chosen		: [ 57.  41.   9.  13.]
+Cues Values			: [ 0.97313323  0.52477376  0.43188979  0.25667104]
+Cortical Weights Cognitive	: [ 0.50454686  0.50320314  0.50053602  0.50078774]
+Cortical Weights Motor		: [ 0.50079769  0.50048322  0.500188    0.50007672]
+Striatal Weights		: [ 0.54979794  0.53149273  0.49937503  0.4938146 ]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1292.817 ms
+Number of Chosen		: [ 51.  39.  10.  20.]
+Cues Values			: [ 0.97313323  0.52477376  0.43188979  0.25667104]
+Cortical Weights Cognitive	: [ 0.50454686  0.50320314  0.50053602  0.50078774]
+Cortical Weights Motor		: [ 0.50079769  0.50048322  0.500188    0.50007672]
+Striatal Weights		: [ 0.54979794  0.53149273  0.49937503  0.4938146 ]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 20.833 %
+Mean Response time		: 385.408 ms
+Reward Probabilities		: [ 100.           75.75757576   26.66666667    0.        ]
+Number of Chosen		: [ 58.  33.  15.  14.]
+Cues Values			: [ 0.97447657  0.70868273  0.37723834  0.24383749]
+Cortical Weights Cognitive	: [ 0.5047416   0.5024839   0.50084952  0.5007048 ]
+Cortical Weights Motor		: [ 0.50135365  0.50045482  0.50052462  0.50009521]
+Striatal Weights		: [ 0.55792722  0.53421252  0.49729715  0.49175169]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 6.723 %
+Motor decision before Cognitive	: 87.395 %
+Mean Response time		: 1309.808 ms
+Number of Chosen		: [ 56.  26.  18.  19.]
+Cues Values			: [ 0.97447657  0.70868273  0.37723834  0.24383749]
+Cortical Weights Cognitive	: [ 0.5047416   0.5024839   0.50084952  0.5007048 ]
+Cortical Weights Motor		: [ 0.50135365  0.50045482  0.50052462  0.50009521]
+Striatal Weights		: [ 0.55792722  0.53421252  0.49729715  0.49175169]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 20.000 %
+Mean Response time		: 405.083 ms
+Reward Probabilities		: [ 100.           60.60606061   27.27272727    0.        ]
+Number of Chosen		: [ 57.  33.  22.   8.]
+Cues Values			: [ 0.97313323  0.56827115  0.34642743  0.33171022]
+Cortical Weights Cognitive	: [ 0.50453585  0.50248061  0.50135859  0.50044016]
+Cortical Weights Motor		: [ 0.50095371  0.50072332  0.50071791  0.50016072]
+Striatal Weights		: [ 0.55107902  0.52562773  0.50137075  0.49511455]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 3.361 %
+Motor decision before Cognitive	: 84.874 %
+Mean Response time		: 1314.175 ms
+Number of Chosen		: [ 48.  28.  26.  17.]
+Cues Values			: [ 0.97313323  0.56827115  0.34642743  0.33171022]
+Cortical Weights Cognitive	: [ 0.50453585  0.50248061  0.50135859  0.50044016]
+Cortical Weights Motor		: [ 0.50095371  0.50072332  0.50071791  0.50016072]
+Striatal Weights		: [ 0.55107902  0.52562773  0.50137075  0.49511455]
+Mean performance	 	: 82.500 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 23.333 %
+Mean Response time		: 395.983 ms
+Reward Probabilities		: [ 100.           79.41176471   14.28571429    0.        ]
+Number of Chosen		: [ 56.  34.  14.  16.]
+Cues Values			: [ 0.97171919  0.74276449  0.32539529  0.22006333]
+Cortical Weights Cognitive	: [ 0.50450634  0.50248882  0.5006112   0.50097857]
+Cortical Weights Motor		: [ 0.50096315  0.50049876  0.50033751  0.50029542]
+Striatal Weights		: [ 0.55062301  0.53236171  0.49640314  0.49197135]
+Mean performance	 	: 78.333 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 87.500 %
+Mean Response time		: 1302.117 ms
+Number of Chosen		: [ 52.  35.  17.  16.]
+Cues Values			: [ 0.97171919  0.74276449  0.32539529  0.22006333]
+Cortical Weights Cognitive	: [ 0.50450634  0.50248882  0.5006112   0.50097857]
+Cortical Weights Motor		: [ 0.50096315  0.50049876  0.50033751  0.50029542]
+Striatal Weights		: [ 0.55062301  0.53236171  0.49640314  0.49197135]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 390.458 ms
+Reward Probabilities		: [ 100.           76.66666667   38.0952381     0.        ]
+Number of Chosen		: [ 59.  30.  21.  10.]
+Cues Values			: [ 0.97575274  0.71074814  0.43661991  0.29936847]
+Cortical Weights Cognitive	: [ 0.50481925  0.50217134  0.50116419  0.50053023]
+Cortical Weights Motor		: [ 0.50098249  0.50056231  0.50058745  0.50004796]
+Striatal Weights		: [ 0.55890717  0.53299082  0.50901735  0.4940292 ]
+Mean performance	 	: 73.333 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 90.000 %
+Mean Response time		: 1286.667 ms
+Number of Chosen		: [ 54.  26.  25.  15.]
+Cues Values			: [ 0.97575274  0.71074814  0.43661991  0.29936847]
+Cortical Weights Cognitive	: [ 0.50481925  0.50217134  0.50116419  0.50053023]
+Cortical Weights Motor		: [ 0.50098249  0.50056231  0.50058745  0.50004796]
+Striatal Weights		: [ 0.55890717  0.53299082  0.50901735  0.4940292 ]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 11.667 %
+Mean Response time		: 374.367 ms
+Reward Probabilities		: [ 100.           65.78947368   20.            0.        ]
+Number of Chosen		: [ 60.  38.   5.  17.]
+Cues Values			: [ 0.9769651   0.62472815  0.42975922  0.20906017]
+Cortical Weights Cognitive	: [ 0.50480739  0.50310953  0.50023619  0.50085132]
+Cortical Weights Motor		: [ 0.50104721  0.50097138  0.5001658   0.50027577]
+Striatal Weights		: [ 0.55915076  0.54068755  0.49492161  0.49085004]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1283.925 ms
+Number of Chosen		: [ 51.  39.   9.  21.]
+Cues Values			: [ 0.9769651   0.62472815  0.42975922  0.20906017]
+Cortical Weights Cognitive	: [ 0.50480739  0.50310953  0.50023619  0.50085132]
+Cortical Weights Motor		: [ 0.50104721  0.50097138  0.5001658   0.50027577]
+Striatal Weights		: [ 0.55915076  0.54068755  0.49492161  0.49085004]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 15.833 %
+Mean Response time		: 408.433 ms
+Reward Probabilities		: [ 100.           60.86956522   46.15384615    0.        ]
+Number of Chosen		: [ 51.  46.  13.  10.]
+Cues Values			: [ 0.96345114  0.62839645  0.45797275  0.29936847]
+Cortical Weights Cognitive	: [ 0.50395017  0.503434    0.50076807  0.50032942]
+Cortical Weights Motor		: [ 0.50091614  0.50084897  0.5002422   0.4999683 ]
+Striatal Weights		: [ 0.55114756  0.54469292  0.49868204  0.49469921]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 90.833 %
+Mean Response time		: 1277.942 ms
+Number of Chosen		: [ 40.  50.  17.  13.]
+Cues Values			: [ 0.96345114  0.62839645  0.45797275  0.29936847]
+Cortical Weights Cognitive	: [ 0.50395017  0.503434    0.50076807  0.50032942]
+Cortical Weights Motor		: [ 0.50091614  0.50084897  0.5002422   0.4999683 ]
+Striatal Weights		: [ 0.55114756  0.54469292  0.49868204  0.49469921]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 392.192 ms
+Reward Probabilities		: [ 100.           56.75675676   25.            0.        ]
+Number of Chosen		: [ 59.  37.  12.  12.]
+Cues Values			: [ 0.97575274  0.56420675  0.38754283  0.27018004]
+Cortical Weights Cognitive	: [ 0.50479053  0.50284789  0.50061917  0.50055803]
+Cortical Weights Motor		: [ 0.50115291  0.50060068  0.50027252  0.50013548]
+Striatal Weights		: [ 0.55918856  0.52938788  0.50102703  0.49511201]
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 90.000 %
+Mean Response time		: 1279.642 ms
+Number of Chosen		: [ 52.  39.  14.  15.]
+Cues Values			: [ 0.97575274  0.56420675  0.38754283  0.27018004]
+Cortical Weights Cognitive	: [ 0.50479053  0.50284789  0.50061917  0.50055803]
+Cortical Weights Motor		: [ 0.50115291  0.50060068  0.50027252  0.50013548]
+Striatal Weights		: [ 0.55918856  0.52938788  0.50102703  0.49511201]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 378.883 ms
+Reward Probabilities		: [ 100.           73.68421053    0.            0.        ]
+Number of Chosen		: [ 59.  38.   7.  16.]
+Cues Values			: [ 0.97575274  0.66802244  0.34916865  0.22006333]
+Cortical Weights Cognitive	: [ 0.50479747  0.50297307  0.5003361   0.50075353]
+Cortical Weights Motor		: [ 0.50106808  0.50067607  0.50005792  0.50017812]
+Striatal Weights		: [ 0.56033256  0.53861464  0.49798727  0.49454394]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 4.202 %
+Motor decision before Cognitive	: 89.076 %
+Mean Response time		: 1300.200 ms
+Number of Chosen		: [ 50.  39.  11.  19.]
+Cues Values			: [ 0.97575274  0.66802244  0.34916865  0.22006333]
+Cortical Weights Cognitive	: [ 0.50479747  0.50297307  0.5003361   0.50075353]
+Cortical Weights Motor		: [ 0.50106808  0.50067607  0.50005792  0.50017812]
+Striatal Weights		: [ 0.56033256  0.53861464  0.49798727  0.49454394]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 385.458 ms
+Reward Probabilities		: [ 100.           63.33333333   42.30769231    0.        ]
+Number of Chosen		: [ 58.  30.  26.   6.]
+Cues Values			: [ 0.97447657  0.59860621  0.43559529  0.36754595]
+Cortical Weights Cognitive	: [ 0.50470374  0.50222143  0.50168635  0.5000483 ]
+Cortical Weights Motor		: [ 0.50128859  0.5002199   0.50070142  0.50001783]
+Striatal Weights		: [ 0.55956278  0.52796258  0.50581138  0.49459203]
+Mean performance	 	: 82.500 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 92.500 %
+Mean Response time		: 1271.267 ms
+Number of Chosen		: [ 53.  31.  30.   6.]
+Cues Values			: [ 0.97447657  0.59860621  0.43559529  0.36754595]
+Cortical Weights Cognitive	: [ 0.50470374  0.50222143  0.50168635  0.5000483 ]
+Cortical Weights Motor		: [ 0.50128859  0.5002199   0.50070142  0.50001783]
+Striatal Weights		: [ 0.55956278  0.52796258  0.50581138  0.49459203]
+Mean performance	 	: 54.167 %
+Mean Different choices 	 	: 10.000 %
+Motor decision before Cognitive	: 21.667 %
+Mean Response time		: 417.908 ms
+Reward Probabilities		: [ 100.           72.88135593   28.125         0.        ]
+Number of Chosen		: [ 10.  59.  32.  19.]
+Cues Values			: [ 0.70063153  0.77921678  0.27786575  0.1886768 ]
+Cortical Weights Cognitive	: [ 0.50022829  0.50467079  0.50235304  0.50088281]
+Cortical Weights Motor		: [ 0.50000281  0.50098385  0.50041731  0.50019255]
+Striatal Weights		: [ 0.4996919   0.56079201  0.50171653  0.49289188]
+Mean performance	 	: 46.667 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 78.333 %
+Mean Response time		: 1306.575 ms
+Number of Chosen		: [ 13.  49.  36.  22.]
+Cues Values			: [ 0.70063153  0.77921678  0.27786575  0.1886768 ]
+Cortical Weights Cognitive	: [ 0.50022829  0.50467079  0.50235304  0.50088281]
+Cortical Weights Motor		: [ 0.50000281  0.50098385  0.50041731  0.50019255]
+Striatal Weights		: [ 0.4996919   0.56079201  0.50171653  0.49289188]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 20.000 %
+Mean Response time		: 389.633 ms
+Reward Probabilities		: [ 100.           65.78947368   25.            0.        ]
+Number of Chosen		: [ 60.  38.  12.  10.]
+Cues Values			: [ 0.9769651   0.64957179  0.3970944   0.29936847]
+Cortical Weights Cognitive	: [ 0.50486292  0.50287331  0.50063477  0.50049005]
+Cortical Weights Motor		: [ 0.5008321   0.50053175  0.50036682  0.50012447]
+Striatal Weights		: [ 0.556802    0.53631819  0.49690209  0.49255733]
+Mean performance	 	: 78.333 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 90.000 %
+Mean Response time		: 1303.717 ms
+Number of Chosen		: [ 53.  34.  15.  18.]
+Cues Values			: [ 0.9769651   0.64957179  0.3970944   0.29936847]
+Cortical Weights Cognitive	: [ 0.50486292  0.50287331  0.50063477  0.50049005]
+Cortical Weights Motor		: [ 0.5008321   0.50053175  0.50036682  0.50012447]
+Striatal Weights		: [ 0.556802    0.53631819  0.49690209  0.49255733]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 395.617 ms
+Reward Probabilities		: [ 100.           54.76190476   33.33333333    0.        ]
+Number of Chosen		: [ 57.  42.   9.  12.]
+Cues Values			: [ 0.97313323  0.53174174  0.43547336  0.27018004]
+Cortical Weights Cognitive	: [ 0.50437481  0.50334889  0.50054196  0.50042057]
+Cortical Weights Motor		: [ 0.50151881  0.50107861  0.50019978  0.50004904]
+Striatal Weights		: [ 0.54724539  0.53325915  0.50026868  0.49472025]
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1309.100 ms
+Number of Chosen		: [ 50.  39.  17.  14.]
+Cues Values			: [ 0.97313323  0.53174174  0.43547336  0.27018004]
+Cortical Weights Cognitive	: [ 0.50437481  0.50334889  0.50054196  0.50042057]
+Cortical Weights Motor		: [ 0.50151881  0.50107861  0.50019978  0.50004904]
+Striatal Weights		: [ 0.54724539  0.53325915  0.50026868  0.49472025]
+Mean performance	 	: 71.667 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 23.333 %
+Mean Response time		: 400.325 ms
+Reward Probabilities		: [ 100.           73.68421053   13.33333333    0.        ]
+Number of Chosen		: [ 35.  57.  15.  13.]
+Cues Values			: [ 0.91695831  0.59906066  0.29803803  0.25667104]
+Cortical Weights Cognitive	: [ 0.50260963  0.50440163  0.50078257  0.50056966]
+Cortical Weights Motor		: [ 0.50056473  0.50071158  0.5003945   0.50004625]
+Striatal Weights		: [ 0.54113649  0.53889946  0.49702801  0.49530409]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 61.667 %
+Mean Different choices 	 	: 9.244 %
+Motor decision before Cognitive	: 79.832 %
+Mean Response time		: 1338.608 ms
+Number of Chosen		: [ 30.  50.  19.  20.]
+Cues Values			: [ 0.91695831  0.59906066  0.29803803  0.25667104]
+Cortical Weights Cognitive	: [ 0.50260963  0.50440163  0.50078257  0.50056966]
+Cortical Weights Motor		: [ 0.50056473  0.50071158  0.5003945   0.50004625]
+Striatal Weights		: [ 0.54113649  0.53889946  0.49702801  0.49530409]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 13.333 %
+Motor decision before Cognitive	: 35.000 %
+Mean Response time		: 413.583 ms
+Reward Probabilities		: [ 100.           72.4137931    36.84210526    0.        ]
+Number of Chosen		: [ 57.  29.  19.  15.]
+Cues Values			: [ 0.97313323  0.65000844  0.39953288  0.23164562]
+Cortical Weights Cognitive	: [ 0.50467553  0.50153289  0.50101888  0.50053988]
+Cortical Weights Motor		: [ 0.50087557  0.5002261   0.50028871  0.50002389]
+Striatal Weights		: [ 0.56128752  0.51078703  0.50184795  0.49802643]
+Mean performance	 	: 78.333 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 90.833 %
+Mean Response time		: 1319.783 ms
+Number of Chosen		: [ 50.  33.  26.  11.]
+Cues Values			: [ 0.97313323  0.65000844  0.39953288  0.23164562]
+Cortical Weights Cognitive	: [ 0.50467553  0.50153289  0.50101888  0.50053988]
+Cortical Weights Motor		: [ 0.50087557  0.5002261   0.50028871  0.50002389]
+Striatal Weights		: [ 0.56128752  0.51078703  0.50184795  0.49802643]
+Mean performance	 	: 94.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 372.067 ms
+Reward Probabilities		: [ 100.           67.5          15.38461538    0.        ]
+Number of Chosen		: [ 60.  40.  13.   7.]
+Cues Values			: [ 0.9769651   0.67081655  0.32529694  0.34916865]
+Cortical Weights Cognitive	: [ 0.50489827  0.50320634  0.50072794  0.50022609]
+Cortical Weights Motor		: [ 0.50105848  0.50077883  0.50052609  0.50006067]
+Striatal Weights		: [ 0.55820864  0.54322064  0.4946435   0.49348114]
+Mean performance	 	: 84.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1302.925 ms
+Number of Chosen		: [ 55.  39.  12.  14.]
+Cues Values			: [ 0.9769651   0.67081655  0.32529694  0.34916865]
+Cortical Weights Cognitive	: [ 0.50489827  0.50320634  0.50072794  0.50022609]
+Cortical Weights Motor		: [ 0.50105848  0.50077883  0.50052609  0.50006067]
+Striatal Weights		: [ 0.55820864  0.54322064  0.4946435   0.49348114]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 20.833 %
+Mean Response time		: 383.250 ms
+Reward Probabilities		: [ 100.           72.22222222   20.            0.        ]
+Number of Chosen		: [ 59.  36.  15.  10.]
+Cues Values			: [ 0.97575274  0.6704447   0.32579267  0.29936847]
+Cortical Weights Cognitive	: [ 0.50475049  0.50280367  0.50080927  0.50048234]
+Cortical Weights Motor		: [ 0.50091182  0.50064215  0.50054059  0.50010236]
+Striatal Weights		: [ 0.55514846  0.53810507  0.49571348  0.49440903]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1289.967 ms
+Number of Chosen		: [ 54.  30.  23.  13.]
+Cues Values			: [ 0.97575274  0.6704447   0.32579267  0.29936847]
+Cortical Weights Cognitive	: [ 0.50475049  0.50280367  0.50080927  0.50048234]
+Cortical Weights Motor		: [ 0.50091182  0.50064215  0.50054059  0.50010236]
+Striatal Weights		: [ 0.55514846  0.53810507  0.49571348  0.49440903]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 24.167 %
+Mean Response time		: 397.200 ms
+Reward Probabilities		: [ 100.           71.875        33.33333333    0.        ]
+Number of Chosen		: [ 59.  32.  18.  11.]
+Cues Values			: [ 0.97575274  0.69045052  0.4059665   0.28440005]
+Cortical Weights Cognitive	: [ 0.50474124  0.50214918  0.50118935  0.50042941]
+Cortical Weights Motor		: [ 0.50119881  0.50047603  0.50040108  0.49999323]
+Striatal Weights		: [ 0.55496058  0.52368604  0.50502658  0.49482748]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1295.308 ms
+Number of Chosen		: [ 57.  30.  22.  11.]
+Cues Values			: [ 0.97575274  0.69045052  0.4059665   0.28440005]
+Cortical Weights Cognitive	: [ 0.50474124  0.50214918  0.50118935  0.50042941]
+Cortical Weights Motor		: [ 0.50119881  0.50047603  0.50040108  0.49999323]
+Striatal Weights		: [ 0.55496058  0.52368604  0.50502658  0.49482748]
+Mean performance	 	: 80.833 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 24.167 %
+Mean Response time		: 395.733 ms
+Reward Probabilities		: [ 100.           70.90909091   33.33333333    0.        ]
+Number of Chosen		: [ 42.  55.  18.   5.]
+Cues Values			: [ 0.94200889  0.71510103  0.41594975  0.38689047]
+Cortical Weights Cognitive	: [ 0.50302458  0.50426634  0.50085115  0.50019596]
+Cortical Weights Motor		: [ 0.50076652  0.50087025  0.50057574  0.50000799]
+Striatal Weights		: [ 0.5383223   0.55856228  0.49982338  0.49507655]
+Mean performance	 	: 70.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 86.667 %
+Mean Response time		: 1295.250 ms
+Number of Chosen		: [ 39.  52.  11.  18.]
+Cues Values			: [ 0.94200889  0.71510103  0.41594975  0.38689047]
+Cortical Weights Cognitive	: [ 0.50302458  0.50426634  0.50085115  0.50019596]
+Cortical Weights Motor		: [ 0.50076652  0.50087025  0.50057574  0.50000799]
+Striatal Weights		: [ 0.5383223   0.55856228  0.49982338  0.49507655]
+Mean performance	 	: 83.333 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 17.500 %
+Mean Response time		: 389.333 ms
+Reward Probabilities		: [ 100.           57.14285714   25.            0.        ]
+Number of Chosen		: [ 57.  35.  12.  16.]
+Cues Values			: [ 0.97313323  0.55383929  0.3785569   0.22006333]
+Cortical Weights Cognitive	: [ 0.50459088  0.50266751  0.50046551  0.50089505]
+Cortical Weights Motor		: [ 0.50092227  0.50038476  0.50044198  0.50023976]
+Striatal Weights		: [ 0.55539449  0.52534653  0.49227342  0.48959444]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1314.875 ms
+Number of Chosen		: [ 47.  44.  10.  19.]
+Cues Values			: [ 0.97313323  0.55383929  0.3785569   0.22006333]
+Cortical Weights Cognitive	: [ 0.50459088  0.50266751  0.50046551  0.50089505]
+Cortical Weights Motor		: [ 0.50092227  0.50038476  0.50044198  0.50023976]
+Striatal Weights		: [ 0.55539449  0.52534653  0.49227342  0.48959444]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 16.667 %
+Mean Response time		: 388.658 ms
+Reward Probabilities		: [ 100.           68.29268293   38.46153846    0.        ]
+Number of Chosen		: [ 56.  41.  13.  10.]
+Cues Values			: [ 0.97171919  0.64401911  0.46223439  0.29936847]
+Cortical Weights Cognitive	: [ 0.5044057   0.50309497  0.50094623  0.5003224 ]
+Cortical Weights Motor		: [ 0.5009059   0.5005455   0.50032678  0.50001755]
+Striatal Weights		: [ 0.55364532  0.54499612  0.50793067  0.49518165]
+Mean performance	 	: 72.500 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 90.000 %
+Mean Response time		: 1300.592 ms
+Number of Chosen		: [ 48.  34.  20.  18.]
+Cues Values			: [ 0.97171919  0.64401911  0.46223439  0.29936847]
+Cortical Weights Cognitive	: [ 0.5044057   0.50309497  0.50094623  0.5003224 ]
+Cortical Weights Motor		: [ 0.5009059   0.5005455   0.50032678  0.50001755]
+Striatal Weights		: [ 0.55364532  0.54499612  0.50793067  0.49518165]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 389.975 ms
+Reward Probabilities		: [ 100.           65.           16.66666667    0.        ]
+Number of Chosen		: [ 58.  40.   6.  16.]
+Cues Values			: [ 0.97447657  0.59641088  0.40827126  0.22006333]
+Cortical Weights Cognitive	: [ 0.50467572  0.50322482  0.50030484  0.50084085]
+Cortical Weights Motor		: [ 0.50119299  0.50075569  0.50023516  0.50021007]
+Striatal Weights		: [ 0.55432921  0.54082237  0.49585156  0.49082856]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 75.833 %
+Mean Different choices 	 	: 5.882 %
+Motor decision before Cognitive	: 90.756 %
+Mean Response time		: 1281.200 ms
+Number of Chosen		: [ 49.  38.  13.  19.]
+Cues Values			: [ 0.97447657  0.59641088  0.40827126  0.22006333]
+Cortical Weights Cognitive	: [ 0.50467572  0.50322482  0.50030484  0.50084085]
+Cortical Weights Motor		: [ 0.50119299  0.50075569  0.50023516  0.50021007]
+Striatal Weights		: [ 0.55432921  0.54082237  0.49585156  0.49082856]
+Mean performance	 	: 81.667 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 408.308 ms
+Reward Probabilities		: [ 100.           60.52631579   28.57142857    0.        ]
+Number of Chosen		: [ 56.  38.   7.  19.]
+Cues Values			: [ 0.97171919  0.59583699  0.4371624   0.1886768 ]
+Cortical Weights Cognitive	: [ 0.50443171  0.50302577  0.50030034  0.50085191]
+Cortical Weights Motor		: [ 0.50095865  0.5006347   0.50009928  0.50021745]
+Striatal Weights		: [ 0.55002285  0.53445388  0.49642561  0.49278472]
+Mean performance	 	: 72.500 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 83.333 %
+Mean Response time		: 1327.208 ms
+Number of Chosen		: [ 48.  40.  11.  21.]
+Cues Values			: [ 0.97171919  0.59583699  0.4371624   0.1886768 ]
+Cortical Weights Cognitive	: [ 0.50443171  0.50302577  0.50030034  0.50085191]
+Cortical Weights Motor		: [ 0.50095865  0.5006347   0.50009928  0.50021745]
+Striatal Weights		: [ 0.55002285  0.53445388  0.49642561  0.49278472]
+Mean performance	 	: 67.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 16.667 %
+Mean Response time		: 405.567 ms
+Reward Probabilities		: [ 100.           67.24137931   31.25          0.        ]
+Number of Chosen		: [ 32.  58.  16.  14.]
+Cues Values			: [ 0.90314426  0.60995636  0.3853963   0.24383749]
+Cortical Weights Cognitive	: [ 0.50250025  0.50468591  0.50099242  0.50065688]
+Cortical Weights Motor		: [ 0.50041209  0.50107232  0.50044581  0.50011213]
+Striatal Weights		: [ 0.53948966  0.55100093  0.49779384  0.49286085]
+Mean performance	 	: 59.167 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 87.500 %
+Mean Response time		: 1302.025 ms
+Number of Chosen		: [ 31.  48.  16.  25.]
+Cues Values			: [ 0.90314426  0.60995636  0.3853963   0.24383749]
+Cortical Weights Cognitive	: [ 0.50250025  0.50468591  0.50099242  0.50065688]
+Cortical Weights Motor		: [ 0.50041209  0.50107232  0.50044581  0.50011213]
+Striatal Weights		: [ 0.53948966  0.55100093  0.49779384  0.49286085]
+Mean performance	 	: 77.500 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 14.167 %
+Mean Response time		: 426.175 ms
+Reward Probabilities		: [ 100.           63.33333333   32.43243243    0.        ]
+Number of Chosen		: [ 49.  30.  37.   4.]
+Cues Values			: [ 0.95950264  0.62057088  0.26344026  0.40725312]
+Cortical Weights Cognitive	: [ 0.50372532  0.5021523   0.50280182  0.50014734]
+Cortical Weights Motor		: [ 0.50132101  0.50049035  0.50056363  0.49999994]
+Striatal Weights		: [ 0.54256371  0.5262467   0.50118296  0.49569155]
+Mean performance	 	: 63.333 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 85.000 %
+Mean Response time		: 1304.717 ms
+Number of Chosen		: [ 38.  27.  45.  10.]
+Cues Values			: [ 0.95950264  0.62057088  0.26344026  0.40725312]
+Cortical Weights Cognitive	: [ 0.50372532  0.5021523   0.50280182  0.50014734]
+Cortical Weights Motor		: [ 0.50132101  0.50049035  0.50056363  0.49999994]
+Striatal Weights		: [ 0.54256371  0.5262467   0.50118296  0.49569155]
+Mean performance	 	: 57.500 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 11.667 %
+Mean Response time		: 396.108 ms
+Reward Probabilities		: [ 100.           66.66666667   45.            0.        ]
+Number of Chosen		: [ 12.  57.  40.  11.]
+Cues Values			: [ 0.72981996  0.59187281  0.46330881  0.28440005]
+Cortical Weights Cognitive	: [ 0.50072569  0.50450918  0.50309241  0.50049724]
+Cortical Weights Motor		: [ 0.50010892  0.5010831   0.50074625  0.50021434]
+Striatal Weights		: [ 0.51538159  0.55053014  0.52807074  0.49488679]
+Mean performance	 	: 63.333 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1265.350 ms
+Number of Chosen		: [ 22.  52.  39.   7.]
+Cues Values			: [ 0.72981996  0.59187281  0.46330881  0.28440005]
+Cortical Weights Cognitive	: [ 0.50072569  0.50450918  0.50309241  0.50049724]
+Cortical Weights Motor		: [ 0.50010892  0.5010831   0.50074625  0.50021434]
+Striatal Weights		: [ 0.51538159  0.55053014  0.52807074  0.49488679]
+Mean performance	 	: 67.500 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 399.842 ms
+Reward Probabilities		: [ 100.    40.    47.5    0. ]
+Number of Chosen		: [ 58.   5.  40.  17.]
+Cues Values			: [ 0.97447657  0.47488422  0.46339663  0.20906017]
+Cortical Weights Cognitive	: [ 0.50474124  0.50032171  0.50320032  0.50091038]
+Cortical Weights Motor		: [ 0.50127681  0.49998856  0.50053023  0.50012027]
+Striatal Weights		: [ 0.5548937   0.49505022  0.52586343  0.49171516]
+Mean performance	 	: 63.333 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 85.000 %
+Mean Response time		: 1292.158 ms
+Number of Chosen		: [ 53.   8.  35.  24.]
+Cues Values			: [ 0.97447657  0.47488422  0.46339663  0.20906017]
+Cortical Weights Cognitive	: [ 0.50474124  0.50032171  0.50320032  0.50091038]
+Cortical Weights Motor		: [ 0.50127681  0.49998856  0.50053023  0.50012027]
+Striatal Weights		: [ 0.5548937   0.49505022  0.52586343  0.49171516]
+Mean performance	 	: 70.833 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 406.717 ms
+Reward Probabilities		: [ 100.           61.01694915   40.            0.        ]
+Number of Chosen		: [ 34.  59.  15.  12.]
+Cues Values			: [ 0.91258769  0.51976748  0.44127771  0.27018004]
+Cortical Weights Cognitive	: [ 0.50253001  0.50473396  0.50090428  0.5004352 ]
+Cortical Weights Motor		: [ 0.50095691  0.50087165  0.50037159  0.50012332]
+Striatal Weights		: [ 0.53975779  0.54344546  0.50323715  0.49660709]
+Mean performance	 	: 62.500 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 87.500 %
+Mean Response time		: 1295.033 ms
+Number of Chosen		: [ 30.  52.  22.  16.]
+Cues Values			: [ 0.91258769  0.51976748  0.44127771  0.27018004]
+Cortical Weights Cognitive	: [ 0.50253001  0.50473396  0.50090428  0.5004352 ]
+Cortical Weights Motor		: [ 0.50095691  0.50087165  0.50037159  0.50012332]
+Striatal Weights		: [ 0.53975779  0.54344546  0.50323715  0.49660709]
+Mean performance	 	: 63.333 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 20.000 %
+Mean Response time		: 400.575 ms
+Reward Probabilities		: [ 100.           69.49152542   18.18181818    0.        ]
+Number of Chosen		: [ 30.  59.  11.  20.]
+Cues Values			: [ 0.89268062  0.64397703  0.35829638  0.17924296]
+Cortical Weights Cognitive	: [ 0.50227235  0.5048047   0.50063045  0.5009885 ]
+Cortical Weights Motor		: [ 0.50073832  0.50086126  0.50031845  0.50013473]
+Striatal Weights		: [ 0.53331841  0.553085    0.49338976  0.49054776]
+Mean performance	 	: 53.333 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 84.167 %
+Mean Response time		: 1323.250 ms
+Number of Chosen		: [ 23.  51.  18.  28.]
+Cues Values			: [ 0.89268062  0.64397703  0.35829638  0.17924296]
+Cortical Weights Cognitive	: [ 0.50227235  0.5048047   0.50063045  0.5009885 ]
+Cortical Weights Motor		: [ 0.50073832  0.50086126  0.50031845  0.50013473]
+Striatal Weights		: [ 0.53331841  0.553085    0.49338976  0.49054776]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 10.833 %
+Mean Response time		: 397.317 ms
+Reward Probabilities		: [ 100.           75.67567568   46.66666667    0.        ]
+Number of Chosen		: [ 57.  37.  15.  11.]
+Cues Values			: [ 0.97313323  0.74097665  0.50102908  0.28440005]
+Cortical Weights Cognitive	: [ 0.5046218   0.50279313  0.50098206  0.50065641]
+Cortical Weights Motor		: [ 0.50097125  0.50053981  0.50020267  0.50026872]
+Striatal Weights		: [ 0.55347379  0.5412396   0.51259118  0.49228189]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 6.723 %
+Motor decision before Cognitive	: 88.235 %
+Mean Response time		: 1313.442 ms
+Number of Chosen		: [ 46.  37.  21.  15.]
+Cues Values			: [ 0.97313323  0.74097665  0.50102908  0.28440005]
+Cortical Weights Cognitive	: [ 0.5046218   0.50279313  0.50098206  0.50065641]
+Cortical Weights Motor		: [ 0.50097125  0.50053981  0.50020267  0.50026872]
+Striatal Weights		: [ 0.55347379  0.5412396   0.51259118  0.49228189]
+Mean performance	 	: 53.333 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 419.292 ms
+Reward Probabilities		: [ 100.           70.83333333   29.16666667    0.        ]
+Number of Chosen		: [ 15.  48.  48.   9.]
+Cues Values			: [ 0.76835438  0.71119028  0.21026464  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50078182  0.50371147  0.50376697  0.50058329]
+Cortical Weights Motor		: [ 0.50042433  0.50104399  0.5003309   0.50017046]
+Striatal Weights		: [ 0.51191404  0.54879961  0.50894825  0.49469641]
+Mean performance	 	: 44.167 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 72.500 %
+Mean Response time		: 1288.442 ms
+Number of Chosen		: [ 17.  33.  54.  16.]
+Cues Values			: [ 0.76835438  0.71119028  0.21026464  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50078182  0.50371147  0.50376697  0.50058329]
+Cortical Weights Motor		: [ 0.50042433  0.50104399  0.5003309   0.50017046]
+Striatal Weights		: [ 0.51191404  0.54879961  0.50894825  0.49469641]
+Mean performance	 	: 66.667 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 21.667 %
+Mean Response time		: 416.158 ms
+Reward Probabilities		: [ 100.    62.5   20.     0. ]
+Number of Chosen		: [ 34.  56.  10.  20.]
+Cues Values			: [ 0.91258769  0.67214864  0.37103993  0.17924296]
+Cortical Weights Cognitive	: [ 0.50260055  0.504389    0.50047885  0.5011642 ]
+Cortical Weights Motor		: [ 0.50062331  0.50096394  0.50029045  0.50047019]
+Striatal Weights		: [ 0.54308689  0.55790087  0.49346434  0.49044089]
+Mean performance	 	: 58.333 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1322.608 ms
+Number of Chosen		: [ 32.  46.  17.  25.]
+Cues Values			: [ 0.91258769  0.67214864  0.37103993  0.17924296]
+Cortical Weights Cognitive	: [ 0.50260055  0.504389    0.50047885  0.5011642 ]
+Cortical Weights Motor		: [ 0.50062331  0.50096394  0.50029045  0.50047019]
+Striatal Weights		: [ 0.54308689  0.55790087  0.49346434  0.49044089]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 17.500 %
+Mean Response time		: 390.875 ms
+Reward Probabilities		: [ 100.           67.85714286   30.76923077    0.        ]
+Number of Chosen		: [ 59.  28.  26.   7.]
+Cues Values			: [ 0.97575274  0.66401639  0.33655084  0.34916865]
+Cortical Weights Cognitive	: [ 0.50482394  0.50185605  0.50179679  0.50017014]
+Cortical Weights Motor		: [ 0.50095681  0.50032178  0.50048912  0.50011227]
+Striatal Weights		: [ 0.55896165  0.5296597   0.50156203  0.4939331 ]
+Mean performance	 	: 73.333 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1303.575 ms
+Number of Chosen		: [ 50.  25.  31.  14.]
+Cues Values			: [ 0.97575274  0.66401639  0.33655084  0.34916865]
+Cortical Weights Cognitive	: [ 0.50482394  0.50185605  0.50179679  0.50017014]
+Cortical Weights Motor		: [ 0.50095681  0.50032178  0.50048912  0.50011227]
+Striatal Weights		: [ 0.55896165  0.5296597   0.50156203  0.4939331 ]
+Mean performance	 	: 68.333 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 20.833 %
+Mean Response time		: 406.717 ms
+Reward Probabilities		: [ 100.           27.27272727   37.14285714    0.        ]
+Number of Chosen		: [ 56.  11.  35.  18.]
+Cues Values			: [ 0.97171919  0.39535668  0.3431274   0.19860716]
+Cortical Weights Cognitive	: [ 0.50451692  0.50046023  0.50273549  0.50066822]
+Cortical Weights Motor		: [ 0.50097572  0.49997593  0.50086904  0.50000071]
+Striatal Weights		: [ 0.55368161  0.49933574  0.51127468  0.4953577 ]
+Mean performance	 	: 60.833 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 86.667 %
+Mean Response time		: 1298.900 ms
+Number of Chosen		: [ 49.  16.  32.  23.]
+Cues Values			: [ 0.97171919  0.39535668  0.3431274   0.19860716]
+Cortical Weights Cognitive	: [ 0.50451692  0.50046023  0.50273549  0.50066822]
+Cortical Weights Motor		: [ 0.50097572  0.49997593  0.50086904  0.50000071]
+Striatal Weights		: [ 0.55368161  0.49933574  0.51127468  0.4953577 ]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 6.667 %
+Mean Response time		: 381.417 ms
+Reward Probabilities		: [ 100.           56.09756098   50.            0.        ]
+Number of Chosen		: [ 58.  41.  16.   5.]
+Cues Values			: [ 0.97447657  0.54193026  0.48184105  0.38689047]
+Cortical Weights Cognitive	: [ 0.50460865  0.5032125   0.50116641  0.50023391]
+Cortical Weights Motor		: [ 0.50068837  0.50049671  0.50027307  0.50012627]
+Striatal Weights		: [ 0.55428157  0.54088716  0.50894167  0.49562263]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 80.833 %
+Mean Different choices 	 	: 4.202 %
+Motor decision before Cognitive	: 88.235 %
+Mean Response time		: 1293.633 ms
+Number of Chosen		: [ 49.  42.  17.  11.]
+Cues Values			: [ 0.97447657  0.54193026  0.48184105  0.38689047]
+Cortical Weights Cognitive	: [ 0.50460865  0.5032125   0.50116641  0.50023391]
+Cortical Weights Motor		: [ 0.50068837  0.50049671  0.50027307  0.50012627]
+Striatal Weights		: [ 0.55428157  0.54088716  0.50894167  0.49562263]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 400.392 ms
+Reward Probabilities		: [ 100.           58.06451613   11.53846154    0.        ]
+Number of Chosen		: [ 59.  31.  26.   4.]
+Cues Values			: [ 0.97575274  0.57010288  0.21094596  0.40725312]
+Cortical Weights Cognitive	: [ 0.50475604  0.50223862  0.50175366  0.50025543]
+Cortical Weights Motor		: [ 0.50153022  0.5004731   0.5005951   0.50020596]
+Striatal Weights		: [ 0.55321351  0.51972201  0.50109723  0.49628743]
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1281.075 ms
+Number of Chosen		: [ 52.  28.  27.  13.]
+Cues Values			: [ 0.97575274  0.57010288  0.21094596  0.40725312]
+Cortical Weights Cognitive	: [ 0.50475604  0.50223862  0.50175366  0.50025543]
+Cortical Weights Motor		: [ 0.50153022  0.5004731   0.5005951   0.50020596]
+Striatal Weights		: [ 0.55321351  0.51972201  0.50109723  0.49628743]
+Mean performance	 	: 52.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 12.500 %
+Mean Response time		: 419.475 ms
+Reward Probabilities		: [ 100.           54.71698113   28.57142857    0.        ]
+Number of Chosen		: [ 10.  53.  42.  15.]
+Cues Values			: [ 0.70063153  0.49479558  0.27607027  0.23164562]
+Cortical Weights Cognitive	: [ 0.50067543  0.5043756   0.50310007  0.50095347]
+Cortical Weights Motor		: [ 0.50021336  0.50102329  0.50114562  0.50018854]
+Striatal Weights		: [ 0.5134247   0.54295986  0.50789662  0.49308801]
+Mean performance	 	: 50.833 %
+Mean Different choices 	 	: 9.167 %
+Motor decision before Cognitive	: 77.500 %
+Mean Response time		: 1307.433 ms
+Number of Chosen		: [ 15.  46.  35.  24.]
+Cues Values			: [ 0.70063153  0.49479558  0.27607027  0.23164562]
+Cortical Weights Cognitive	: [ 0.50067543  0.5043756   0.50310007  0.50095347]
+Cortical Weights Motor		: [ 0.50021336  0.50102329  0.50114562  0.50018854]
+Striatal Weights		: [ 0.5134247   0.54295986  0.50789662  0.49308801]
+Mean performance	 	: 70.000 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 22.500 %
+Mean Response time		: 403.767 ms
+Reward Probabilities		: [ 100.           50.           43.58974359    0.        ]
+Number of Chosen		: [ 55.  12.  39.  14.]
+Cues Values			: [ 0.97023072  0.49148318  0.4257069   0.24383749]
+Cortical Weights Cognitive	: [ 0.50441168  0.50065351  0.50296634  0.50058055]
+Cortical Weights Motor		: [ 0.50087609  0.50019345  0.50065195  0.50020923]
+Striatal Weights		: [ 0.54969604  0.49836581  0.52568343  0.49316273]
+Mean performance	 	: 64.167 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 84.167 %
+Mean Response time		: 1322.558 ms
+Number of Chosen		: [ 47.  13.  38.  22.]
+Cues Values			: [ 0.97023072  0.49148318  0.4257069   0.24383749]
+Cortical Weights Cognitive	: [ 0.50441168  0.50065351  0.50296634  0.50058055]
+Cortical Weights Motor		: [ 0.50087609  0.50019345  0.50065195  0.50020923]
+Striatal Weights		: [ 0.54969604  0.49836581  0.52568343  0.49316273]
+Mean performance	 	: 50.000 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 20.833 %
+Mean Response time		: 405.592 ms
+Reward Probabilities		: [ 100.           70.           33.33333333    0.        ]
+Number of Chosen		: [  7.  60.  30.  23.]
+Cues Values			: [ 0.65083135  0.64000412  0.42463741  0.15367843]
+Cortical Weights Cognitive	: [ 0.50022849  0.50484627  0.50210249  0.50113607]
+Cortical Weights Motor		: [ 0.50021502  0.50101198  0.50068765  0.50017725]
+Striatal Weights		: [ 0.49890511  0.55293504  0.51457163  0.48887444]
+Mean performance	 	: 50.000 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 80.000 %
+Mean Response time		: 1293.300 ms
+Number of Chosen		: [ 12.  53.  32.  23.]
+Cues Values			: [ 0.65083135  0.64000412  0.42463741  0.15367843]
+Cortical Weights Cognitive	: [ 0.50022849  0.50484627  0.50210249  0.50113607]
+Cortical Weights Motor		: [ 0.50021502  0.50101198  0.50068765  0.50017725]
+Striatal Weights		: [ 0.49890511  0.55293504  0.51457163  0.48887444]
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 17.500 %
+Mean Response time		: 407.217 ms
+Reward Probabilities		: [ 100.           68.42105263   27.77777778    0.        ]
+Number of Chosen		: [ 38.  57.  18.   7.]
+Cues Values			: [ 0.92880213  0.67663479  0.34195173  0.34916865]
+Cortical Weights Cognitive	: [ 0.50295527  0.5045625   0.50118846  0.50025285]
+Cortical Weights Motor		: [ 0.50063638  0.50073617  0.50046118  0.49992985]
+Striatal Weights		: [ 0.54360981  0.55314479  0.49885829  0.49532637]
+Mean performance	 	: 65.833 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 87.500 %
+Mean Response time		: 1280.992 ms
+Number of Chosen		: [ 30.  53.  24.  13.]
+Cues Values			: [ 0.92880213  0.67663479  0.34195173  0.34916865]
+Cortical Weights Cognitive	: [ 0.50295527  0.5045625   0.50118846  0.50025285]
+Cortical Weights Motor		: [ 0.50063638  0.50073617  0.50046118  0.49992985]
+Striatal Weights		: [ 0.54360981  0.55314479  0.49885829  0.49532637]
+Mean performance	 	: 42.500 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 19.167 %
+Mean Response time		: 394.925 ms
+Reward Probabilities		: [ 100.           71.15384615   41.86046512    0.        ]
+Number of Chosen		: [  2.  52.  43.  23.]
+Cues Values			: [ 0.54875     0.76694911  0.37977757  0.15367843]
+Cortical Weights Cognitive	: [ 0.50001538  0.50413151  0.50331156  0.50133639]
+Cortical Weights Motor		: [ 0.50007899  0.50056509  0.50076596  0.50002709]
+Striatal Weights		: [ 0.49170153  0.56136227  0.52206203  0.48928354]
+Mean performance	 	: 37.500 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 80.833 %
+Mean Response time		: 1279.167 ms
+Number of Chosen		: [  6.  41.  50.  23.]
+Cues Values			: [ 0.54875     0.76694911  0.37977757  0.15367843]
+Cortical Weights Cognitive	: [ 0.50001538  0.50413151  0.50331156  0.50133639]
+Cortical Weights Motor		: [ 0.50007899  0.50056509  0.50076596  0.50002709]
+Striatal Weights		: [ 0.49170153  0.56136227  0.52206203  0.48928354]
+Mean performance	 	: 73.333 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 393.325 ms
+Reward Probabilities		: [ 100.           79.66101695   36.84210526    0.        ]
+Number of Chosen		: [ 34.  59.  19.   8.]
+Cues Values			: [ 0.91258769  0.81049158  0.41994256  0.33171022]
+Cortical Weights Cognitive	: [ 0.50253593  0.50484783  0.50124149  0.50033003]
+Cortical Weights Motor		: [ 0.50066493  0.50119333  0.50026847  0.50013662]
+Striatal Weights		: [ 0.5364473   0.56229349  0.50290691  0.49308595]
+Mean performance	 	: 70.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 87.500 %
+Mean Response time		: 1299.792 ms
+Number of Chosen		: [ 32.  53.  26.   9.]
+Cues Values			: [ 0.91258769  0.81049158  0.41994256  0.33171022]
+Cortical Weights Cognitive	: [ 0.50253593  0.50484783  0.50124149  0.50033003]
+Cortical Weights Motor		: [ 0.50066493  0.50119333  0.50026847  0.50013662]
+Striatal Weights		: [ 0.5364473   0.56229349  0.50290691  0.49308595]
+Mean performance	 	: 60.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 8.333 %
+Mean Response time		: 392.125 ms
+Reward Probabilities		: [ 100.           71.92982456   39.02439024    0.        ]
+Number of Chosen		: [ 16.  57.  41.   6.]
+Cues Values			: [ 0.77993667  0.70231402  0.42414374  0.36754595]
+Cortical Weights Cognitive	: [ 0.50113338  0.50453522  0.50315714  0.50024506]
+Cortical Weights Motor		: [ 0.50034877  0.50088434  0.5007826   0.5000872 ]
+Striatal Weights		: [ 0.52733143  0.55646033  0.52952094  0.49546973]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 49.167 %
+Mean Different choices 	 	: 6.723 %
+Motor decision before Cognitive	: 84.034 %
+Mean Response time		: 1284.650 ms
+Number of Chosen		: [ 13.  47.  43.  16.]
+Cues Values			: [ 0.77993667  0.70231402  0.42414374  0.36754595]
+Cortical Weights Cognitive	: [ 0.50113338  0.50453522  0.50315714  0.50024506]
+Cortical Weights Motor		: [ 0.50034877  0.50088434  0.5007826   0.5000872 ]
+Striatal Weights		: [ 0.52733143  0.55646033  0.52952094  0.49546973]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 10.833 %
+Mean Response time		: 384.408 ms
+Reward Probabilities		: [ 100.           80.           38.46153846    0.        ]
+Number of Chosen		: [ 37.  60.  13.  10.]
+Cues Values			: [ 0.92505487  0.80627577  0.43589474  0.29936847]
+Cortical Weights Cognitive	: [ 0.50301443  0.50474514  0.50081903  0.50043436]
+Cortical Weights Motor		: [ 0.5008518   0.50097821  0.50041445  0.50004971]
+Striatal Weights		: [ 0.54904278  0.56407284  0.50227571  0.49443107]
+Mean performance	 	: 69.167 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 85.000 %
+Mean Response time		: 1290.808 ms
+Number of Chosen		: [ 36.  53.  15.  16.]
+Cues Values			: [ 0.92505487  0.80627577  0.43589474  0.29936847]
+Cortical Weights Cognitive	: [ 0.50301443  0.50474514  0.50081903  0.50043436]
+Cortical Weights Motor		: [ 0.5008518   0.50097821  0.50041445  0.50004971]
+Striatal Weights		: [ 0.54904278  0.56407284  0.50227571  0.49443107]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 22.500 %
+Mean Response time		: 402.183 ms
+Reward Probabilities		: [ 100.           70.37037037   37.5           0.        ]
+Number of Chosen		: [ 45.  54.   8.  13.]
+Cues Values			: [ 0.95027987  0.64798632  0.46720397  0.25667104]
+Cortical Weights Cognitive	: [ 0.50342263  0.50404511  0.50046604  0.50069582]
+Cortical Weights Motor		: [ 0.50099655  0.50062537  0.50018499  0.5001146 ]
+Striatal Weights		: [ 0.54679578  0.54357132  0.50099954  0.49259685]
+Mean performance	 	: 70.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 84.167 %
+Mean Response time		: 1315.225 ms
+Number of Chosen		: [ 39.  54.  11.  16.]
+Cues Values			: [ 0.95027987  0.64798632  0.46720397  0.25667104]
+Cortical Weights Cognitive	: [ 0.50342263  0.50404511  0.50046604  0.50069582]
+Cortical Weights Motor		: [ 0.50099655  0.50062537  0.50018499  0.5001146 ]
+Striatal Weights		: [ 0.54679578  0.54357132  0.50099954  0.49259685]
+Mean performance	 	: 65.000 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 26.667 %
+Mean Response time		: 427.242 ms
+Reward Probabilities		: [ 100.           46.42857143   36.95652174    0.        ]
+Number of Chosen		: [ 38.  28.  46.   8.]
+Cues Values			: [ 0.92880213  0.46667111  0.36551742  0.33171022]
+Cortical Weights Cognitive	: [ 0.5029425   0.50169132  0.50341606  0.5003411 ]
+Cortical Weights Motor		: [ 0.50068507  0.50022213  0.50109126  0.50008537]
+Striatal Weights		: [ 0.54632231  0.50800115  0.52454101  0.49604778]
+Mean performance	 	: 48.333 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 76.667 %
+Mean Response time		: 1343.992 ms
+Number of Chosen		: [ 23.  28.  54.  15.]
+Cues Values			: [ 0.92880213  0.46667111  0.36551742  0.33171022]
+Cortical Weights Cognitive	: [ 0.5029425   0.50169132  0.50341606  0.5003411 ]
+Cortical Weights Motor		: [ 0.50068507  0.50022213  0.50109126  0.50008537]
+Striatal Weights		: [ 0.54632231  0.50800115  0.52454101  0.49604778]
+Mean performance	 	: 49.167 %
+Mean Different choices 	 	: 0.833 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 410.933 ms
+Reward Probabilities		: [ 100.           62.96296296   28.57142857    0.        ]
+Number of Chosen		: [  6.  54.  42.  18.]
+Cues Values			: [ 0.63245405  0.66711033  0.27123631  0.19860716]
+Cortical Weights Cognitive	: [ 0.50030205  0.50435606  0.50313289  0.50123735]
+Cortical Weights Motor		: [ 0.50011146  0.50107177  0.50086852  0.50031078]
+Striatal Weights		: [ 0.49876702  0.5517792   0.50730358  0.48886742]
+Mean performance	 	: 40.833 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 70.833 %
+Mean Response time		: 1341.725 ms
+Number of Chosen		: [  8.  41.  44.  27.]
+Cues Values			: [ 0.63245405  0.66711033  0.27123631  0.19860716]
+Cortical Weights Cognitive	: [ 0.50030205  0.50435606  0.50313289  0.50123735]
+Cortical Weights Motor		: [ 0.50011146  0.50107177  0.50086852  0.50031078]
+Striatal Weights		: [ 0.49876702  0.5517792   0.50730358  0.48886742]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 0.000 %
+Motor decision before Cognitive	: 10.000 %
+Mean Response time		: 387.017 ms
+Reward Probabilities		: [ 100.           68.33333333   40.90909091    0.        ]
+Number of Chosen		: [ 32.  60.  22.   6.]
+Cues Values			: [ 0.90314426  0.67149853  0.44738792  0.36754595]
+Cortical Weights Cognitive	: [ 0.50248335  0.50479716  0.50164278  0.50029383]
+Cortical Weights Motor		: [ 0.50074463  0.50118164  0.50040333  0.50007012]
+Striatal Weights		: [ 0.5416064   0.55794064  0.51456217  0.4932644 ]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 64.167 %
+Mean Different choices 	 	: 6.723 %
+Motor decision before Cognitive	: 84.874 %
+Mean Response time		: 1284.417 ms
+Number of Chosen		: [ 28.  53.  26.  12.]
+Cues Values			: [ 0.90314426  0.67149853  0.44738792  0.36754595]
+Cortical Weights Cognitive	: [ 0.50248335  0.50479716  0.50164278  0.50029383]
+Cortical Weights Motor		: [ 0.50074463  0.50118164  0.50040333  0.50007012]
+Striatal Weights		: [ 0.5416064   0.55794064  0.51456217  0.4932644 ]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 398.792 ms
+Reward Probabilities		: [ 100.           70.83333333   35.71428571    0.        ]
+Number of Chosen		: [ 50.  48.  14.   8.]
+Cues Values			: [ 0.96152751  0.74175327  0.44439527  0.33171022]
+Cortical Weights Cognitive	: [ 0.50385589  0.50372962  0.50083583  0.50032061]
+Cortical Weights Motor		: [ 0.50084997  0.50092554  0.50043555  0.49999234]
+Striatal Weights		: [ 0.54649994  0.55669036  0.50221285  0.49422317]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1312.267 ms
+Number of Chosen		: [ 45.  47.  17.  11.]
+Cues Values			: [ 0.96152751  0.74175327  0.44439527  0.33171022]
+Cortical Weights Cognitive	: [ 0.50385589  0.50372962  0.50083583  0.50032061]
+Cortical Weights Motor		: [ 0.50084997  0.50092554  0.50043555  0.49999234]
+Striatal Weights		: [ 0.54649994  0.55669036  0.50221285  0.49422317]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 10.000 %
+Motor decision before Cognitive	: 25.000 %
+Mean Response time		: 422.658 ms
+Reward Probabilities		: [ 100.           54.54545455   22.22222222    0.        ]
+Number of Chosen		: [ 57.  22.  27.  14.]
+Cues Values			: [ 0.97313323  0.51250484  0.25152606  0.24383749]
+Cortical Weights Cognitive	: [ 0.50456099  0.50146386  0.50152011  0.50051975]
+Cortical Weights Motor		: [ 0.50117262  0.50030696  0.50081875  0.50006844]
+Striatal Weights		: [ 0.54933738  0.5063405   0.49465057  0.49360432]
+Mean performance	 	: 75.833 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1326.058 ms
+Number of Chosen		: [ 52.  25.  29.  14.]
+Cues Values			: [ 0.97313323  0.51250484  0.25152606  0.24383749]
+Cortical Weights Cognitive	: [ 0.50456099  0.50146386  0.50152011  0.50051975]
+Cortical Weights Motor		: [ 0.50117262  0.50030696  0.50081875  0.50006844]
+Striatal Weights		: [ 0.54933738  0.5063405   0.49465057  0.49360432]
+Mean performance	 	: 85.833 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 399.208 ms
+Reward Probabilities		: [ 100.           61.29032258   38.88888889    0.        ]
+Number of Chosen		: [ 60.  31.  18.  11.]
+Cues Values			: [ 0.9769651   0.58195676  0.41023259  0.28440005]
+Cortical Weights Cognitive	: [ 0.50479538  0.50223482  0.50124951  0.50033771]
+Cortical Weights Motor		: [ 0.50114682  0.50034245  0.5002759   0.50007344]
+Striatal Weights		: [ 0.55449842  0.52616169  0.50191793  0.49741387]
+Mean performance	 	: 70.000 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 82.500 %
+Mean Response time		: 1302.767 ms
+Number of Chosen		: [ 50.  23.  33.  14.]
+Cues Values			: [ 0.9769651   0.58195676  0.41023259  0.28440005]
+Cortical Weights Cognitive	: [ 0.50479538  0.50223482  0.50124951  0.50033771]
+Cortical Weights Motor		: [ 0.50114682  0.50034245  0.5002759   0.50007344]
+Striatal Weights		: [ 0.55449842  0.52616169  0.50191793  0.49741387]
+Mean performance	 	: 75.833 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 398.917 ms
+Reward Probabilities		: [ 100.   75.   40.    0.]
+Number of Chosen		: [ 56.  16.  40.   8.]
+Cues Values			: [ 0.97171919  0.65922125  0.31662508  0.33171022]
+Cortical Weights Cognitive	: [ 0.5043021   0.50121113  0.50306388  0.50035065]
+Cortical Weights Motor		: [ 0.50096946  0.50025658  0.50080043  0.50010262]
+Striatal Weights		: [ 0.54662207  0.52569869  0.51719478  0.49494206]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 60.833 %
+Mean Different choices 	 	: 5.882 %
+Motor decision before Cognitive	: 83.193 %
+Mean Response time		: 1305.125 ms
+Number of Chosen		: [ 42.  15.  49.  13.]
+Cues Values			: [ 0.97171919  0.65922125  0.31662508  0.33171022]
+Cortical Weights Cognitive	: [ 0.5043021   0.50121113  0.50306388  0.50035065]
+Cortical Weights Motor		: [ 0.50096946  0.50025658  0.50080043  0.50010262]
+Striatal Weights		: [ 0.54662207  0.52569869  0.51719478  0.49494206]
+Mean performance	 	: 89.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 376.417 ms
+Reward Probabilities		: [ 100.           68.29268293   12.5           0.        ]
+Number of Chosen		: [ 59.  41.   8.  12.]
+Cues Values			: [ 0.97575274  0.63636136  0.37039926  0.27018004]
+Cortical Weights Cognitive	: [ 0.50482269  0.50336058  0.50043543  0.50066298]
+Cortical Weights Motor		: [ 0.50096205  0.50086301  0.50012108  0.50023584]
+Striatal Weights		: [ 0.55871896  0.54230335  0.49292423  0.49138708]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1295.750 ms
+Number of Chosen		: [ 45.  42.  13.  20.]
+Cues Values			: [ 0.97575274  0.63636136  0.37039926  0.27018004]
+Cortical Weights Cognitive	: [ 0.50482269  0.50336058  0.50043543  0.50066298]
+Cortical Weights Motor		: [ 0.50096205  0.50086301  0.50012108  0.50023584]
+Striatal Weights		: [ 0.55871896  0.54230335  0.49292423  0.49138708]
+Mean performance	 	: 87.500 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 412.817 ms
+Reward Probabilities		: [ 100.   80.   40.    0.]
+Number of Chosen		: [ 52.  40.  20.   8.]
+Cues Values			: [ 0.96527858  0.80215432  0.43271933  0.33171022]
+Cortical Weights Cognitive	: [ 0.50417197  0.50305011  0.50125062  0.50030581]
+Cortical Weights Motor		: [ 0.50080305  0.50074028  0.50016733  0.50013835]
+Striatal Weights		: [ 0.55264459  0.54318034  0.50732463  0.49451952]
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1287.033 ms
+Number of Chosen		: [ 45.  44.  13.  18.]
+Cues Values			: [ 0.96527858  0.80215432  0.43271933  0.33171022]
+Cortical Weights Cognitive	: [ 0.50417197  0.50305011  0.50125062  0.50030581]
+Cortical Weights Motor		: [ 0.50080305  0.50074028  0.50016733  0.50013835]
+Striatal Weights		: [ 0.55264459  0.54318034  0.50732463  0.49451952]
+Mean performance	 	: 71.667 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 16.667 %
+Mean Response time		: 394.033 ms
+Reward Probabilities		: [ 100.           70.1754386    11.11111111    0.        ]
+Number of Chosen		: [ 40.  57.   9.  14.]
+Cues Values			: [ 0.93574392  0.70256439  0.35799345  0.24383749]
+Cortical Weights Cognitive	: [ 0.50313722  0.50440557  0.50045785  0.50068375]
+Cortical Weights Motor		: [ 0.50060891  0.50078719  0.50026269  0.50032508]
+Striatal Weights		: [ 0.54894787  0.556915    0.49363637  0.49084675]
+Mean performance	 	: 64.167 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1296.317 ms
+Number of Chosen		: [ 36.  52.  11.  21.]
+Cues Values			: [ 0.93574392  0.70256439  0.35799345  0.24383749]
+Cortical Weights Cognitive	: [ 0.50313722  0.50440557  0.50045785  0.50068375]
+Cortical Weights Motor		: [ 0.50060891  0.50078719  0.50026269  0.50032508]
+Striatal Weights		: [ 0.54894787  0.556915    0.49363637  0.49084675]
+Mean performance	 	: 68.333 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 20.000 %
+Mean Response time		: 405.183 ms
+Reward Probabilities		: [ 100.           61.66666667   14.28571429    0.        ]
+Number of Chosen		: [ 32.  60.  14.  14.]
+Cues Values			: [ 0.90314426  0.60371889  0.31237334  0.24383749]
+Cortical Weights Cognitive	: [ 0.50245268  0.50482613  0.50079119  0.50078056]
+Cortical Weights Motor		: [ 0.50074224  0.5011702   0.50022316  0.50019481]
+Striatal Weights		: [ 0.53921158  0.55415198  0.49414513  0.49267752]
+Mean performance	 	: 60.000 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 80.833 %
+Mean Response time		: 1333.050 ms
+Number of Chosen		: [ 27.  50.  26.  17.]
+Cues Values			: [ 0.90314426  0.60371889  0.31237334  0.24383749]
+Cortical Weights Cognitive	: [ 0.50245268  0.50482613  0.50079119  0.50078056]
+Cortical Weights Motor		: [ 0.50074224  0.5011702   0.50022316  0.50019481]
+Striatal Weights		: [ 0.53921158  0.55415198  0.49414513  0.49267752]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 20.000 %
+Mean Response time		: 406.867 ms
+Reward Probabilities		: [ 100.           73.33333333   54.54545455    0.        ]
+Number of Chosen		: [ 53.  45.  11.  11.]
+Cues Values			: [ 0.96701465  0.70327668  0.50843474  0.28440005]
+Cortical Weights Cognitive	: [ 0.50391591  0.50352375  0.50054812  0.50047331]
+Cortical Weights Motor		: [ 0.50040637  0.50083391  0.50023112  0.50009658]
+Striatal Weights		: [ 0.54662257  0.54725012  0.50141005  0.49581781]
+Mean No move trials		: 0.017 %
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 8.475 %
+Motor decision before Cognitive	: 87.288 %
+Mean Response time		: 1329.167 ms
+Number of Chosen		: [ 43.  48.  12.  15.]
+Cues Values			: [ 0.96701465  0.70327668  0.50843474  0.28440005]
+Cortical Weights Cognitive	: [ 0.50391591  0.50352375  0.50054812  0.50047331]
+Cortical Weights Motor		: [ 0.50040637  0.50083391  0.50023112  0.50009658]
+Striatal Weights		: [ 0.54662257  0.54725012  0.50141005  0.49581781]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 15.833 %
+Mean Response time		: 378.067 ms
+Reward Probabilities		: [ 100.           78.57142857   35.71428571    0.        ]
+Number of Chosen		: [ 58.  42.  14.   6.]
+Cues Values			: [ 0.97447657  0.77654446  0.42458207  0.36754595]
+Cortical Weights Cognitive	: [ 0.5047574   0.50330122  0.50066723  0.50026927]
+Cortical Weights Motor		: [ 0.50091736  0.50063296  0.50060533  0.50004505]
+Striatal Weights		: [ 0.55708609  0.54548006  0.49752214  0.49412952]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 92.500 %
+Mean Response time		: 1246.317 ms
+Number of Chosen		: [ 53.  41.  13.  13.]
+Cues Values			: [ 0.97447657  0.77654446  0.42458207  0.36754595]
+Cortical Weights Cognitive	: [ 0.5047574   0.50330122  0.50066723  0.50026927]
+Cortical Weights Motor		: [ 0.50091736  0.50063296  0.50060533  0.50004505]
+Striatal Weights		: [ 0.55708609  0.54548006  0.49752214  0.49412952]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 25.833 %
+Mean Response time		: 407.383 ms
+Reward Probabilities		: [ 100.   90.   35.    0.]
+Number of Chosen		: [ 60.  20.  20.  20.]
+Cues Values			: [ 0.9769651   0.75577132  0.40258422  0.17924296]
+Cortical Weights Cognitive	: [ 0.50492313  0.50132397  0.50114199  0.50113836]
+Cortical Weights Motor		: [ 0.50113751  0.50024499  0.50044059  0.50039824]
+Striatal Weights		: [ 0.55362408  0.51615153  0.49473352  0.49022649]
+Mean performance	 	: 59.167 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1285.958 ms
+Number of Chosen		: [ 54.  15.  19.  32.]
+Cues Values			: [ 0.9769651   0.75577132  0.40258422  0.17924296]
+Cortical Weights Cognitive	: [ 0.50492313  0.50132397  0.50114199  0.50113836]
+Cortical Weights Motor		: [ 0.50113751  0.50024499  0.50044059  0.50039824]
+Striatal Weights		: [ 0.55362408  0.51615153  0.49473352  0.49022649]
+Mean performance	 	: 70.833 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 376.717 ms
+Reward Probabilities		: [ 100.           69.49152542   11.76470588    0.        ]
+Number of Chosen		: [ 34.  59.  17.  10.]
+Cues Values			: [ 0.91258769  0.72563037  0.27391388  0.29936847]
+Cortical Weights Cognitive	: [ 0.50276092  0.50481514  0.50089537  0.50035839]
+Cortical Weights Motor		: [ 0.50077654  0.50076289  0.50067138  0.50002927]
+Striatal Weights		: [ 0.54680258  0.5647192   0.49433962  0.49308823]
+Mean performance	 	: 68.333 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1273.350 ms
+Number of Chosen		: [ 32.  53.  25.  10.]
+Cues Values			: [ 0.91258769  0.72563037  0.27391388  0.29936847]
+Cortical Weights Cognitive	: [ 0.50276092  0.50481514  0.50089537  0.50035839]
+Cortical Weights Motor		: [ 0.50077654  0.50076289  0.50067138  0.50002927]
+Striatal Weights		: [ 0.54680258  0.5647192   0.49433962  0.49308823]
+Mean performance	 	: 74.167 %
+Mean Different choices 	 	: 9.167 %
+Motor decision before Cognitive	: 15.833 %
+Mean Response time		: 383.900 ms
+Reward Probabilities		: [ 100.           57.14285714   43.90243902    0.        ]
+Number of Chosen		: [ 56.  14.  41.   9.]
+Cues Values			: [ 0.97171919  0.54977575  0.3452716   0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50457858  0.50083349  0.50318499  0.50025125]
+Cortical Weights Motor		: [ 0.50108792  0.50010283  0.50060714  0.50005953]
+Striatal Weights		: [ 0.55718546  0.50847713  0.51745803  0.49504336]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 68.333 %
+Mean Different choices 	 	: 8.403 %
+Motor decision before Cognitive	: 84.874 %
+Mean Response time		: 1314.908 ms
+Number of Chosen		: [ 46.  21.  40.  12.]
+Cues Values			: [ 0.97171919  0.54977575  0.3452716   0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50457858  0.50083349  0.50318499  0.50025125]
+Cortical Weights Motor		: [ 0.50108792  0.50010283  0.50060714  0.50005953]
+Striatal Weights		: [ 0.55718546  0.50847713  0.51745803  0.49504336]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 8.333 %
+Mean Response time		: 371.208 ms
+Reward Probabilities		: [ 100.           66.66666667   46.66666667    0.        ]
+Number of Chosen		: [ 60.  39.  15.   6.]
+Cues Values			: [ 0.9769651   0.62238463  0.47642614  0.36754595]
+Cortical Weights Cognitive	: [ 0.50488996  0.5031077   0.50110839  0.50025747]
+Cortical Weights Motor		: [ 0.50128126  0.50067811  0.50029426  0.50000952]
+Striatal Weights		: [ 0.55985356  0.54000302  0.50874148  0.49407618]
+Mean No move trials		: 0.017 %
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 5.085 %
+Motor decision before Cognitive	: 86.441 %
+Mean Response time		: 1319.158 ms
+Number of Chosen		: [ 49.  40.  20.   9.]
+Cues Values			: [ 0.9769651   0.62238463  0.47642614  0.36754595]
+Cortical Weights Cognitive	: [ 0.50488996  0.5031077   0.50110839  0.50025747]
+Cortical Weights Motor		: [ 0.50128126  0.50067811  0.50029426  0.50000952]
+Striatal Weights		: [ 0.55985356  0.54000302  0.50874148  0.49407618]
+Mean performance	 	: 82.500 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 20.833 %
+Mean Response time		: 411.917 ms
+Reward Probabilities		: [ 100.           58.33333333   17.64705882    0.        ]
+Number of Chosen		: [ 54.  36.  17.  13.]
+Cues Values			: [ 0.96866392  0.54127846  0.29106285  0.25667104]
+Cortical Weights Cognitive	: [ 0.50436218  0.50275662  0.50085528  0.50040137]
+Cortical Weights Motor		: [ 0.50084061  0.50067193  0.50047446  0.50003722]
+Striatal Weights		: [ 0.55313076  0.52499373  0.49572672  0.49481922]
+Mean performance	 	: 75.000 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 82.500 %
+Mean Response time		: 1316.917 ms
+Number of Chosen		: [ 50.  27.  23.  20.]
+Cues Values			: [ 0.96866392  0.54127846  0.29106285  0.25667104]
+Cortical Weights Cognitive	: [ 0.50436218  0.50275662  0.50085528  0.50040137]
+Cortical Weights Motor		: [ 0.50084061  0.50067193  0.50047446  0.50003722]
+Striatal Weights		: [ 0.55313076  0.52499373  0.49572672  0.49481922]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 7.500 %
+Mean Response time		: 382.167 ms
+Reward Probabilities		: [ 100.           69.23076923   37.5           0.        ]
+Number of Chosen		: [ 60.  39.  16.   5.]
+Cues Values			: [ 0.9769651   0.668299    0.44102557  0.38689047]
+Cortical Weights Cognitive	: [ 0.50493625  0.50305495  0.50106674  0.50012832]
+Cortical Weights Motor		: [ 0.50092456  0.50055664  0.50025886  0.5000213 ]
+Striatal Weights		: [ 0.55823695  0.54363234  0.50781442  0.49494932]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1267.383 ms
+Number of Chosen		: [ 56.  38.  14.  12.]
+Cues Values			: [ 0.9769651   0.668299    0.44102557  0.38689047]
+Cortical Weights Cognitive	: [ 0.50493625  0.50305495  0.50106674  0.50012832]
+Cortical Weights Motor		: [ 0.50092456  0.50055664  0.50025886  0.5000213 ]
+Striatal Weights		: [ 0.55823695  0.54363234  0.50781442  0.49494932]
+Mean performance	 	: 90.000 %
+Mean Different choices 	 	: 6.667 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 391.233 ms
+Reward Probabilities		: [ 100.           71.79487179    7.69230769    0.        ]
+Number of Chosen		: [ 58.  39.  13.  10.]
+Cues Values			: [ 0.97447657  0.69910314  0.29158791  0.29936847]
+Cortical Weights Cognitive	: [ 0.50468756  0.50294586  0.50060923  0.50040762]
+Cortical Weights Motor		: [ 0.50079251  0.50102894  0.50036404  0.50000515]
+Striatal Weights		: [ 0.55618487  0.53820337  0.4968702   0.49502232]
+Mean performance	 	: 84.167 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 89.167 %
+Mean Response time		: 1289.492 ms
+Number of Chosen		: [ 53.  38.  18.  11.]
+Cues Values			: [ 0.97447657  0.69910314  0.29158791  0.29936847]
+Cortical Weights Cognitive	: [ 0.50468756  0.50294586  0.50060923  0.50040762]
+Cortical Weights Motor		: [ 0.50079251  0.50102894  0.50036404  0.50000515]
+Striatal Weights		: [ 0.55618487  0.53820337  0.4968702   0.49502232]
+Mean performance	 	: 61.667 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 10.833 %
+Mean Response time		: 392.717 ms
+Reward Probabilities		: [ 100.           72.88135593   52.63157895    0.        ]
+Number of Chosen		: [ 14.  59.  38.   9.]
+Cues Values			: [ 0.75616251  0.63244861  0.49770446  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50071627  0.50479151  0.50287634  0.50046629]
+Cortical Weights Motor		: [ 0.50047402  0.50140599  0.50103341  0.50015731]
+Striatal Weights		: [ 0.5138248   0.54923121  0.52429337  0.49482514]
+Mean performance	 	: 50.000 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 80.000 %
+Mean Response time		: 1265.000 ms
+Number of Chosen		: [ 13.  48.  38.  21.]
+Cues Values			: [ 0.75616251  0.63244861  0.49770446  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50071627  0.50479151  0.50287634  0.50046629]
+Cortical Weights Motor		: [ 0.50047402  0.50140599  0.50103341  0.50015731]
+Striatal Weights		: [ 0.5138248   0.54923121  0.52429337  0.49482514]
+Mean performance	 	: 65.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 25.000 %
+Mean Response time		: 398.567 ms
+Reward Probabilities		: [ 100.           55.55555556   45.94594595    0.        ]
+Number of Chosen		: [ 55.   9.  37.  19.]
+Cues Values			: [ 0.97023072  0.52033509  0.41633454  0.1886768 ]
+Cortical Weights Cognitive	: [ 0.50424681  0.50047461  0.50264921  0.50105098]
+Cortical Weights Motor		: [ 0.50090772  0.4999914   0.50073003  0.50001789]
+Striatal Weights		: [ 0.5500603   0.50290634  0.51662182  0.49506302]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 56.667 %
+Mean Different choices 	 	: 4.202 %
+Motor decision before Cognitive	: 81.513 %
+Mean Response time		: 1327.133 ms
+Number of Chosen		: [ 48.  11.  34.  26.]
+Cues Values			: [ 0.97023072  0.52033509  0.41633454  0.1886768 ]
+Cortical Weights Cognitive	: [ 0.50424681  0.50047461  0.50264921  0.50105098]
+Cortical Weights Motor		: [ 0.50090772  0.4999914   0.50073003  0.50001789]
+Striatal Weights		: [ 0.5500603   0.50290634  0.51662182  0.49506302]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 17.500 %
+Mean Response time		: 411.242 ms
+Reward Probabilities		: [ 100.           61.2244898    26.66666667    0.        ]
+Number of Chosen		: [ 46.  49.  15.  10.]
+Cues Values			: [ 0.95276588  0.58756318  0.36437259  0.29936847]
+Cortical Weights Cognitive	: [ 0.50359612  0.50380917  0.50089371  0.50050934]
+Cortical Weights Motor		: [ 0.50067879  0.50083845  0.50024163  0.50006013]
+Striatal Weights		: [ 0.54857779  0.54100822  0.49770637  0.49365121]
+Mean performance	 	: 65.000 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 80.833 %
+Mean Response time		: 1322.742 ms
+Number of Chosen		: [ 34.  48.  19.  19.]
+Cues Values			: [ 0.95276588  0.58756318  0.36437259  0.29936847]
+Cortical Weights Cognitive	: [ 0.50359612  0.50380917  0.50089371  0.50050934]
+Cortical Weights Motor		: [ 0.50067879  0.50083845  0.50024163  0.50006013]
+Striatal Weights		: [ 0.54857779  0.54100822  0.49770637  0.49365121]
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 7.500 %
+Motor decision before Cognitive	: 23.333 %
+Mean Response time		: 420.692 ms
+Reward Probabilities		: [ 100.           66.66666667   33.33333333    0.        ]
+Number of Chosen		: [ 55.  27.  24.  14.]
+Cues Values			: [ 0.97023072  0.64559451  0.41092698  0.24383749]
+Cortical Weights Cognitive	: [ 0.50427639  0.50192387  0.50154005  0.50056657]
+Cortical Weights Motor		: [ 0.50099425  0.50041596  0.50079596  0.50000208]
+Striatal Weights		: [ 0.54412209  0.52825444  0.50975986  0.49248959]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 70.833 %
+Mean Different choices 	 	: 8.403 %
+Motor decision before Cognitive	: 87.395 %
+Mean Response time		: 1380.925 ms
+Number of Chosen		: [ 46.  33.  23.  17.]
+Cues Values			: [ 0.97023072  0.64559451  0.41092698  0.24383749]
+Cortical Weights Cognitive	: [ 0.50427639  0.50192387  0.50154005  0.50056657]
+Cortical Weights Motor		: [ 0.50099425  0.50041596  0.50079596  0.50000208]
+Striatal Weights		: [ 0.54412209  0.52825444  0.50975986  0.49248959]
+Mean performance	 	: 90.833 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 20.000 %
+Mean Response time		: 390.942 ms
+Reward Probabilities		: [ 100.           65.71428571   35.29411765    0.        ]
+Number of Chosen		: [ 59.  35.  17.   9.]
+Cues Values			: [ 0.97575274  0.65340165  0.44502194  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50478436  0.50258925  0.50119233  0.50036691]
+Cortical Weights Motor		: [ 0.50113935  0.50053138  0.50029031  0.50004211]
+Striatal Weights		: [ 0.55238522  0.53405507  0.51082886  0.49334925]
+Mean performance	 	: 76.667 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1301.517 ms
+Number of Chosen		: [ 54.  28.  20.  18.]
+Cues Values			: [ 0.97575274  0.65340165  0.44502194  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.50478436  0.50258925  0.50119233  0.50036691]
+Cortical Weights Motor		: [ 0.50113935  0.50053138  0.50029031  0.50004211]
+Striatal Weights		: [ 0.55238522  0.53405507  0.51082886  0.49334925]
+Mean performance	 	: 93.333 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 10.833 %
+Mean Response time		: 371.258 ms
+Reward Probabilities		: [ 100.           65.           16.66666667    0.        ]
+Number of Chosen		: [ 60.  40.  12.   8.]
+Cues Values			: [ 0.9769651   0.57429514  0.35817379  0.33171022]
+Cortical Weights Cognitive	: [ 0.50495354  0.50327191  0.5006416   0.50043038]
+Cortical Weights Motor		: [ 0.50094837  0.50055313  0.50037348  0.50000122]
+Striatal Weights		: [ 0.55788603  0.53846896  0.49342665  0.48791978]
+Mean performance	 	: 78.333 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 93.333 %
+Mean Response time		: 1271.850 ms
+Number of Chosen		: [ 48.  43.  14.  15.]
+Cues Values			: [ 0.9769651   0.57429514  0.35817379  0.33171022]
+Cortical Weights Cognitive	: [ 0.50495354  0.50327191  0.5006416   0.50043038]
+Cortical Weights Motor		: [ 0.50094837  0.50055313  0.50037348  0.50000122]
+Striatal Weights		: [ 0.55788603  0.53846896  0.49342665  0.48791978]
+Mean performance	 	: 95.000 %
+Mean Different choices 	 	: 2.500 %
+Motor decision before Cognitive	: 9.167 %
+Mean Response time		: 374.658 ms
+Reward Probabilities		: [ 100.           56.09756098   40.            0.        ]
+Number of Chosen		: [ 59.  41.  15.   5.]
+Cues Values			: [ 0.97575274  0.49405408  0.43334491  0.38689047]
+Cortical Weights Cognitive	: [ 0.50477469  0.50326702  0.50112251  0.50014305]
+Cortical Weights Motor		: [ 0.50094551  0.50063259  0.50024039  0.50002241]
+Striatal Weights		: [ 0.5581643   0.52912897  0.5076522   0.49540191]
+Mean No move trials		: 0.008 %
+Mean performance	 	: 79.167 %
+Mean Different choices 	 	: 7.563 %
+Motor decision before Cognitive	: 89.916 %
+Mean Response time		: 1303.342 ms
+Number of Chosen		: [ 50.  42.  12.  15.]
+Cues Values			: [ 0.97575274  0.49405408  0.43334491  0.38689047]
+Cortical Weights Cognitive	: [ 0.50477469  0.50326702  0.50112251  0.50014305]
+Cortical Weights Motor		: [ 0.50094551  0.50063259  0.50024039  0.50002241]
+Striatal Weights		: [ 0.5581643   0.52912897  0.5076522   0.49540191]
+Mean performance	 	: 70.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 15.000 %
+Mean Response time		: 395.508 ms
+Reward Probabilities		: [ 100.           28.57142857   36.11111111    0.        ]
+Number of Chosen		: [ 60.   7.  36.  17.]
+Cues Values			: [ 0.9769651   0.43989396  0.32438685  0.20906017]
+Cortical Weights Cognitive	: [ 0.50479685  0.50030897  0.5027829   0.50085374]
+Cortical Weights Motor		: [ 0.50136461  0.50004819  0.50060101  0.50019763]
+Striatal Weights		: [ 0.55203879  0.49694551  0.50687506  0.49069236]
+Mean performance	 	: 64.167 %
+Mean Different choices 	 	: 1.667 %
+Motor decision before Cognitive	: 85.833 %
+Mean Response time		: 1249.950 ms
+Number of Chosen		: [ 54.   9.  35.  22.]
+Cues Values			: [ 0.9769651   0.43989396  0.32438685  0.20906017]
+Cortical Weights Cognitive	: [ 0.50479685  0.50030897  0.5027829   0.50085374]
+Cortical Weights Motor		: [ 0.50136461  0.50004819  0.50060101  0.50019763]
+Striatal Weights		: [ 0.55203879  0.49694551  0.50687506  0.49069236]
+Mean performance	 	: 86.667 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 18.333 %
+Mean Response time		: 393.133 ms
+Reward Probabilities		: [ 100.           52.27272727   33.33333333    0.        ]
+Number of Chosen		: [ 55.  44.   9.  12.]
+Cues Values			: [ 0.97023072  0.52647641  0.42985352  0.27018004]
+Cortical Weights Cognitive	: [ 0.50427768  0.50347427  0.50052129  0.50049684]
+Cortical Weights Motor		: [ 0.50123832  0.50082975  0.50020729  0.50014393]
+Striatal Weights		: [ 0.54845949  0.53634467  0.49883687  0.49473453]
+Mean performance	 	: 67.500 %
+Mean Different choices 	 	: 8.333 %
+Motor decision before Cognitive	: 90.000 %
+Mean Response time		: 1307.467 ms
+Number of Chosen		: [ 42.  43.  16.  19.]
+Cues Values			: [ 0.97023072  0.52647641  0.42985352  0.27018004]
+Cortical Weights Cognitive	: [ 0.50427768  0.50347427  0.50052129  0.50049684]
+Cortical Weights Motor		: [ 0.50123832  0.50082975  0.50020729  0.50014393]
+Striatal Weights		: [ 0.54845949  0.53634467  0.49883687  0.49473453]
+Mean performance	 	: 92.500 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 10.833 %
+Mean Response time		: 396.567 ms
+Reward Probabilities		: [ 100.           72.22222222   18.75          0.        ]
+Number of Chosen		: [ 60.  36.  16.   8.]
+Cues Values			: [ 0.9769651   0.62964278  0.32684027  0.33171022]
+Cortical Weights Cognitive	: [ 0.50474032  0.50277944  0.50106352  0.50047942]
+Cortical Weights Motor		: [ 0.50132409  0.50058053  0.50038385  0.50012272]
+Striatal Weights		: [ 0.55350974  0.52942767  0.50353651  0.49625962]
+Mean performance	 	: 77.500 %
+Mean Different choices 	 	: 5.833 %
+Motor decision before Cognitive	: 90.833 %
+Mean Response time		: 1275.142 ms
+Number of Chosen		: [ 50.  33.  17.  20.]
+Cues Values			: [ 0.9769651   0.62964278  0.32684027  0.33171022]
+Cortical Weights Cognitive	: [ 0.50474032  0.50277944  0.50106352  0.50047942]
+Cortical Weights Motor		: [ 0.50132409  0.50058053  0.50038385  0.50012272]
+Striatal Weights		: [ 0.55350974  0.52942767  0.50353651  0.49625962]
+Mean performance	 	: 85.000 %
+Mean Different choices 	 	: 4.167 %
+Motor decision before Cognitive	: 19.167 %
+Mean Response time		: 400.533 ms
+Reward Probabilities		: [ 100.           90.32258065   33.33333333    0.        ]
+Number of Chosen		: [ 56.  31.  24.   9.]
+Cues Values			: [ 0.97171919  0.78924491  0.39610279  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.5044785   0.50226869  0.50140852  0.50044444]
+Cortical Weights Motor		: [ 0.50096515  0.50027285  0.50052554  0.50005306]
+Striatal Weights		: [ 0.55064767  0.53004904  0.51093803  0.49488555]
+Mean performance	 	: 73.333 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 88.333 %
+Mean Response time		: 1335.317 ms
+Number of Chosen		: [ 53.  24.  25.  18.]
+Cues Values			: [ 0.97171919  0.78924491  0.39610279  0.3151247 ]
+Cortical Weights Cognitive	: [ 0.5044785   0.50226869  0.50140852  0.50044444]
+Cortical Weights Motor		: [ 0.50096515  0.50027285  0.50052554  0.50005306]
+Striatal Weights		: [ 0.55064767  0.53004904  0.51093803  0.49488555]
+Mean performance	 	: 88.333 %
+Mean Different choices 	 	: 5.000 %
+Motor decision before Cognitive	: 13.333 %
+Mean Response time		: 379.850 ms
+Reward Probabilities		: [ 100.          61.9047619   25.           0.       ]
+Number of Chosen		: [ 58.  42.   8.  12.]
+Cues Values			: [ 0.97447657  0.56683847  0.40949583  0.27018004]
+Cortical Weights Cognitive	: [ 0.50467613  0.5033644   0.50026854  0.50059569]
+Cortical Weights Motor		: [ 0.50105593  0.50036597  0.50039291  0.50006191]
+Striatal Weights		: [ 0.55323792  0.54032764  0.49313872  0.49019966]
+Mean performance	 	: 80.000 %
+Mean Different choices 	 	: 3.333 %
+Motor decision before Cognitive	: 90.833 %
+Mean Response time		: 1251.558 ms
+Number of Chosen		: [ 53.  38.  11.  18.]
+Cues Values			: [ 0.97447657  0.56683847  0.40949583  0.27018004]
+Cortical Weights Cognitive	: [ 0.50467613  0.5033644   0.50026854  0.50059569]
+Cortical Weights Motor		: [ 0.50105593  0.50036597  0.50039291  0.50006191]
+Striatal Weights		: [ 0.55323792  0.5403276
