@@ -67,7 +67,6 @@ if __name__ == "__main__":
 		debug_learning(connections["CTX.cog -> CTX.ass"].weights, connections["CTX.mot -> CTX.ass"].weights, connections["CTX.cog -> STR.cog"].weights, cues_value = CUE["value"], f = f)
 		print '\n\nTesting Phase\n'
 		debug(f = f, P = p_test, D = d_test, mBc = mbc_test, ABC = abc_test, NoMove = nomove_test, RT = rt_test, AP = ap_test)
-		debug_learning(connections["CTX.cog -> CTX.ass"].weights, connections["CTX.mot -> CTX.ass"].weights, connections["CTX.cog -> STR.cog"].weights, cues_value = CUE["value"], f = f)
 		print
 		print
 		P[i,:] 		= p
