@@ -1,9 +1,9 @@
 # Population size
 n = 4
-n_trials = 120
+n_trials = 120#900#
 n_learning_trials = 50
 n_testing_trials  = 120
-simulations = 250
+simulations = 250#1#
 # --- Time ---
 ms           = 0.001
 dt           = 1*ms

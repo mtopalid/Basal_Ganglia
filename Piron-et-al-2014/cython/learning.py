@@ -22,6 +22,9 @@ def learning_trials(f = None, hist = False, trials = n_trials, debugging = True,
 		P, D, mBc, ABC, NoMove, RT = [], [], [], [], [], []
 		RP = np.zeros(n)
 		AP = np.zeros(n)
+		wCog = np.zeros((trials,n))
+		wMot = np.zeros((trials,n))
+		wStr = np.zeros((trials,n))
 		reset(protocol = protocol, W_COG = W_COG, W_MOT = W_MOT, W_STR = W_STR)
 		for j in range(20):
 			if debugging:
@@ -31,23 +34,30 @@ def learning_trials(f = None, hist = False, trials = n_trials, debugging = True,
 			else:
 				RT, P, D, RP, AP, mBc, ABC, NoMove = learning(f = f, trial_n = j, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
 
+			wCog[j,:] = connections["CTX.cog -> CTX.ass"].weights
+			wMot[j,:] = connections["CTX.mot -> CTX.ass"].weights
+			wStr[j,:] = connections["CTX.cog -> STR.cog"].weights
+
 		if type == 'learning':
 			if np.mean(P) > 0.70:
 				trained = True
 		else:
 			trained = True
 	else:
-		for i in range(trials-(j+1)):
+		for i in range(j+1, trials):
 			if debugging:
-				print 'Trial: ', i + j + 2
+				print 'Trial: ', i + 1
 			if hist:
-				histor, RT, P, D, RP, AP, mBc, ABC, NoMove = learning(f = f, trial_n = i + j + 1, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
+				histor, RT, P, D, RP, AP, mBc, ABC, NoMove = learning(f = f, trial_n = i, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
 			else:
-				RT, P, D, RP, AP, mBc, ABC, NoMove = learning(f = f, trial_n = i + j + 1, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
+				RT, P, D, RP, AP, mBc, ABC, NoMove = learning(f = f, trial_n = i, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
+			wCog[i,:] = connections["CTX.cog -> CTX.ass"].weights
+			wMot[i,:] = connections["CTX.mot -> CTX.ass"].weights
+			wStr[i,:] = connections["CTX.cog -> STR.cog"].weights
 	debug(f = f, RT = RT, P = P, D = D, RP = RP, AP = AP, mBc = mBc, ABC = ABC, NoMove = NoMove)
 	debug_learning(connections["CTX.cog -> CTX.ass"].weights, connections["CTX.mot -> CTX.ass"].weights, connections["CTX.cog -> STR.cog"].weights, cues_value = CUE["value"], f = f)
 	if save:
-		return P, RT, np.array(D).mean(), RP, AP, np.array(mBc).mean(), np.array(ABC).mean(), len(NoMove)/float(n_trials)
+		return P, RT, np.array(D).mean(), RP, AP, np.array(mBc).mean(), np.array(ABC).mean(), len(NoMove)/float(n_trials), wCog, wMot, wStr
 	if hist:
 		return histor, P
 	else:

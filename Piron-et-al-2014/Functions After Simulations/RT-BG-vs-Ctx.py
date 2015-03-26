@@ -11,45 +11,27 @@ def fitFunc(t, a, b, c):
     return a*np.exp(-b*t) + c
 protocol = input('Choose 1 for Guthrie-Protocol or 2 for Piron-Protocol\n')
 if protocol == 1:
-	folder = '../cython/Guthrie-Protocol/Results'
-	file = folder + '/Performance.npy'
-	load = np.load(file)
-	MeanPerformance = load.mean(axis = 0)
-	mean =  MeanPerformance.mean()*100
-	file = folder+ '/MeanPerformance.npy'
-	np.save(file, MeanPerformance)
-
-	trials = np.linspace(1,MeanPerformance.shape[0]+1,MeanPerformance.shape[0])
-	fitParams, fitCovariances = curve_fit(fitFunc, trials, MeanPerformance)
-
-	fig = plt.figure()
-	axes = fig.add_subplot(1,1,1)
-	axes.set_autoscale_on(False)
-	yticks = np.linspace(0,1,11)
-	axes.set_xbound(0,load.shape[1]+1)
-	axes.set_ybound(0,1.1)
-	axes.set_yticks(yticks)
-	axes.plot(trials, MeanPerformance)
-	axes.plot(trials, fitFunc(trials, fitParams[0], fitParams[1], fitParams[2]), "r", linewidth = 3)
-
-	plt.ylabel("Proportion of optimum trials")
-	plt.xlabel("Trial number")
-	plt.title('Habitual Condition \nMean Performance: %.3f %%' % (mean))#of 10 last trials
-	file = folder + "/Perfomances.png"
-	fig.savefig(file)
-
-	folder = '../cython/Guthrie-Protocol/Results'
+	folder = '../cython/Guthrie-Protocol/Results+test-HalfParam'#-HalfParam
 	file = folder + '/RT.npy'
 	load = np.load(file)
-	RTmean = load.mean(axis = 0)
-	file = folder+ '/RTmean.npy'
-	np.save(file, RTmean)
+	MeanRT = load.mean(axis = 0)
+	file = folder + '/RT-test.npy'
+	load = np.load(file)
+	MeanRTtest = load.mean(axis = 0)
+
+	#file = folder+ '/MeanPerformance.npy'
+	#np.save(file, MeanPerformance)
 
 	fig = plt.figure()
-	plt.plot(RTmean)
-	plt.ylabel("Reaction Time (ms)")
+	plt.plot(MeanRT, c = 'b', label = 'RT BG+Ctx')
+	plt.plot(MeanRTtest, c = 'r', label = 'RT Ctx')
+	plt.legend()
+
+	plt.ylabel("Response Time (ms)")
 	plt.xlabel("Trial number")
-	file = folder + "/RT.png"
+	plt.title("Piron model")
+	#plt.ylim(0.495,0.51)
+	file = folder + "/RT-BG-vs-Ctx.png"
 	fig.savefig(file)
 	plt.show()
 

@@ -67,6 +67,6 @@ if __name__ == "__main__":
 	reset()
 	#connections["CTX.cog -> STR.cog"].weights = np.array([ 0.75, 0.4761739, 0.45899682, 0.46005381])
 	hist = single_trial()
-	if 1: display_ctx(hist, 3.0)
+	if 0: display_ctx(hist, 3.0)
 	if 0: display_ctx(hist, 3.0, "single-trial.pdf")
-	if 0: display_all(hist, 3.0, "single-trial-all.pdf")
+	if 1: display_all(hist, 3.0)#, "single-trial-all.pdf")

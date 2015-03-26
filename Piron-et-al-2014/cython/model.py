@@ -226,8 +226,8 @@ def process(n=2, learning=True, P = [], D = [], AP = np.zeros(n), R = [], RP = n
 
 
 def debug_learning(Wcog, Wmot, Wstr, cues_value, f = None):
-		print "Cues Values			: ", cues_value
-		print "\n\nCortical Weights Cognitive	: ", Wcog
+		print "Cues Values			: ", cues_value, '\n'
+		print "Cortical Weights Cognitive	: ", Wcog
 		print "Cortical Weights Motor		: ", Wmot
 		print "Striatal Weights		: ", Wstr
 		if f is not None:
@@ -236,81 +236,139 @@ def debug_learning(Wcog, Wmot, Wstr, cues_value, f = None):
 			f.write("\nCortical Weights Motor		: " + str(Wmot))
 			f.write("\nStriatal Weights		: "+ str(Wstr))
 
-def debug(f = None, cgchoice = None, c1 = None, c2 = None, P = [], reward = [], RT = [], R = [], D = [], RP = None, AP = None, mBc = [], ABC = [], NoMove = []):
+def debug(f = None, cgchoice = None, c1 = None, c2 = None, inverse = False, P = [], reward = [], RT = [], R = [], D = [], RP = None, AP = None, mBc = [], ABC = [], NoMove = []):
 
 	if cgchoice is not None:
 		print "Choice:         ",
 		if cgchoice == c1:
 			print " 	[%d]" % c1,
-			f.write(" 	[%d]" % c1)
 		else:
 			print " 	%d" % c1,
-			f.write(" 	%d" % c1)
 		if cgchoice == c2:
 			print " [%d]" % c2,
-			f.write(" [%d]" % c2)
 		else:
 			print " %d" % c2,
-			f.write(" %d" % c2)
-		if cgchoice == np.minimum(c1,c2):
-			print " (good)"
-			f.write(" (good)")
+		if not inverse:
+			if cgchoice == np.minimum(c1,c2):
+				print " (good)"
+			else:
+				print " (bad)"
 		else:
-			print " (bad)"
-			f.write(" (bad)")
+			temp1, temp2 = np.sort([c1,c2])
+			if np.array_equal([temp1, temp2],[1,2]):
+				if cgchoice == np.maximum(c1,c2):
+					print " (good)"
+				else:
+					print " (bad)"
+			elif cgchoice == np.minimum(c1,c2):
+				print " (good)"
+
+			else:
+				print " (bad)"
+			if 0:
+				if cgchoice == np.maximum(c1,c2):
+					print " (good)"
+				else:
+					print " (bad)"
 	if NoMove:
 		print "Mean No move trials		: %.3f %%" % (len(NoMove)/float(n_trials))
-		f.write("\nMean No move trials		: %.3f %%" % (len(NoMove)/float(n_trials)))
 	if P:
 		print "Mean performance	 	: %.3f %%" % (np.array(P).mean()*100)
-		f.write("\nMean performance	 	: %.3f %%" % (np.array(P).mean()*100))
 	if D:
 		print "Mean Different choices 	 	: %.3f %%" % (np.array(D).mean()*100)
-		f.write("\nMean Different choices 	 	: %.3f %%" % (np.array(D).mean()*100))
 	if mBc:
 		print "Motor decision before Cognitive	: %.3f %%" % (np.array(mBc).mean()*100)
-		f.write("\nMotor decision before Cognitive	: %.3f %%" % (np.array(mBc).mean()*100))
 	if ABC:
 		print "Activity before Cues		: %.3f %%" % (np.array(ABC).mean()*100)
-		f.write("\nActivity before Cues		: %.3f %%" % (np.array(ABC).mean()*100))
 
 
 	if RT:
 		print "Mean Response time		: %.3f ms" % (np.array(RT).mean())
-		f.write("\nMean Response time		: %.3f ms" % (np.array(RT).mean()))
 	if reward:
 		print "Reward	  		 	: %d" % (reward)
-		f.write("\nReward	  		 	: %d" % (reward))
 		print "Mean reward		 	: %.3f %%" % (np.array(R).mean()*100)
-		f.write("\nMean reward		 	: %.3f %%" % (np.array(R).mean()*100))
 	if RP is not None:
 		print "Reward Probabilities		: ", RP/AP*100
-		f.write("\nReward Probabilities		: "+ str(RP/AP*100))
 	if AP is not None:
 		print "Number of Chosen		: ", AP # Number of chosen cues
-		f.write("\nNumber of Chosen		: "+ str(AP))
+	if f:
+		if cgchoice is not None:
+			f.writ( "Choice:         ")
+			if cgchoice == c1:
+				f.write(" 	[%d]" % c1)
+			else:
+				f.write(" 	%d" % c1)
+			if cgchoice == c2:
+				f.write(" [%d]" % c2)
+			else:
+				f.write(" %d" % c2)
+			if not inverse:
+				if cgchoice == np.minimum(c1,c2):
+					f.write(" (good)")
+				else:
+					f.write(" (bad)")
+			else:
+				temp1, temp2 = np.sort([c1,c2])
+				if np.array_equal([temp1, temp2],[1,2]):
+					if cgchoice == np.maximum(c1,c2):
+						f.write(" (good)")
+					else:
+						f.write(" (bad)")
+				elif cgchoice == np.minimum(c1,c2):
+					f.write(" (good)")
+
+				else:
+					f.write(" (bad)")
+				if 0:
+					if cgchoice == np.maximum(c1,c2):
+						f.write(" (good)")
+					else:
+						f.write(" (bad)")
+			if NoMove:
+				f.write("\nMean No move trials		: %.3f %%" % (len(NoMove)/float(n_trials)))
+			if P:
+				f.write("\nMean performance	 	: %.3f %%" % (np.array(P).mean()*100))
+			if D:
+				f.write("\nMean Different choices 	 	: %.3f %%" % (np.array(D).mean()*100))
+			if mBc:
+				f.write("\nMotor decision before Cognitive	: %.3f %%" % (np.array(mBc).mean()*100))
+			if ABC:
+				f.write("\nActivity before Cues		: %.3f %%" % (np.array(ABC).mean()*100))
 
 
+			if RT:
+				f.write("\nMean Response time		: %.3f ms" % (np.array(RT).mean()))
+			if reward:
+				f.write("\nReward	  		 	: %d" % (reward))
+				f.write("\nMean reward		 	: %.3f %%" % (np.array(R).mean()*100))
+			if RP is not None:
+				f.write("\nReward Probabilities		: "+ str(RP/AP*100))
+			if AP is not None:
+				f.write("\nNumber of Chosen		: "+ str(AP))
 
-def debug_total(f, P, D, ABC, NoMove, AP, RP = None, CV = None, Wstr = None, Wcog = None, Wmot = None):
+
+def debug_total(P, D, ABC, NoMove, AP, RP = None, CV = None, Wstr = None, Wcog = None, Wmot = None, f = None):
 
 	print "Mean Performance		: " , (P.mean(axis=1)).mean(axis = 0)*100, '%'
-	f.write("\nMean Performance		: " + str((P.mean(axis=0)*100)) + '%')
 	print "Trials with diff move		: " , (D.mean()*100), '%'
-	f.write("\nTrials with diff move		: " + str((D.mean()*100)) + '%')
 	print "Mean trials with activity \nbefore cue			: " , (ABC.mean()*100), '%'
-	f.write("\nMean trials with activity \nbefore cue			: " + str((ABC.mean()*100)) + '%')
 	print "Mean Trials with no move	: " , (NoMove.mean()*100), '%'
-	f.write("\nMean Trials with no move	: " + str((NoMove.mean()*100)) + '%')
 	if RP is not None:
 		print "Mean Reward Probabilities	:" + str((RP/AP*100).mean(axis = 0))
-		f.write("\nMean Reward Probabilities	:" + str((RP/AP*100).mean(axis = 0)))
 	if CV is not None:
 		print "Mean Cues Values		:" + str(CV.mean(axis = 0))
-		f.write("\nMean Cues Values		:" + str(CV.mean(axis = 0)))
-		print 'Mean Cortical Weights Cog	: ' + str(Wcog.mean(axis = 0))
-		f.write('\nMean Cortical Weights Cog	: ' + str(Wcog.mean(axis = 0)))
-		print 'Mean Cortical Weights Mot	: ' + str(Wmot.mean(axis = 0))
-		f.write('\nMean Cortical Weights Mot	: ' + str(Wmot.mean(axis = 0)))
-		print 'Mean Striatal Weights		: ' + str(Wstr.mean(axis = 0))
-		f.write('\nMean Striatal Weights		: ' + str(Wstr.mean(axis = 0)))
+		print 'Mean Cortical Weights Cog	: ' + str(Wcog[:,-1].mean(axis = 0))
+		print 'Mean Cortical Weights Mot	: ' + str(Wmot[:,-1].mean(axis = 0))
+		print 'Mean Striatal Weights		: ' + str(Wstr[:,-1].mean(axis = 0))
+	if f is not None:
+		f.write("\nMean Performance		: " + str((P.mean(axis=0)*100)) + '%')
+		f.write("\nTrials with diff move		: " + str((D.mean()*100)) + '%')
+		f.write("\nMean trials with activity \nbefore cue			: " + str((ABC.mean()*100)) + '%')
+		f.write("\nMean Trials with no move	: " + str((NoMove.mean()*100)) + '%')
+		if RP is not None:
+			f.write("\nMean Reward Probabilities	:" + str((RP/AP*100).mean(axis = 0)))
+		if CV is not None:
+			f.write("\nMean Cues Values		:" + str(CV.mean(axis = 0)))
+			f.write('\nMean Cortical Weights Cog	: ' + str(Wcog[:,-1].mean(axis = 0)))
+			f.write('\nMean Cortical Weights Mot	: ' + str(Wmot[:,-1].mean(axis = 0)))
+			f.write('\nMean Striatal Weights		: ' + str(Wstr[:,-1].mean(axis = 0)))

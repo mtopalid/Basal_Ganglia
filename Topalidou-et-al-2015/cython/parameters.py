@@ -1,16 +1,16 @@
 # Population size
 n = 4
-n_trials = 120
+n_trials = 240#1200#
 n_learning_trials = 50
 n_testing_trials  = 120
-simulations = 250
+simulations = 1#250#
 # --- Time ---
 ms           = 0.001
 dt           = 1*ms
 tau          = 10*ms
 
 # --- Learning ---
-alpha_CUE  = 0.050
+alpha_CUE  = 0.005
 alpha_LTP  = 0.01#0.005#
 alpha_LTD  = 0.005#0.0025#
 
@@ -41,6 +41,7 @@ Thalamus_N =   0.001#noise
 # --- Cues & Rewards ---
 V_cue   = 7
 rewards_Guthrie = 3/3.,2/3.,1/3.,0/3.
+rewards_Guthrie_inverse = 0/3.,1/3.,2/3.,3/3.
 rewards_Piron  = 0.75, 0.25, 0.75, 0.25
 
 # -- Weight ---
@@ -64,10 +65,16 @@ gains = { "CTX.cog -> STR.cog" : +1.0,
           "STR.ass -> GPI.mot" : -2.0,
           "STN.cog -> GPI.cog" : +1.0,
           "STN.mot -> GPI.mot" : +1.0,
+          #new#"STN.cog -> GPE.cog" : +1.0,
+          #new#"STN.mot -> GPE.mot" : +1.0,
           "GPE.cog -> STN.cog" : -0.25,
           "GPE.mot -> STN.mot" : -0.25,
+          #new#"GPE.cog -> GPI.cog" : -2.0,
+          #new#"GPE.mot -> GPI.mot" : -2.0,
           "GPI.cog -> THL.cog" : -0.25,
           "GPI.mot -> THL.mot" : -0.25,
+          #new#"THL.cog -> GPI.cog" : +0.1,
+          #new#"THL.mot -> GPI.mot" : +0.1,
 
           "THL.cog -> CTX.cog" : +0.4,
           "THL.mot -> CTX.mot" : +0.4,

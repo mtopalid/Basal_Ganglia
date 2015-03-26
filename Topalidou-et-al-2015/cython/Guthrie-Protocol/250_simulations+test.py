@@ -1,7 +1,7 @@
 import numpy as np
 import os
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython/')
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Test new model/cython/')
 from model import *
 from learning import *
 from testing import *
@@ -11,123 +11,90 @@ from parameters import *
 
 if __name__ == "__main__":
 
-	path = 'Results+test'#
+	path = 'Results+test'#-HalfParam
 	if not os.path.exists(path):
 		os.makedirs(path)
-	debugging = path + '/Debugging.txt'#.txt'
-	f = open(debugging, 'wb')
-
-
-	CVtotal = np.zeros((simulations, n))
-	WtotalSTR = np.zeros((simulations, n))
-	WtotalCog = np.zeros((simulations, n))
-	WtotalMot = np.zeros((simulations, n))
-
-	P = np.zeros((simulations, n_trials))
+	if 0:
+		debugging = path + '/Debugging.txt'#.txt'
+		f = open(debugging, 'wb')
+		folder = 'Results'#-HalfParam
+		file = folder + '/Weights_Cog.npy'
+		cog = np.load(file)[-1,-1]
+		file = folder + '/Weights_Mot.npy'
+		mot = np.load(file)[-1,-1]
+		file = folder + '/Weights_Str.npy'
+		str = np.load(file)[-1,-1]
 	RT = np.zeros((simulations, n_trials))
-	D = np.zeros(simulations)
-	RP = np.zeros((simulations, n))
-	AP = np.zeros((simulations, n))
-	mBc = np.zeros(simulations)
-	ABC = np.zeros(simulations)
-	NoMove = np.zeros(simulations)
-
-	P_test = np.zeros((simulations, n_trials))
 	RT_test = np.zeros((simulations, n_trials))
-	AP_test = np.zeros((simulations, n))
-	D_test = np.zeros(simulations)
-	mBc_test = np.zeros(simulations)
-	ABC_test = np.zeros(simulations)
-	NoMove_test = np.zeros(simulations)
-
+	RT_test_bg = np.zeros((simulations, n_trials))
+	RT_test_ctx = np.zeros((simulations, n_trials))
 	for i in range(simulations):
 		print 'Experiment: ', i + 1
 		reset(protocol = 'Guthrie')
+		initWcog = connections["CTX.cog -> CTX.ass"].weights
+		initWmot = connections["CTX.mot -> CTX.ass"].weights
+		initWstr = connections["CTX.cog -> STR.cog"].weights
+		if 0:
+			connections["CTX.cog -> CTX.ass"].weights = cog
+			connections["CTX.mot -> CTX.ass"].weights = mot
+			connections["CTX.cog -> STR.cog"].weights = str
 		p,r,d,mbc,abc,nomove,rt = [], [], [], [], [], [], []
 		rp = np.zeros(n)
 		ap = np.zeros(n)
 		p_test,r_test,d_test,mbc_test,abc_test,nomove_test,rt_test = [], [], [], [], [], [], []
 		rp_test = np.zeros(n)
 		ap_test = np.zeros(n)
+		p_test_ctx,r_test_ctx,d_test_ctx,mbc_test_ctx,abc_test_ctx,nomove_test_ctx,rt_test_ctx = [], [], [], [], [], [], []
+		rp_test_ctx = np.zeros(n)
+		ap_test_ctx = np.zeros(n)
+		p_test_bg,r_test_bg,d_test_bg,mbc_test_bg,abc_test_bg,nomove_test_bg,rt_test_bg = [], [], [], [], [], [], []
+		rp_test_bg = np.zeros(n)
+		ap_test_bg = np.zeros(n)
 		for j in range(n_trials):
-
+			#print 'Trial: ', j+1
 			connections["GPI.cog -> THL.cog"].active = True
 			connections["GPI.mot -> THL.mot"].active = True
-			rt, p, d, rp, ap, mbc, abc, nomove = learning(f = f, trial_n = j, debugging = False, protocol = 'Guthrie', learn = True, hist = False, P = p, D = d, mBc = mbc, ABC = abc, NoMove = nomove, RT = rt, RP = rp, AP = ap)
+			temp_cog = connections["CTX.cog -> CTX.ass"].weights
+			temp_mot = connections["CTX.mot -> CTX.ass"].weights
+			temp_str = connections["CTX.cog -> STR.cog"].weights
 
-			W_COG = connections["CTX.cog -> CTX.ass"].weights
-			W_MOT= connections["CTX.mot -> CTX.ass"].weights
-			W_STR = connections["CTX.cog -> STR.cog"].weights
+			rt, p, d, rp, ap, mbc, abc, nomove = learning(trial_n = j, debugging = False, protocol = 'Guthrie', learn = True, hist = False, P = p, D = d, mBc = mbc, ABC = abc, NoMove = nomove, RT = rt, RP = rp, AP = ap)
+
+			connections["CTX.cog -> CTX.ass"].weights = initWcog
+			connections["CTX.mot -> CTX.ass"].weights = initWmot
+			rt_test_bg, p_test_bg, d_test_bg, rp_test_bg, ap_test_bg, mbc_test_bg, abc_test_bg, nomove_test_bg = learning(trial_n = j, debugging = False, protocol = 'Guthrie', learn = False, hist = False, P = p_test_bg, D = d_test_bg, mBc = mbc_test_bg, ABC = abc_test_bg, NoMove = nomove_test_bg, RT = rt_test_bg, AP = ap_test_bg)
+			connections["CTX.cog -> CTX.ass"].weights = temp_cog
+			connections["CTX.mot -> CTX.ass"].weights = temp_mot
+
+			connections["CTX.cog -> STR.cog"].weights = initWstr
+			rt_test_ctx, p_test_ctx, d_test_ctx, rp_test_ctx, ap_test_ctx, mbc_test_ctx, abc_test_ctx, nomove_test_ctx = learning(trial_n = j, debugging = False, protocol = 'Guthrie', learn = False, hist = False, P = p_test_ctx, D = d_test_ctx, mBc = mbc_test_ctx, ABC = abc_test_ctx, NoMove = nomove_test_ctx, RT = rt_test_ctx, AP = ap_test_ctx)
+			connections["CTX.cog -> STR.cog"].weights = temp_str
 
 			connections["GPI.cog -> THL.cog"].active = False
 			connections["GPI.mot -> THL.mot"].active = False
-			rt_test, p_test, d_test, rp_test, ap_test, mbc_test, abc_test, nomove_test = learning(f = f, trial_n = j, debugging = False, protocol = 'Guthrie', learn = False, hist = False, P = p_test, D = d_test, mBc = mbc_test, ABC = abc_test, NoMove = nomove_test, RT = rt_test, AP = ap_test)
+			rt_test, p_test, d_test, rp_test, ap_test, mbc_test, abc_test, nomove_test = learning(trial_n = j, debugging = False, protocol = 'Guthrie', learn = False, hist = False, P = p_test, D = d_test, mBc = mbc_test, ABC = abc_test, NoMove = nomove_test, RT = rt_test, AP = ap_test)
+
 		print '\nLearning Phase\n'
-		debug(f = f, P = p, D = d, mBc = mbc, ABC = abc, NoMove = nomove, RT = rt, RP = rp, AP = ap)
-		debug_learning(connections["CTX.cog -> CTX.ass"].weights, connections["CTX.mot -> CTX.ass"].weights, connections["CTX.cog -> STR.cog"].weights, cues_value = CUE["value"], f = f)
+		debug(P = p, D = d, mBc = mbc, ABC = abc, NoMove = nomove, RT = rt, RP = rp, AP = ap)
+		debug_learning(connections["CTX.cog -> CTX.ass"].weights, connections["CTX.mot -> CTX.ass"].weights, connections["CTX.cog -> STR.cog"].weights, cues_value = CUE["value"])
 		print '\n\nTesting Phase\n'
-		debug(f = f, P = p_test, D = d_test, mBc = mbc_test, ABC = abc_test, NoMove = nomove_test, RT = rt_test, AP = ap_test)
+		debug(P = p_test, D = d_test, mBc = mbc_test, ABC = abc_test, NoMove = nomove_test, RT = rt_test, AP = ap_test)
+		print '\n\nTesting Phase BG\n'
+		debug(P = p_test_bg, D = d_test_bg, mBc = mbc_test_bg, ABC = abc_test_bg, NoMove = nomove_test_bg, RT = rt_test_bg, AP = ap_test_bg)
 		print
 		print
-		P[i,:] 		= p
 		RT[i,:]		= rt
-		D[i] 		= np.array(d).mean()
-		RP[i,:]		= rp
-		AP[i,:]		= ap
-		mBc[i]		= np.array(mbc).mean()
-		ABC[i]		= np.array(abc).mean()
-		NoMove[i]	= len(nomove)/float(n_trials)
-		P_test[i,:] 	= p_test
 		RT_test[i,:]	= rt_test
-		D_test[i] 		= np.array(d_test).mean()
-		AP_test[i,:]	= ap_test
-		mBc_test[i]		= np.array(mbc_test).mean()
-		ABC_test[i]		= np.array(abc_test).mean()
-		NoMove_test[i]	= len(nomove_test)/float(n_trials)
-		CVtotal[i, :] = CUE["value"]
-		WtotalSTR[i,:] = connections["CTX.cog -> STR.cog"].weights
-		WtotalCog[i,:] = connections["CTX.cog -> CTX.ass"].weights
-		WtotalMot[i,:] = connections["CTX.mot -> CTX.ass"].weights
+		RT_test_bg[i,:]	= rt_test_bg
+		RT_test_ctx[i,:]	= rt_test_ctx
 		print
 		print
-	print 'Learning\n'
-	debug_total(f, P, D, ABC, NoMove, AP, RP, CVtotal, WtotalSTR, WtotalCog, WtotalMot)
-	print '\n\nTesting\n'
-	debug_total(f, P_test, D_test, ABC_test, NoMove_test, AP_test)
 
-	f.close()
-
-	file = path + '/MeanCuesValues.npy'
-	np.save(file,CVtotal)
-	file = path + '/Weights_Str.npy'
-	np.save(file,WtotalSTR)
-	file = path + '/Weights_Cog.npy'
-	np.save(file,WtotalCog)
-	file = path + '/Weights_Mot.npy'
-	np.save(file,WtotalMot)
-
-	file = path + '/NoMove.npy'
-	np.save(file,NoMove)
 	file = path + '/RT.npy'
 	np.save(file,RT)
-	file = path + '/Performance.npy'
-	np.save(file,P)
-	file = path + '/DifferentChoices.npy'
-	np.save(file,D)
-	file = path + '/MotBefCog.npy'
-	np.save(file,mBc)
-	file = path + '/ActBefCues.npy'
-	np.save(file,ABC)
-
-	file = path + '/NoMove-test.npy'
-	np.save(file,NoMove_test)
 	file = path + '/RT-test.npy'
 	np.save(file,RT_test)
-	file = path + '/Performance-test.npy'
-	np.save(file,P_test)
-	file = path + '/DifferentChoices-test.npy'
-	np.save(file,D_test)
-	file = path + '/MotBefCog-test.npy'
-	np.save(file,mBc_test)
-	file = path + '/ActBefCues-test.npy'
-	np.save(file,ABC_test)
+	file = path + '/RT-test-ctx.npy'
+	np.save(file,RT_test_ctx)
+	file = path + '/RT-test-bg.npy'
+	np.save(file,RT_test_bg)

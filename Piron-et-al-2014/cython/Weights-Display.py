@@ -11,47 +11,22 @@ def fitFunc(t, a, b, c):
     return a*np.exp(-b*t) + c
 protocol = input('Choose 1 for Guthrie-Protocol or 2 for Piron-Protocol\n')
 if protocol == 1:
-	folder = '../cython/Guthrie-Protocol/Results'
-	file = folder + '/Performance.npy'
+	folder = '../cython/Guthrie-Protocol/Results-HalfParam'
+	file = folder + '/Weights_Cog.npy'
 	load = np.load(file)
-	MeanPerformance = load.mean(axis = 0)
-	mean =  MeanPerformance.mean()*100
-	file = folder+ '/MeanPerformance.npy'
-	np.save(file, MeanPerformance)
+	MeanWeights = load.mean(axis = 0)
 
-	trials = np.linspace(1,MeanPerformance.shape[0]+1,MeanPerformance.shape[0])
-	fitParams, fitCovariances = curve_fit(fitFunc, trials, MeanPerformance)
+	#file = folder+ '/MeanPerformance.npy'
+	#np.save(file, MeanPerformance)
 
 	fig = plt.figure()
-	axes = fig.add_subplot(1,1,1)
-	axes.set_autoscale_on(False)
-	yticks = np.linspace(0,1,11)
-	axes.set_xbound(0,load.shape[1]+1)
-	axes.set_ybound(0,1.1)
-	axes.set_yticks(yticks)
-	axes.plot(trials, MeanPerformance)
-	axes.plot(trials, fitFunc(trials, fitParams[0], fitParams[1], fitParams[2]), "r", linewidth = 3)
+	plt.plot(MeanWeights)
 
 	plt.ylabel("Proportion of optimum trials")
 	plt.xlabel("Trial number")
 	plt.title('Habitual Condition \nMean Performance: %.3f %%' % (mean))#of 10 last trials
-	file = folder + "/Perfomances.png"
-	fig.savefig(file)
-
-	folder = '../cython/Guthrie-Protocol/Results'
-	file = folder + '/RT.npy'
-	load = np.load(file)
-	RTmean = load.mean(axis = 0)
-	file = folder+ '/RTmean.npy'
-	np.save(file, RTmean)
-
-	fig = plt.figure()
-	plt.plot(RTmean)
-	plt.ylabel("Reaction Time (ms)")
-	plt.xlabel("Trial number")
-	file = folder + "/RT.png"
-	fig.savefig(file)
-	plt.show()
+	#file = folder + "/Perfomances.png"
+	#fig.savefig(file)
 
 elif protocol == 2:
 	folder = '../cython/Piron-Protocol/Results'#

@@ -11,7 +11,13 @@ from parameters import *
 
 if __name__ == "__main__":
 
-	path = 'Results'#
+	inverse = input('\nDo you want to have an inverse of Probabilities during the simulation?\nChoose 1 for True or 0 for False\n')
+	path = 'Results'
+	if inverse:
+		inverse_trial = input('\nAfter how many trials will be the inverse?\n')
+		inverse_all = input('\nDo you want to inverse all probabilities or just the middle ones?\nChoose 1 for all or 0 for middle ones\n')
+		path += '-inverse-after' + str(inverse_trial)
+		path += 'all' if inverse_all else 'middle cues'#-NoCortLearn-HalfParam
 	if not os.path.exists(path):
 		os.makedirs(path)
 	debugging = path + '/Debugging.txt'#.txt'
@@ -19,12 +25,12 @@ if __name__ == "__main__":
 
 
 	CVtotal = np.zeros((simulations, n))
-	WtotalSTR = np.zeros((simulations, n))
-	WtotalCog = np.zeros((simulations, n))
-	WtotalMot = np.zeros((simulations, n))
+	WtotalSTR = np.zeros((simulations, n_trials, n))
+	WtotalCog = np.zeros((simulations, n_trials, n))
+	WtotalMot = np.zeros((simulations, n_trials, n))
 
-	P = np.zeros((simulations, n_testing_trials))
-	RT = np.zeros((simulations, n_testing_trials))
+	P = np.zeros((simulations, n_trials))
+	RT = np.zeros((simulations, n_trials))
 	D = np.zeros(simulations)
 	RP = np.zeros((simulations, n))
 	AP = np.zeros((simulations, n))
@@ -34,19 +40,16 @@ if __name__ == "__main__":
 
 
 	for i in range(simulations):
-		print 'Experiment: ', i + 1
+		print '\nExperiment: ', i + 1
 		reset(protocol = 'Guthrie')
 
-		P[i,:], RT[i,:], D[i], RP[i,:], AP[i,:], mBc[i], ABC[i], NoMove[i] = learning_trials(protocol = 'Guthrie', trials = n_testing_trials, f = f, debugging = False, save = True)
+		P[i,:], RT[i,:], D[i], RP[i,:], AP[i,:], mBc[i], ABC[i], NoMove[i], WtotalCog[i], WtotalMot[i], WtotalSTR[i] = learning_trials(inverse = inverse, inverse_all = inverse_all, inverse_trial = inverse_trial, protocol = 'Guthrie', trials = n_trials, f = f, debugging = False, save = True)
 
 		CVtotal[i, :] = CUE["value"]
-		WtotalSTR[i,:] = connections["CTX.cog -> STR.cog"].weights
-		WtotalCog[i,:] = connections["CTX.cog -> CTX.ass"].weights
-		WtotalMot[i,:] = connections["CTX.mot -> CTX.ass"].weights
 		print
 		print
 
-	debug_total(f, P, D, ABC, NoMove, AP, RP, CVtotal, WtotalSTR, WtotalCog, WtotalMot)
+	debug_total(P, D, ABC, NoMove, AP, RP, CVtotal, WtotalSTR, WtotalCog, WtotalMot)
 	f.close()
 
 	file = path + '/MeanCuesValues.npy'

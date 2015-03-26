@@ -11,17 +11,11 @@ from parameters import *
 
 if __name__ == "__main__":
 
-	path = 'Results+test'#
+	path = 'Results+test-HalfParam'#
 	if not os.path.exists(path):
 		os.makedirs(path)
 	debugging = path + '/Debugging.txt'#.txt'
 	f = open(debugging, 'wb')
-
-
-	CVtotal = np.zeros((simulations, n))
-	WtotalSTR = np.zeros((simulations, n))
-	WtotalCog = np.zeros((simulations, n))
-	WtotalMot = np.zeros((simulations, n))
 
 	P = np.zeros((simulations, n_trials))
 	RT = np.zeros((simulations, n_trials))
@@ -50,14 +44,11 @@ if __name__ == "__main__":
 		rp_test = np.zeros(n)
 		ap_test = np.zeros(n)
 		for j in range(n_trials):
-
+			print 'Trial: ', j+1
 			connections["GPI.cog -> THL.cog"].active = True
 			connections["GPI.mot -> THL.mot"].active = True
-			rt, p, d, rp, ap, mbc, abc, nomove = learning(f = f, trial_n = j, debugging = False, protocol = 'Guthrie', learn = True, hist = False, P = p, D = d, mBc = mbc, ABC = abc, NoMove = nomove, RT = rt, RP = rp, AP = ap)
+			rt, p, d, rp, ap, mbc, abc, nomove, = learning(f = f, trial_n = j, debugging = False, protocol = 'Guthrie', learn = True, hist = False, P = p, D = d, mBc = mbc, ABC = abc, NoMove = nomove, RT = rt, RP = rp, AP = ap)
 
-			W_COG = connections["CTX.cog -> CTX.ass"].weights
-			W_MOT= connections["CTX.mot -> CTX.ass"].weights
-			W_STR = connections["CTX.cog -> STR.cog"].weights
 
 			connections["GPI.cog -> THL.cog"].active = False
 			connections["GPI.mot -> THL.mot"].active = False
@@ -84,27 +75,14 @@ if __name__ == "__main__":
 		mBc_test[i]		= np.array(mbc_test).mean()
 		ABC_test[i]		= np.array(abc_test).mean()
 		NoMove_test[i]	= len(nomove_test)/float(n_trials)
-		CVtotal[i, :] = CUE["value"]
-		WtotalSTR[i,:] = connections["CTX.cog -> STR.cog"].weights
-		WtotalCog[i,:] = connections["CTX.cog -> CTX.ass"].weights
-		WtotalMot[i,:] = connections["CTX.mot -> CTX.ass"].weights
 		print
 		print
 	print 'Learning\n'
-	debug_total(f, P, D, ABC, NoMove, AP, RP, CVtotal, WtotalSTR, WtotalCog, WtotalMot)
+	debug_total(f, P, D, ABC, NoMove, AP, RP)
 	print '\n\nTesting\n'
 	debug_total(f, P_test, D_test, ABC_test, NoMove_test, AP_test)
 
 	f.close()
-
-	file = path + '/MeanCuesValues.npy'
-	np.save(file,CVtotal)
-	file = path + '/Weights_Str.npy'
-	np.save(file,WtotalSTR)
-	file = path + '/Weights_Cog.npy'
-	np.save(file,WtotalCog)
-	file = path + '/Weights_Mot.npy'
-	np.save(file,WtotalMot)
 
 	file = path + '/NoMove.npy'
 	np.save(file,NoMove)

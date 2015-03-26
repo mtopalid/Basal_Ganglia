@@ -7,12 +7,12 @@ sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-a
 
 from parameters import *
 
-folder = '../../../Results/Topalidou-et-al-2014/cython/Piron-Protocol/Results_overlearned'#-HalfLearningPar
+folder = '../cython/Piron-Protocol/Results'#-HalfLearningPar
 
-C1 = np.load(folder + "/OptimumTrials-fam.npy")
-C2 = np.load(folder + "/OptimumTrials-fam_NoGPi.npy")
-C3 = np.load(folder + "/OptimumTrials-unfam.npy")
-C4 = np.load(folder + "/OptimumTrials-unfam_NoGPi.npy")
+C1 = np.load(folder + "/MeanPerformance-fam.npy")
+C2 = np.load(folder + "/MeanPerformance-fam_NoGPi.npy")
+C3 = np.load(folder + "/MeanPerformance-unfam.npy")
+C4 = np.load(folder + "/MeanPerformance-unfam_NoGPi.npy")
 
 from matplotlib import rcParams
 rcParams['xtick.direction'] = 'out'

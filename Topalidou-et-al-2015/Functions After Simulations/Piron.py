@@ -3,16 +3,16 @@ import matplotlib.pyplot as plt
 
 
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython/')
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2014/cython/')
 
 from parameters import *
 
-folder = '../../../Results/Topalidou-et-al-2015/cython/Piron-Protocol/Results120-120-30'#-HalfLearningPar
+folder = '../cython/Piron-Protocol/Results'#-HalfLearningPar
 
-C1 = np.load(folder + "/OptimumTrials-fam.npy")
-C2 = np.load(folder + "/OptimumTrials-fam_NoGPi.npy")
-C3 = np.load(folder + "/OptimumTrials-unfam.npy")
-C4 = np.load(folder + "/OptimumTrials-unfam_NoGPi.npy")
+C1 = np.load(folder + "/MeanPerformance-fam.npy")
+C2 = np.load(folder + "/MeanPerformance-fam_NoGPi.npy")
+C3 = np.load(folder + "/MeanPerformance-unfam.npy")
+C4 = np.load(folder + "/MeanPerformance-unfam_NoGPi.npy")
 
 from matplotlib import rcParams
 rcParams['xtick.direction'] = 'out'
