@@ -1,7 +1,7 @@
 import numpy as np
 import os
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Test new model/cython/')
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython/')
 from model import *
 from learning import *
 from testing import *
@@ -14,16 +14,6 @@ if __name__ == "__main__":
 	path = 'Results+test'#-HalfParam
 	if not os.path.exists(path):
 		os.makedirs(path)
-	if 0:
-		debugging = path + '/Debugging.txt'#.txt'
-		f = open(debugging, 'wb')
-		folder = 'Results'#-HalfParam
-		file = folder + '/Weights_Cog.npy'
-		cog = np.load(file)[-1,-1]
-		file = folder + '/Weights_Mot.npy'
-		mot = np.load(file)[-1,-1]
-		file = folder + '/Weights_Str.npy'
-		str = np.load(file)[-1,-1]
 	RT = np.zeros((simulations, n_trials))
 	RT_test = np.zeros((simulations, n_trials))
 	RT_test_bg = np.zeros((simulations, n_trials))

@@ -119,33 +119,33 @@ def reset_activities():
     for structure in structures:
         structure.reset()
 def history():
-	history = np.zeros(3000, dtype=dtype)
-	history["CTX"]["mot"] = CTX.mot.history[:3000]
-	history["CTX"]["cog"] = CTX.cog.history[:3000]
-	history["CTX"]["ass"] = CTX.ass.history[:3000]
-	history["STR"]["mot"] = STR.mot.history[:3000]
-	history["STR"]["cog"] = STR.cog.history[:3000]
-	history["STR"]["ass"] = STR.ass.history[:3000]
-	history["STN"]["mot"] = STN.mot.history[:3000]
-	history["STN"]["cog"] = STN.cog.history[:3000]
-	history["GPI"]["mot"] = GPI.mot.history[:3000]
-	history["GPI"]["cog"] = GPI.cog.history[:3000]
-	history["THL"]["mot"] = THL.mot.history[:3000]
-	history["THL"]["cog"] = THL.cog.history[:3000]
+	history = np.zeros(duration, dtype=dtype)
+	history["CTX"]["mot"] = CTX.mot.history[:duration]
+	history["CTX"]["cog"] = CTX.cog.history[:duration]
+	history["CTX"]["ass"] = CTX.ass.history[:duration]
+	history["STR"]["mot"] = STR.mot.history[:duration]
+	history["STR"]["cog"] = STR.cog.history[:duration]
+	history["STR"]["ass"] = STR.ass.history[:duration]
+	history["STN"]["mot"] = STN.mot.history[:duration]
+	history["STN"]["cog"] = STN.cog.history[:duration]
+	history["GPI"]["mot"] = GPI.mot.history[:duration]
+	history["GPI"]["cog"] = GPI.cog.history[:duration]
+	history["THL"]["mot"] = THL.mot.history[:duration]
+	history["THL"]["cog"] = THL.cog.history[:duration]
 	return history
 def reset_history():
-	CTX.mot.history[:3000] = 0
-	CTX.cog.history[:3000] = 0
-	CTX.ass.history[:3000] = 0
-	STR.mot.history[:3000] = 0
-	STR.cog.history[:3000] = 0
-	STR.ass.history[:3000] = 0
-	STN.mot.history[:3000] = 0
-	STN.cog.history[:3000] = 0
-	GPI.mot.history[:3000] = 0
-	GPI.cog.history[:3000] = 0
-	THL.mot.history[:3000] = 0
-	THL.cog.history[:3000] = 0
+	CTX.mot.history[:duration] = 0
+	CTX.cog.history[:duration] = 0
+	CTX.ass.history[:duration] = 0
+	STR.mot.history[:duration] = 0
+	STR.cog.history[:duration] = 0
+	STR.ass.history[:duration] = 0
+	STN.mot.history[:duration] = 0
+	STN.cog.history[:duration] = 0
+	GPI.mot.history[:duration] = 0
+	GPI.cog.history[:duration] = 0
+	THL.mot.history[:duration] = 0
+	THL.cog.history[:duration] = 0
 
 
 def process(n=2, learning=True, P = [], D = [], AP = np.zeros(n), R = [], RP = np.zeros(n)):

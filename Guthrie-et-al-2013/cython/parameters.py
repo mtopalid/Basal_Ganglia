@@ -12,6 +12,7 @@ n_trials = 120
 simulations = 250
 # --- Time ---
 ms           = 0.001
+duration	 = int(3.0/ms)
 dt           = 1*ms
 tau          = 10*ms
 
@@ -49,7 +50,7 @@ rewards = 3/3.,2/3.,1/3.,0/3.
 # -- Weight ---
 Wmin  = 0.25
 Wmax  = 0.75
-gains = { "CTX.cog -> STR.cog" : +1.0,
+gains = { "CTX.cog -> STR.cog" : +1.0,#0.0,#
           "CTX.mot -> STR.mot" : +1.0,
           "CTX.ass -> STR.ass" : +1.0,
           "CTX.cog -> STR.ass" : +0.2,

@@ -3,13 +3,24 @@ import os
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython')
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython/')
 
 from parameters import *
 
 protocol = input('Choose 1 for Guthrie-Protocol or 2 for Piron-Protocol\n')
 if protocol == 1:
-	folder = '../cython/Guthrie-Protocol/Results'#-20all-LTDcort-NoCortLearn-HalfParam
+	inverse = input('\nDo you want to have an inverse of Probabilities during the simulation?\nChoose 1 for True or 0 for False\n')
+	folder = 'Results'
+	title = 'Normal Probabilities'
+	if inverse:
+		inverse_trial = input('\nAfter how many trials will be the inverse?\n')
+		inverse_all = input('\nDo you want to inverse all probabilities or just the middle ones?\nChoose 1 for all or 0 for middle ones\n')
+		folder += '-inverse-after' + str(inverse_trial)
+		folder += 'all' if inverse_all else 'middle cues'#-NoCortLearn-HalfParam
+		title = 'Inverse probabilities of '
+		title += 'all ' if inverse_all else 'middle cues '
+		title += 'cues after %s trials\nWeights from ' %str(inverse_trial)
+
 
 elif protocol == 2:
 	folder = '../cython/Piron-Protocol/Results-HalfParam'
@@ -36,7 +47,8 @@ plt.legend(loc='upper left')
 
 plt.ylabel("Weights")
 plt.xlabel("Trial number")
-plt.title("Inverse probabilities only of cues 2 & 3 after 120 trials\nWeights from Cognitive to Associative Cortex")
+temp_title = title + 'Cognitive to Associative Cortex'
+plt.title(temp_title)
 plt.ylim(0.495,0.55)
 file = folder + "/Weights-Cog.png"
 fig.savefig(file)
@@ -63,7 +75,8 @@ plt.legend(loc='upper left')
 
 plt.ylabel("Weights")
 plt.xlabel("Trial number")
-plt.title("Inverse probabilities of all cues after 50 trials\nWeights from Motor to Associative Cortex")
+temp_title = title + 'Motor to Associative Cortex'
+plt.title(temp_title)
 plt.ylim(0.495,0.52)
 file = folder + "/Weights-Mot.png"
 fig.savefig(file)
@@ -89,8 +102,12 @@ plt.legend(loc='upper left')
 
 plt.ylabel("Weights")
 plt.xlabel("Trial number")
-plt.title("Inverse probabilities only of cues 2 & 3 after 120 trials\nWeights from Cognitive Cortex to Cognitive Striatum")
+temp_title = title + 'Cognitive Cortex to Cognitive Striatum'
+plt.title(temp_title)
 #plt.ylim(0.4,0.80)
-file = folder + "/Weights-Str.png"
+file = folder + "/Weights-dStr.png"
 fig.savefig(file)
+
+
+
 plt.show()

@@ -263,12 +263,12 @@ def debug_learning(Wcog, Wmot, Wstr, cues_value, f = None):
 		print "Cues Values			: ", cues_value, '\n'
 		print "Cortical Weights Cognitive	: ", Wcog
 		print "Cortical Weights Motor		: ", Wmot
-		print "Striatal Weights		: ", Wstr
+		print "dStriatal Weights		: ", Wstr
 		if f is not None:
 			f.write("\nCues Values			: "+ str(cues_value))
 			f.write("\nCortical Weights Cognitive	: " + str(Wcog))
 			f.write("\nCortical Weights Motor		: " + str(Wmot))
-			f.write("\nStriatal Weights		: "+ str(Wstr))
+			f.write("\ndStriatal Weights		: "+ str(Wstr))
 
 def debug(f = None, cgchoice = None, c1 = None, c2 = None, inverse = False, P = [], reward = [], RT = [], R = [], D = [], RP = None, AP = None, mBc = [], ABC = [], NoMove = []):
 
@@ -381,7 +381,7 @@ def debug(f = None, cgchoice = None, c1 = None, c2 = None, inverse = False, P = 
 				f.write("\nNumber of Chosen		: "+ str(AP))
 
 
-def debug_total(P, D, ABC, NoMove, AP, RP = None, CV = None, Wstr = None, Wcog = None, Wmot = None, f = None):
+def debug_total(P, D, ABC, NoMove, AP, RP = None, CV = None, Wcog = None, Wmot = None, Wstr = None, f = None):
 
 	print "Mean Performance		: " , (P.mean(axis=1)).mean(axis = 0)*100, '%'
 	print "Trials with diff move		: " , (D.mean()*100), '%'

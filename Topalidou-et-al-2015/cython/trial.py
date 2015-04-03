@@ -7,7 +7,7 @@ from parameters import *
 # connections["GPI.cog -> THL.cog"].active = False
 # connections["GPI.mot -> THL.mot"].active = False
 
-def trial(inverse = False, inverse_all = True, testBG = False, hist = False, f = None, learn = False, debugging = False, trial_n = 0, protocol = 'Piron', familiar = True, NoMove = [], ct = [], cog_time = [], mBc = [], ABC = [], P = [], D = [], AP = np.zeros(n), RP = np.zeros(n)):
+def trial(inverse = False, inverse_all = True, cues_pres = True, testBG = False, hist = False, f = None, learn = False, debugging = False, trial_n = 0, protocol = 'Piron', familiar = True, NoMove = [], ct = [], cog_time = [], mBc = [], ABC = [], P = [], D = [], AP = np.zeros(n), RP = np.zeros(n)):
 
 	reset_activities()
 	reset_history()
@@ -22,15 +22,17 @@ def trial(inverse = False, inverse_all = True, testBG = False, hist = False, f =
 			cog_time=i-500
 	if not ct and ABC:
 		ABC.append(0)
-	set_trial(n=2, trial = trial_n, protocol = protocol, familiar = familiar)
-	for i in xrange(500,3000):
+
+	if cues_pres:
+		set_trial(n=2, trial = trial_n, protocol = protocol, familiar = familiar)
+	for i in xrange(500,duration):
 		iterate(dt)
 
 		# Test if a decision has been made
 		if testBG:
 			if GPI.mot.delta > decision_threshold:
 				time = (i-500)
-				choice = process(inverse = inverse, testBG = testBG, learning = learn, P = P, D = D, AP = AP, RP = RP)
+				choice = process(inverse = inverse, inverse_all = inverse_all, testBG = testBG, learning = learn, P = P, D = D, AP = AP, RP = RP)
 				if choice is None:
 					pass
 				if hist:

@@ -106,7 +106,7 @@ cdef class Group:
         self._delta = 0
         self._activation = activation
         self._history_index = 0
-        self._history = np.zeros((10000, len(self._units)))
+        self._history = np.zeros((100000, len(self._units)))
 
     property history:
         """ Activity history (firing rate) """

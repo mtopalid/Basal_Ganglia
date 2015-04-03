@@ -11,8 +11,8 @@ tau          = 10*ms
 
 # --- Learning ---
 alpha_CUE  = 0.050
-alpha_LTP  = 0.005#0.01#
-alpha_LTD  = 0.0025#0.005#
+alpha_LTP  = 0.01#0.005#
+alpha_LTD  = 0.005#0.0025#
 
 # --- Sigmoid ---
 Vmin = 0
@@ -26,7 +26,7 @@ noise              = 0.001
 CTX_rest   =  -3.0
 STR_rest   =   0.0
 STN_rest   = -10.0
-GPI_rest   =  10.0
+GPI_rest   =  -10.0
 THL_rest   = -40.0
 
 # Noise level (%)

@@ -1,16 +1,17 @@
 # Population size
 n = 4
-n_trials = 240#1200#
+n_trials = 120#1200#
 n_learning_trials = 50
 n_testing_trials  = 120
 simulations = 1#250#
 # --- Time ---
 ms           = 0.001
+duration	 = int(3./ms)
 dt           = 1*ms
 tau          = 10*ms
 
 # --- Learning ---
-alpha_CUE  = 0.005
+alpha_CUE  = 0.050
 alpha_LTP  = 0.01#0.005#
 alpha_LTD  = 0.005#0.0025#
 
@@ -24,10 +25,10 @@ Vc   = 3
 decision_threshold = 40
 noise              = 0.001
 CTX_rest   =  -3.0
-STR_rest   =   0.0
+STR_rest  =   0.0
 STN_rest   = -10.0
 GPE_rest   = -10.0
-GPI_rest   =  10.0
+GPI_rest   = -10.0
 THL_rest   = -40.0
 
 # Noise level (%)
@@ -41,7 +42,8 @@ Thalamus_N =   0.001#noise
 # --- Cues & Rewards ---
 V_cue   = 7
 rewards_Guthrie = 3/3.,2/3.,1/3.,0/3.
-rewards_Guthrie_inverse = 0/3.,1/3.,2/3.,3/3.
+rewards_Guthrie_inverse_all = 0/3.,1/3.,2/3.,3/3.
+rewards_Guthrie_inverse_middle = 3/3.,1/3.,2/3.,0/3
 rewards_Piron  = 0.75, 0.25, 0.75, 0.25
 
 # -- Weight ---

@@ -16,7 +16,7 @@ def learning(inverse = False, inverse_all = True, f = None, trial_n = 0, debuggi
 	else:
 		return RT, P, D, RP, AP, mBc, ABC, NoMove
 
-def learning_trials(inverse = False, inverse_all = True, inverse_trial = 50, f = None, hist = False, trials = n_trials, debugging = True, save = False, protocol = 'Piron', familiar = True, type = 'learning', W_COG = None, W_MOT = None, W_STR = None):
+def learning_trials(inversable = False, inverse_all = True, inverse_trial = 50, f = None, hist = False, trials = n_trials, debugging = True, save = False, protocol = 'Piron', familiar = True, type = 'learning', W_COG = None, W_MOT = None, W_STR = None):
 	trained = False
 	while not trained:
 		P, D, mBc, ABC, NoMove, RT = [], [], [], [], [], []
@@ -26,6 +26,7 @@ def learning_trials(inverse = False, inverse_all = True, inverse_trial = 50, f =
 		wMot = np.zeros((trials,n))
 		wStr = np.zeros((trials,n))
 		reset(protocol = protocol, W_COG = W_COG, W_MOT = W_MOT, W_STR = W_STR)
+		inverse = False
 		for j in range(20):
 
 			if debugging:
@@ -47,21 +48,24 @@ def learning_trials(inverse = False, inverse_all = True, inverse_trial = 50, f =
 	else:
 		for i in range(j+1, trials):
 
-			if inverse:
+			if inversable:
 				if i == inverse_trial:
-					CUE["reward"] = rewards_Guthrie_inverse
+					if inverse_all:
+						CUE["reward"] = rewards_Guthrie_inverse_all
+					else:
+						CUE["reward"] = rewards_Guthrie_inverse_middle
 					inverse = True
 			if debugging:
 				print 'Trial: ', i + 1
 			if hist:
-				histor, RT, P, D, RP, AP, mBc, ABC, NoMove = learning(inverse = inverse, f = f, trial_n = i, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
+				histor, RT, P, D, RP, AP, mBc, ABC, NoMove = learning(inverse = inverse, inverse_all = inverse_all, f = f, trial_n = i, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
 			else:
-				RT, P, D, RP, AP, mBc, ABC, NoMove = learning(inverse = inverse, f = f, trial_n = i, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
+				RT, P, D, RP, AP, mBc, ABC, NoMove = learning(inverse = inverse, inverse_all = inverse_all, f = f, trial_n = i, debugging = debugging, protocol = protocol, familiar = familiar, hist = hist, P = P, D = D, mBc = mBc, ABC = ABC, NoMove = NoMove, RT = RT, RP = RP, AP = AP)
 			wCog[i,:] = connections["CTX.cog -> CTX.ass"].weights
 			wMot[i,:] = connections["CTX.mot -> CTX.ass"].weights
 			wStr[i,:] = connections["CTX.cog -> STR.cog"].weights
-	debug(inverse = inverse, f = f, RT = RT, P = P, D = D, RP = RP, AP = AP, mBc = mBc, ABC = ABC, NoMove = NoMove)
-	debug_learning(connections["CTX.cog -> CTX.ass"].weights, connections["CTX.mot -> CTX.ass"].weights, connections["CTX.cog -> STR.cog"].weights, cues_value = CUE["value"], f = f)
+	debug(f = f, RT = RT, P = P, D = D, RP = RP, AP = AP, mBc = mBc, ABC = ABC, NoMove = NoMove)
+	debug_learning(wCog[i,:], wMot[i,:], wStr[i,:], cues_value = CUE["value"], f = f)
 	if save:
 		return P, RT, np.array(D).mean(), RP, AP, np.array(mBc).mean(), np.array(ABC).mean(), len(NoMove)/float(n_trials), wCog, wMot, wStr
 	if hist:

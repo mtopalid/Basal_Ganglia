@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython')
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython/')
 
 from parameters import *
 
@@ -11,7 +11,18 @@ def fitFunc(t, a, b, c):
     return a*np.exp(-b*t) + c
 protocol = input('Choose 1 for Guthrie-Protocol or 2 for Piron-Protocol\n')
 if protocol == 1:
-	folder = '../cython/Guthrie-Protocol/Results'#-20all-LTDcort-NoCortLearn-HalfParam
+	inverse = input('\nDo you want to have an inverse of Probabilities during the simulation?\nChoose 1 for True or 0 for False\n')
+	folder = 'Results'
+	if inverse:
+		inverse_trial = input('\nAfter how many trials will be the inverse?\n')
+		inverse_all = input('\nDo you want to inverse all probabilities or just the middle ones?\nChoose 1 for all or 0 for middle ones\n')
+		folder += '-inverse-after' + str(inverse_trial)
+		folder += 'all' if inverse_all else 'middle cues'#-NoCortLearn-HalfParam
+		title = 'Inverse probabilities of '
+		title += 'all ' if inverse_all else 'middle cues '
+		title += 'cues after %s trials' %str(inverse_trial)
+	else:
+		title = ''
 	file = folder + '/Performance.npy'
 	load = np.load(file)
 	MeanPerformance = load.mean(axis = 0)
@@ -34,8 +45,9 @@ if protocol == 1:
 
 	plt.ylabel("Proportion of optimum trials")
 	plt.xlabel("Trial number")
-	plt.title('Inverse probabilities only of cues 2 & 3 cues after 120 trials')
-	#plt.title('Habitual Condition \nMean Performance: %.3f %%' % (mean))#of 10 last trials
+	temp_title = title + '\nMean Performances'
+	plt.title(temp_title)
+
 	file = folder + "/Perfomances.png"
 	fig.savefig(file)
 
@@ -56,7 +68,8 @@ if protocol == 1:
 
 	plt.ylabel("Reaction Time (ms)")
 	plt.xlabel("Trial number")
-	plt.title('Inverse probabilities only of cues 2 & 3 cues after 120 trials')
+	temp_title = title + '\nMean Response Time'
+	plt.title(temp_title)
 	file = folder + "/RT.png"
 	fig.savefig(file)
 	plt.show()

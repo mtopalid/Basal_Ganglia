@@ -35,8 +35,8 @@ def single_trial(f = None, learn = False, debugging = False, trial = 0, NoMove =
 			cog_time=i-500
 	if not ct and ABC:
 		ABC.append(0)
-	set_trial(n=2, trial = trial)
-	for i in xrange(500,3000):
+	#set_trial(n=2, trial = trial)
+	for i in xrange(500,duration):
 		iterate(dt)
 
 		# Test if a decision has been made

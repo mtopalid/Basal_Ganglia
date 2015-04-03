@@ -3,14 +3,13 @@ import os
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import sys
-sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython')
-
+sys.path.append('/Users/mtopalid/Desktop/PhD/Models/Basal_Ganglia/Topalidou-et-al-2015/cython/')
 from parameters import *
 
 def fitFunc(t, a, b, c):
     return a*np.exp(-b*t) + c
 
-folder = '../cython/Guthrie/Results+test'#-HalfParam
+folder = 'Results+test'#-HalfParam
 file = folder + '/RT.npy'
 load = np.load(file)
 MeanRT = load.mean(axis = 0)

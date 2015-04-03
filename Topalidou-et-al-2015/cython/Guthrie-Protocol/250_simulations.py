@@ -18,10 +18,13 @@ if __name__ == "__main__":
 		inverse_all = input('\nDo you want to inverse all probabilities or just the middle ones?\nChoose 1 for all or 0 for middle ones\n')
 		path += '-inverse-after' + str(inverse_trial)
 		path += 'all' if inverse_all else 'middle cues'#-NoCortLearn-HalfParam
+	else:
+		inverse_trial = 0
+		inverse_all = 0
 	if not os.path.exists(path):
 		os.makedirs(path)
 	debugging = path + '/Debugging.txt'#.txt'
-	f = open(debugging, 'wb')
+	#f = open(debugging, 'wb')
 
 
 	CVtotal = np.zeros((simulations, n))
@@ -40,17 +43,17 @@ if __name__ == "__main__":
 
 
 	for i in range(simulations):
-		print '\nExperiment: ', i + 1
+		print 'Experiment: ', i + 1
 		reset(protocol = 'Guthrie')
 
-		P[i,:], RT[i,:], D[i], RP[i,:], AP[i,:], mBc[i], ABC[i], NoMove[i], WtotalCog[i], WtotalMot[i], WtotalSTR[i] = learning_trials(inverse = inverse, inverse_all = inverse_all, inverse_trial = inverse_trial, protocol = 'Guthrie', trials = n_trials, f = f, debugging = False, save = True)
+		P[i,:], RT[i,:], D[i], RP[i,:], AP[i,:], mBc[i], ABC[i], NoMove[i], WtotalCog[i], WtotalMot[i], WtotalSTR[i] = learning_trials(inversable = inverse, inverse_all = inverse_all, inverse_trial = inverse_trial, protocol = 'Guthrie', trials = n_trials, debugging = False, save = True)
 
 		CVtotal[i, :] = CUE["value"]
 		print
 		print
 
-	debug_total(P, D, ABC, NoMove, AP, RP, CVtotal, WtotalSTR, WtotalCog, WtotalMot)
-	f.close()
+	debug_total(P, D, ABC, NoMove, AP, RP, CVtotal, WtotalCog, WtotalMot, WtotalSTR)
+	#f.close()
 
 	file = path + '/MeanCuesValues.npy'
 	np.save(file,CVtotal)
